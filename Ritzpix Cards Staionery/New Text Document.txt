@@ -1,0 +1,314 @@
+<!-- ********** this starts Umbraco main content rvt0513 ********** -->
+<div id="rvt-page-content">
+<div class="the-page">
+    
+	<!--==============================main/slider=================================-->
+		
+	
+	<div class="wrapper">
+		<div class="container">
+			<div class="content_block row left-sidebar pt50">
+            	<div class="fl-container">
+                	<div class="row">
+                    	<div class="posts-block hasLS">
+                            <div class="contentarea">
+					
+								<div class="row">
+                                    <div class="col-sm-12 module_cont pb30 module_feature_posts">
+										<div class="featured_items">
+											<div class="items3 featured_posts">
+												<ul class="item_list">                                                
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="200">
+														<div class="item">
+															<div class="item_wrapper" >                                  
+																<div class="img_block wrapped_img">
+																   <img src="/media/images/imgProduct_flat-cards.jpg" class="img-responsive" alt="" />
+																	<!--<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/cards-stationery/flat-photo-cards"><i class="icon-link"></i></a>
+																	</div>-->                                                                 
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/cards-stationery/flat-photo-cards">Flat Cards</a></h5>
+																		<div class="featured_item_subtitle">glossy or matte | 4x6, 4x8, 5x7, 8x6</div>
+																	</div>
+																	<div class="featured_item_content">																		
+																	Whether you are looking for a traditional Christmas card or a unique baby announcement, you will find a design you love in our huge collection.
+																	<br>
+																	<a target="_top" href="/cards-stationery/flat-photo-cards" class="fright">More Details ></a><br>
+																	</div>
+																   <div class="featured_meta">
+																		<div class="date">
+																			From $0.99<br>
+																			*1 hour service!
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/shop/photo-cards/flat-photo-cards" class="shortcode_button btn_small btn_ritzred hidden-xs">Order ></a>
+                                      <p class="visible-xs-block">Visit us on your desktop computer to create this product</p>
+																		</div>
+																	</div>                                                         
+																</div>                                                            
+															</div>
+														</div>
+													</li>
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="200">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																   <img src="/media/images/imgProduct_folded-cards.jpg" class="img-responsive" alt="" />
+																	<!--<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/cards-stationery/folded-photo-cards"><i class="icon-link"></i></a>
+																	</div>-->                                                                 
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/cards-stationery/folded-photo-cards">Folded Cards</a></h5>
+																		<div class="featured_item_subtitle">heavy stock paper or matte photo paper | 5x7</div>
+																	</div>
+																	<div class="featured_item_content">
+																	For less than a boring off-the-shelf card, make a custom greeting card with your own photos and text. Themes for all holidays and occasions.
+																	<br>
+																	<a target="_top" href="/cards-stationery/folded-photo-cards" class="fright">More Details ></a><br>
+																	</div>
+																   <div class="featured_meta">
+																		<div class="date">
+																			From $2.99
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/shop/photo-cards/folded-photo-cards" class="shortcode_button btn_small btn_ritzred hidden-xs">Order ></a>
+                                      <p class="visible-xs-block">Visit us on your desktop computer to create this product</p>
+																		</div>
+																	</div>                                                         
+																</div>                                                            
+															</div>
+														</div>
+													</li>
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="200">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																   <img src="/media/images/imgProduct_notepads.jpg" class="img-responsive" alt="" />
+																	<!--<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/cards-stationery/personalized-note-pads"><i class="icon-link"></i></a>
+																	</div>-->                                                                  
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/cards-stationery/personalized-note-pads">Notepads</a></h5>
+																		<div class="featured_item_subtitle">45 pages | 6x9</div>
+																	</div>
+																	<div class="featured_item_content">
+																	Perfect for teachers or grandparents--customize with photos and text. Lots of themes to pick from. Perforated pages tear out cleanly.
+																	<br>
+																	<a target="_top" href="/cards-stationery/personalized-note-pads" class="fright">More Details ></a><br>
+																	</div>
+																	<div class="featured_meta">
+																		<div class="date">
+																			From $9.99
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/shop/photo-cards/flat-photo-cards" class="shortcode_button btn_small btn_ritzred hidden-xs">Order ></a>
+                                      <p class="visible-xs-block">Visit us on your desktop computer to create this product</p>
+																		</div>
+																	</div>                                                           
+																</div>                                                            
+															</div>
+														</div>
+													</li>
+													   
+												                                         
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="200">
+														<div class="item">
+															<div class="item_wrapper" >                                  
+																<div class="img_block wrapped_img">
+																   <img src="/media/images/imgProduct_note-cards.jpg" class="img-responsive" alt="" />
+																	<!--<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/cards-stationery/photo-note-cards"><i class="icon-link"></i></a>
+																	</div>-->                                                                 
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/cards-stationery/photo-note-cards">Note Cards</a></h5>
+																		<div class="featured_item_subtitle">heavy stock paper | set of 10 4x6s</div>
+																	</div>
+																	<div class="featured_item_content">
+																	Folded note cards--your photo on the cover and blank inside. We sell these in sets of 10 because you will need more than one! Envelopes included.
+																	<br>
+																	<a target="_top" href="/cards-stationery/photo-note-cards" class="fright">More Details ></a><br>
+																	</div>
+																	<div class="featured_meta">
+																		<div class="date">
+																			From $0.99<br>
+																			*1 hour service!
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/shop/photo-cards/4x6-folded-note-cards" class="shortcode_button btn_small btn_ritzred hidden-xs">Order ></a>
+                                      <p class="visible-xs-block">Visit us on your desktop computer to create this product</p>
+																		</div>
+																	</div>                                                         
+																</div>                                                            
+															</div>
+														</div>
+													</li>
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="200">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																   <img src="/media/images/imgProduct_stamps.jpg" class="img-responsive" alt="" />
+																	<!--<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/cards-stationery/photo-stamps"><i class="icon-link"></i></a>
+																	</div>-->                                                                 
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/cards-stationery/photo-stamps">Photo Stamps</a></h5>
+																		<div class="featured_item_subtitle">you choose postage | sheet of 20</div>
+																	</div>
+																	<div class="featured_item_content">
+																	A perfect touch for any invite or announcement--a custom stamp! Weddings, babies, your own artwork, your business logo... 
+																	<br>
+																	<a target="_top" href="/cards-stationery/photo-stamps" class="fright">More Details ></a><br>
+																	</div>
+																   <div class="featured_meta">
+																		<div class="date">
+																			From $16.20
+																		</div>
+																		<div class="comments">
+																			<a target="blank" href="http://photo.stamps.com/Store/?source=si10538524" class="shortcode_button btn_small btn_ritzred hidden-xs">Order ></a>
+                                      <p class="visible-xs-block">Visit us on your desktop computer to create this product</p>
+																		</div>
+																	</div>                                                         
+																</div>                                                            
+															</div>
+														</div>
+													</li>
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="200">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																   <img src="/media/images/imgProduct_scrapbook-pages.jpg" class="img-responsive" alt="" />
+																	<!--<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/photo-prints/scrapbook-pages"><i class="icon-link"></i></a>
+																	</div>-->                                                                  
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/photo-prints/scrapbook-pages">Scrapbook Pages</a></h5>
+																		<div class="featured_item_subtitle">5x5, 6x6, 8x8, 12x12, 24x24</div>
+																	</div>
+																	<div class="featured_item_content">
+																	Put away the tape and glue! Our beautiful digital layouts make it easy to create a page--just drop in photos and enter titles and journaling. 
+																	<br>
+																	<a target="_top" href="/photo-prints/scrapbook-pages" class="fright">More Details ></a><br>
+																	</div>
+																	<div class="featured_meta">
+																		<div class="date">
+																			From $0.49<br>
+																			*1 hour service!
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/shop/scrapbook-pages" class="shortcode_button btn_small btn_ritzred hidden-xs">Order ></a>
+                                      <p class="visible-xs-block">Visit us on your desktop computer to create this product</p>
+																		</div>
+																	</div>                                                           
+																</div>                                                            
+															</div>
+														</div>
+													</li>
+													   
+												</ul>
+											</div>
+										</div>                                                         
+									</div>    
+                                </div> 
+
+                            </div>
+                        </div>
+                        
+						<div class="left-sidebar-block">
+							<div class="breadcrumbs animate" data-anim-type="fadeInUp" data-anim-delay="50">
+								<a target="_top" href="/">Home</a><span>></span>Cards
+								<h1 class="title-page">Cards &amp; Stationery</h1>
+                                <br>
+                                
+							</div>
+						
+							<div class="sidepanel animate" data-anim-type="fadeInUp" data-anim-delay="50">						
+								<div class="featured_item_content">
+								Introducing customizable photo greeting cards and stationery by RitzPix.
+								<br><br>
+								Every card in our set can be customized with photos and text. We have designs to fit any occasion or choose a blank card and put in your own fully-designed image. All our cards come with envelopes, so you can get them in the mail and make someone's day right away! 
+								<br><br>
+								Our folded cards and note cards are printed on your choice of paper: standard cards come on a premium quality 80lb cover stock with a white border and premium cards are printed edge-to-edge on a rich, vibrant photo matte paper.  Our flat cards are available on premium quality glossy or matte photo paper. We offer quantity discounts for all our cards.
+								<br><br>
+								Notepads are one of our most popular product lines. These make perfect gifts for teachers, grandparents or any busy person trying to get organized!
+								</div>
+							</div>                 
+						
+							<div class="sidepanel widget_tag_cloud animate hidden-xs" data-anim-type="fadeInUp" data-anim-delay="300">
+                                <h4 class="title">Shop by Occasion</h4>
+                                <div class="tagcloud">
+                                    <a target="_top" href="/mobile/create/catalog/byoccasion/15/40708">Anytime</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/13/40708">Autumn</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/16/40708">Baby</a>
+                                    <a target="_top" href="/mobile/create/catalog/byoccasion/19/40708">Birthday</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/21/40708">Christmas</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/37/40708">Easter</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/39/40708">Father's Day</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/33/40708">Fourth of July</a>
+                                    <a target="_top" href="/mobile/create/catalog/byoccasion/41/40708">Graduation</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/24/40708">Halloween</a>
+                                    <a target="_top" href="/mobile/create/catalog/byoccasion/25/40708">Hanukkah</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/56/40708">Invitation</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/14/40708">Kids</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/45/40708">Mother's Day</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/46/40708">New Year's</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/20/40708">Pets</a>
+                                    <a target="_top" href="/mobile/create/catalog/byoccasion/264/40708">Save The Date</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/28/40708">School</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/30/40708">Season's Greetings</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/35/40708">Sports</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/40/40708">Spring</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/44/40708">St. Patrick's Day</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/17/40708">Summer</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/53/40708">Thank You</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/31/40708">Thanksgiving</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/32/40708">Travel</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/18/40708">Vacation</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/27/40708">Valentine's Day</a>
+                                    <a target="_top" href="/mobile/create/catalog/byoccasion/23/40708">Wedding/Engagement</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/146/40708">We've Moved</a>
+									<a target="_top" href="/mobile/create/catalog/byoccasion/29/40708">Winter</a>
+                                </div>
+                            </div>							
+							
+    
+                            <!--div class="sidepanel widget_categories animate" data-anim-type="fadeInUp" data-anim-delay="300">
+                                <h4 class="title">Categories</h4>
+                                <ul>
+                                    <li class="cat-item"><a href="javascript:void(0);">Branding</a></li>
+                                    <li class="cat-item"><a href="javascript:void(0);">Business</a></li>
+                                    <li class="cat-item current-menu-item"><a href="javascript:void(0);">Design</a></li>
+                                    <li class="cat-item"><a href="javascript:void(0);">Marketing</a></li>
+                                    <li class="cat-item"><a href="javascript:void(0);">Consulting</a></li>
+                                </ul>
+                            </div-->                        
+                            
+                            
+                        </div>
+                     </div>                        
+				</div>
+            </div>                
+		</div>
+	</div>
+
+</div>
+
+</div>
+<!-- ********** this ends Umbraco main content ********** -->
