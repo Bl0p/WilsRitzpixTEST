@@ -60,7 +60,7 @@
                         <span class="block_fade"></span>
                         <div class="post_hover_info">
                           <div class="featured_items_title">              
-                            <h5>Bibs Test</h5>
+                            <h5>Test</h5>
                           </div>
                           <div class="featured_meta">
                             11&half;x9"<br>
