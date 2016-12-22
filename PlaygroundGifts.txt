@@ -61,7 +61,7 @@
                         <span class="block_fade"></span>
                         <div class="post_hover_info">
                           <div class="featured_items_title">              
-                            <h5>Bibs</h5>
+                            <h5>Bibs Hey</h5>
                           </div>
                           <div class="featured_meta">
                             Blue or Pink Tri<br>
