@@ -177,9 +177,9 @@
                             <h5>Ties</h5>
                           </div>
                           <div class="featured_meta">
-                            Tiled Image<br>
-                            100% Polyester. Machine Wash Safe<br>
-                            Black, Burgundy, Green, Ivory, Navy or Silver<br>
+                            Tiled Image 100% Polyester<br>
+                            Machine Wash Safe<br>
+                            Multiple Colors Available<br>
                             $29.95
                           </div> 
                           <a href="/media/images/gifts/ties.jpg" class="photozoom featured_ico_link view_link hidden-xs" title="Quick View"><i class="icon-expand"></i></a>
@@ -200,8 +200,9 @@
                             <h5>Tote Bags</h5>
                           </div>
                           <div class="featured_meta">
-                            white canvas, black base/handles<br>
-                            18" wide x 11" high x 6" deep<br>
+                            Canvas with Polyester Pocket<br>
+                            18" Wide x 11" High x 6" Deep<br>
+                            White Canvas, Black Base & Handles<br>
                             $19.99
                           </div> 
                           <a href="/media/images/gifts/tote-bags.jpg" class="photozoom featured_ico_link view_link hidden-xs" title="Quick View"><i class="icon-expand"></i></a>
@@ -222,8 +223,9 @@
                             <h5>Buttons</h5>
                           </div>
                           <div class="featured_meta">
-                            3" diameter<br>
-                            aluminum backing<br>
+                            3" Diameter Face<br>
+                            Aluminum Backing<br>
+                            Clothing Pin with Durable Catch<br>
                             $5.99
                           </div> 
                           <a href="/media/images/gifts/buttons.jpg" class="photozoom featured_ico_link view_link hidden-xs" title="Quick View"><i class="icon-expand"></i></a>
@@ -244,9 +246,9 @@
                             <h5>ID Tags</h5>
                           </div>
                           <div class="featured_meta">
-                            color, laser-etched sepia or black&amp;white<br>
-                            1&frac14;x2" aluminum<br>
-                            23&half;" chain<br>
+                            Color, Laser-Etched Sepia or Black&amp;White<br>
+                            2 x 1&frac14;" Stamped Aluminum<br>
+                            23&half;" Chain Necklace<br>
                             $9.99
                           </div> 
                           <a href="/media/images/gifts/id-tags.jpg" class="photozoom featured_ico_link view_link hidden-xs" title="Quick View"><i class="icon-expand"></i></a>
@@ -292,9 +294,9 @@
                             <h5>Classic Mugs</h5>
                           </div>
                           <div class="featured_meta">
-                            white ceramic<br>
+                            White Ceramic Mug<br>
                             11oz or 15oz<br>
-                            design options<br>
+                            Multiple Design Options Available<br>
                             $15.99/$19.99
                           </div> 
                           <a href="/media/images/gifts/classic-mugs.jpg" class="photozoom featured_ico_link view_link hidden-xs" title="Quick View"><i class="icon-expand"></i></a>
@@ -315,8 +317,9 @@
                             <h5>Tiled Mugs</h5>
                           </div>
                           <div class="featured_meta">
-                            white ceramic<br>
+                            White Ceramic Mug<br>
                             11oz or 15oz<br>
+                            Horizontal or Vertical Image<br>
                             $19.99
                           </div> 
                           <a href="/media/images/gifts/tiled-mugs.jpg" class="photozoom featured_ico_link view_link hidden-xs" title="Quick View"><i class="icon-expand"></i></a>
