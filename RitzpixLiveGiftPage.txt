@@ -942,7 +942,7 @@
                         <span class="block_fade"></span>
                         <div class="post_hover_info">
                             <div class="featured_items_title">
-                                <h5>Snowflake Ornaments</h5>
+                                <h5>Snowflake Ornaments WATUP</h5>
                             </div>
                             <div class="featured_meta">
                                       2-3" white porcelain<br>
