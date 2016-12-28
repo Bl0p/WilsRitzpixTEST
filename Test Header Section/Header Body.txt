@@ -1,0 +1,216 @@
+<!-- ********** this starts Umbraco HeaderBody *********** -->
+
+<div id="rvt-header-content">
+<div class="the-header">
+
+<!--==============================header=================================-->
+
+<div class="main_header type1">
+	<div class="top-band">
+    	<div class="container">
+        <!--<div class="container">
+        	<div style="margin-left:10px">	
+            <span class="pull-left" style="margin-bottom:0px; margin-left:10px">Call Us! 1-800-225-9799<br>M - T: 9am-1pm EST<br>F: 9am-4pm<p></p></span>
+            </div>
+        </div>-->
+		<div>
+        	<span class="pull-left" style="margin-bottom:0px;">Need Help? Call Us! 1-800-225-9799 - M-T: 9am-2pm est, F: 9am-4pm est</span>
+            </div>
+<!--
+    <script language='javascript' src='https://email.ritzpix.com/phase2/bhecho_files/smartlists/check_entry.js'></script>
+    <script language="javascript">
+      <!--
+        function check_cdfs(form) {
+          return true;
+        }
+     
+    </script>
+    
+    <script language='javascript' type='text/javascript'>
+    
+        function doSubmit() {
+          if (check_cdfs(document.survey)) {
+            window.open('','signup','resizable=1,scrollbars=0,width=300,height=150,top=450,left=500');
+            return true;
+          }
+          else { return false; }
+        }
+    
+    </script>
+    <form action="https://email.ritzpix.com/phase2/bullseye/contactupdate1.php3" method="post" name="bullseye" id="bullseye" onsubmit="return doSubmit();" target="signup" style="float:left; margin-top:3px; margin-bottom:3px;">
+      <div class="input-group" style="width:200px; padding-left:20px;">
+        <input type="hidden" name="cid" value="1c74d6ce862473fa1026fdcb7f4e99a7">
+        <input type="text" name="email" class="form-control" placeholder="Never miss a deal!" style="padding-top:0px; padding-bottom:0px; padding-left:2px; padding-right:2px; height:20px;">
+
+        <span class="input-group-btn"><input type="submit" name="SubmitBullsEye" value="&gt;" style="margin-bottom:0px; height:20px; padding-left:5px; line-height:5px;"></span>
+   
+<input type='hidden' name='fontface' value='Arial, Helvetica, sans-serif'> 
+<input type='hidden' name='fontsize' value='12px'> 
+<input type='hidden' name='background_color' value='#FFFFFF'> 
+<input type='hidden' name='textColor' value='#000000'> 
+<input type='hidden' name='schema' value='echo2'> 
+      </div>
+        <input type='hidden' name='message' value="Thank you for subscribing to RitzPix. To ensure delivery please add newsletter@mail.ritzpix.com to your address book, spam filter whitelist, or tell your company's IT group to allow this address to pass through any filtering software they may have set up.">
+    </form>
+-->
+        <div class="fright">
+        	<ul>
+			<!--script type="text/javascript">
+			if (PF.user.isAuthenticated) {
+			document.write("<a href=\"\/signout\">Sign Out<\/a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"\/account\">Account<\/a>");
+			}
+			else if (window.location.href.indexOf("signin") > -1) {
+			// Don't show signin link on the signin page
+			}
+			else{
+			document.write("<a href=\"\/startsharing\">Join for free<\/a><span style=\"text-transform:lowercase;\">&nbsp;&nbsp;or&nbsp;&nbsp;</span><a id=\"signInLink\" class=\"no-user signin iframe secure\" href=\"\/signin\">Sign In<\/a>");
+			}
+			</script-->
+				<li id="top-join"><a target="_top" href="/mobile/join/335445">Join</a></li>
+				<li id="top-signin"><a target="_top" href="/signin">Log In</a></li>
+				<li><a target="_top" href="/prints">Upload</a></li>
+				<li><a target="_top" href="/prints">My Photos</a></li>
+				<li><a target="_top" href="/projects">My Projects</a></li>
+				<li><a target="_top" href="/mobile/cart">Cart</a></li>
+				<li><a target="_top" href="/search">Search</a></li>
+                <li><a target="_top" href="/help">Help</a></li>
+			</ul>		
+		</div>  
+        <div class="fleft">
+			<!--span style="color:#000;">FREE SHIPPING on all orders over $30!*</span-->
+		</div>
+        <div class="clear"></div>
+		</div>
+    </div>
+    <div class="header_parent_wrap">
+    	<header>
+        	<div class="container">
+            	<a class="top_menu_toggler" href="javascript:void(0)"></a>
+                <div class="logo_sect">
+				<a target="_top" href="/" class="logo"><img src="/media/images/logo.png" class="logo_def" alt="" /><img src="/media/images/retina/logo.png" class="logo_retina" alt="" /></a>     
+			</div> 
+			<!--<div style="margin-left:10px">	
+            <span class="pull-left" style="margin-bottom:0px; margin-left:10px">Call Us! 1-800-225-9799<br>
+            M - T: 9am-6pm EST<br>F: 9am-4pm<p></p></span>
+            </div>-->
+            <nav>
+				<ul class="menu">
+					<li class="menu-item-has-children"><a target="_top" href="/photo-prints">Prints</a>
+						<div class="sub-nav">
+							<ul class="sub-menu">
+								<li><a target="_top" href="/photo-prints">View All</a></li>
+								<li><a target="_top" href="/prints-enlargements">Prints &amp; Enlargements</a></li>
+								<li><a target="_top" href="/prints-enlargements/metallic-prints">Metallic Paper Prints</a></li>
+								<li><a target="_top" href="/prints-enlargements/deep-matte-prints">Deep Matte Prints</a></li>
+								<li><a target="_top" href="/photo-prints/scrapbook-pages">Scrapbook Pages</a></li>
+								<li><a target="_top" href="/prints-enlargements/collage-posters">Collages &amp; Posters</a></li>
+								<!--<li><a target="_top" href="/prepaidplans">Prepaid Plans</a></li>-->
+								<li><a target="_top" href="/photo-prints/iphone-android-prints">iPhone/Android Prints</a></li>
+								<li><a target="_top" href="/photo-prints/facebook-instagram-prints">Facebook/Instagram Prints</a></li>
+							</ul> 
+						</div>	
+					</li>
+						<li class="menu-item-has-children"><a target="_top" href="/photo-books">Books</a>
+							<div class="sub-nav">
+								<ul class="sub-menu">
+									<!--li class="menu-item-has-children"><a target="_top" href="#">Classic Photo Books</a>
+										<div class="sub-nav">
+											<ul class="sub-menu">
+												<li><a class="current-menu-item"href="#">About 1</a></li>
+												<li><a target="_top" href="#">About 2</a></li>
+											</ul>
+										</div>
+									</li-->
+									<li><a target="_top" href="/photo-books">View All</a></li>
+									<li><a target="_top" href="/photo-books/classic">Classic Books</a></li>
+									<li><a target="_top" href="/photo-books/premium">Premium Books</a></li>
+									<li><a target="_top" href="/photo-books/lay-flat">Lay Flat Books</a></li>
+									<li><a target="_top" href="/photo-books/soft-cover">Soft Cover Books</a></li>
+								</ul> 
+							</div>
+						</li>
+						<li class="menu-item-has-children"><a target="_top" href="/cards-stationery">Cards</a>
+							<div class="sub-nav">
+								<ul class="sub-menu">
+									<li><a target="_top" href="/cards-stationery">View All</a></li>
+									<li><a target="_top" href="/cards-stationery/flat-photo-cards">Flat Cards</a></li>
+									<li><a target="_top" href="/cards-stationery/folded-photo-cards">Folded Cards</a></li>
+									<li><a target="_top" href="/cards-stationery/personalized-note-pads">Notepads</a></li>
+									<li><a target="_top" href="/cards-stationery/photo-note-cards">Note Cards</a></li>
+									<li><a target="_top" href="/cards-stationery/photo-stamps">Stamps</a></li>
+									<li><a target="_top" href="/photo-prints/scrapbook-pages">Scrapbook Pages</a></li>
+								</ul> 
+							</div>
+						</li>
+						<li class="menu-item-has-children"><a target="_top" href="/photo-calendars/classic-photo-calendars">Calendars</a>
+							<div class="sub-nav">
+								<ul class="sub-menu">
+									<!--<li><a target="_top" href="/photo-calendars">View All</a></li>-->
+									<li><a target="_top" href="/photo-calendars/classic-photo-calendars">Classic Bound Calendars</a></li>
+									<!--<li><a target="_top" href="/photo-calendars/flip-photo-calendars">Flip Calendars</a></li>-->
+								</ul> 
+							</div>
+						</li>
+						<li class="menu-item-has-children"><a target="_top" href="/photo-gifts/wall-decor">D&eacute;cor</a>
+							<div class="sub-nav">
+								<ul class="sub-menu">
+									<li><a target="_top" href="/photo-gifts/wall-decor">View All</a></li>
+									<li><a target="_top" href="/prints-enlargements/canvas-enlargements">Canvas Wraps</a></li>
+									<!--<li><a target="_top" href="/prints-enlargements/metallic-prints">Metallic Prints</a></li>-->
+									<li><a target="_top" href="/prints-enlargements/deep-matte-prints">Deep Matte Prints</a></li>
+									<li><a target="_top" href="/prints-enlargements/metal-prints">Metal Prints</a></li>
+									<li><a target="_top" href="/prints-enlargements/walcouture">WalCouture</a></li>
+									<li><a target="_top" href="/prints-enlargements/collage-posters">Collages &amp; Posters</a></li>
+									<li><a target="_top" href="/prints-enlargements/poster-prints">Enlargements</a></li>
+									<li><a target="_top" href="/prints-enlargements/custom-banners">Banners</a></li>
+								</ul> 
+							</div>                        
+						</li>
+						<li class="menu-item-has-children"><a target="_top" href="/photo-gifts">Gifts</a>
+							<div class="sub-nav">
+								<ul class="sub-menu">
+									<li><a target="_top" href="/photo-gifts">View All</a></li>
+									<!--li><a target="_top" href="/gifts/accessories">Accessories</a></li>
+									<li><a target="_top" href="/gifts/baby">Baby</a></li>									
+									<li><a target="_top" href="/gifts/clothing">Clothing</a></li>
+									<li><a target="_top" href="/gifts/electronics-cases">Electronics Cases</a></li>
+									<li><a target="_top" href="/gifts/home-kitchen">Home &amp; Kitchen</a></li>
+									<li><a target="_top" href="/gifts/mugs">Mugs</a></li>
+									<li><a target="_top" href="/gifts/ornaments-keepsakes">Ornaments &amp; Keepsakes</a></li>
+									<li><a target="_top" href="/gifts/pets">Pets</a></li>									
+									<li><a target="_top" href="/gifts/school-office">School &amp; Office</a></li>									
+									<li><a target="_top" href="/gifts/toys-games">Toys &amp; Games</a></li-->								
+								</ul> 
+							</div>
+						</li>
+						<!--li class="menu-item-has-children"><a target="_top" href="/all-products">All</a>
+						</li-->
+						<li class="menu-item-has-children"><a target="_top" href="/photo-services">Services</a>
+							<div class="sub-nav">
+								<ul class="sub-menu">
+									<li><a target="_top" href="/photo-services">View All</a></li>
+									<!--li><a target="_top" href="/services/1-hour-products">1 Hour Products</a></li-->
+									<li><a target="_top" href="/photo-services/iphone-app">iPhone App</a></li>
+									<li><a target="_top" href="/photo-services/photo-scanning-services">Scanning</a></li>
+									<li><a target="_top" href="/photo-services/film-developing">Film Developing</a></li>
+									<li><a target="_top" href="/photo-services/mounting-laminating">Mounting &amp; Laminating</a></li>
+									<li><a target="_top" href="/photo-services/image-recovery">Image Recovery</a></li>
+									<li><a target="_top" href="/photo-services/video-transfer-services">Video Transfers</a></li>
+									<li><a target="_top" href="/photo-services/passport-photos">Passport Photos</a></li>
+									<li><a target="_top" href="/photo-services/photo-dvd">DVDs</a></li>
+									<li><a target="_top" href="/photo-services/picture-cd">CDs</a></li>
+								</ul> 
+							</div>
+						</li>
+					</ul>                                  
+					</nav>                    
+                    <div class="clear"></div>
+                </div>
+                </div>
+            <!--</header>-->
+        </div>
+    </div>
+
+</div>
+
+<!-- ********** this ends Umbraco HeaderBody ********** -->

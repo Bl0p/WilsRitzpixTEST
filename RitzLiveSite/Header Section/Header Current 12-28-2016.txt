@@ -1,0 +1,202 @@
+<!-- ********** this starts Umbraco HeaderBody *********** -->
+<!-- Facebook Pixel code -->
+<script>
+/*
+try {
+console.log('Start FacebookPixel Test');
+var pageUrl = window.location.href;
+
+console.log('pageUrl =' +pageUrl );
+if( (pageUrl.indexOf("/photo-prints") != -1) || (pageUrl.indexOf("/photo-books") != -1) || (pageUrl.indexOf("/photo-gifts") != -1)   ) {
+    console.log('calling fbq track ViewContent + fbq =' + typeof (fbq) );
+    fbq('track', 'ViewContent', {value: 0.00,currency: 'USD'});
+}
+else if( (pageUrl.indexOf("/mobile/cart") != -1) || (pageUrl.indexOf("/mobile/checkout/review") != -1)  ) {
+    console.log('calling fbq track AddToCart + fbq =' + typeof (fbq) );
+    fbq('track', 'AddToCart', {value: 0.00,currency: 'USD'});
+}
+else if( pageUrl.indexOf("mobile/checkout/options") != -1  ) {
+    console.log('calling fbq track InitiateCheckout + fbq =' + typeof (fbq) );
+    fbq('track', 'InitiateCheckout');
+}
+else if( pageUrl.indexOf("mobile/checkout/confirmation") != -1  ) {
+    console.log('calling fbq track purchase + fbq =' + typeof (fbq) );
+    fbq('track', 'Purchase', {value: 0.00,currency: 'USD'});
+
+}
+
+
+} catch (err) { console.log('FB Pixel error:' + err.message); }
+*/
+</script>
+<!-- End: Facebook Pixel code -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6JJF3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="rvt-header-content">
+<div class="the-header">
+
+<!--==============================header=================================-->
+
+<div class="main_header type1">
+	<div class="top-band">
+    	<div class="container">
+       <div>
+        	<!-- Original Hours -->
+            <span class="pull-left" style="margin-bottom:0px;">Need Help? Call Us! 1-800-225-9799 - M-T: 9am-6pm est, F: 9am-4pm est</span>
+            <!-- Holiday Hours -->
+            <!--span class="pull-left" style="margin-bottom:0px;">Need Help? Call Us! 1-800-225-9799 - Su: 12-9: M-Th: 9-Midnight, F: 9-4 est</span-->
+        </div>
+        <div class="fright">
+        	<ul>
+			<!--script type="text/javascript">
+			if (PF.user.isAuthenticated) {
+			document.write("<a href=\"\/signout\">Sign Out<\/a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"\/account\">Account<\/a>");
+			}
+			else if (window.location.href.indexOf("signin") > -1) {
+			// Don't show signin link on the signin page
+			}
+			else{
+			document.write("<a href=\"\/startsharing\">Join for free<\/a><span style=\"text-transform:lowercase;\">&nbsp;&nbsp;or&nbsp;&nbsp;</span><a id=\"signInLink\" class=\"no-user signin iframe secure\" href=\"\/signin\">Sign In<\/a>");
+			}
+			</script-->
+				<li id="top-join"><a target="_top" href="/mobile/join/335445">Join</a></li>
+				<li id="top-signin"><a target="_top" href="/signin">Log In</a></li>
+				<li><a target="_top" href="/prints">Upload</a></li>
+				<li><a target="_top" href="/prints">My Photos</a></li>
+				<li><a target="_top" href="/projects">My Projects</a></li>
+				<li><a target="_top" href="/mobile/cart">Cart</a></li>
+				<li><a target="_top" href="/search">Search</a></li>
+                <li><a target="_top" href="/help">Help</a></li>
+			</ul>		
+		</div>  
+        <div class="fleft">
+			<!--span style="color:#000;">FREE SHIPPING on all orders over $30!*</span-->
+		</div>
+        <div class="clear"></div>
+		</div>
+    </div>
+    <div class="header_parent_wrap">
+    	<header>
+        	<div class="container">
+            	<a class="top_menu_toggler" href="javascript:void(0)"></a>
+                <div class="logo_sect">
+				<a target="_top" href="/" class="logo"><img src="/media/images/logo.png" class="logo_def" alt="" /><img src="/media/images/retina/logo.png" class="logo_retina" alt="" /></a>     
+			</div> 
+			<!--<div style="margin-left:10px">	
+            <span class="pull-left" style="margin-bottom:0px; margin-left:10px">Call Us! 1-800-225-9799<br>
+            M - T: 9am-6pm EST<br>F: 9am-4pm<p></p></span>
+            </div>-->
+            <nav>
+				<ul class="menu">
+					<li class="menu-item-has-children"><a target="_top" href="/photo-prints">Prints</a>
+						<div class="sub-nav">
+							<ul class="sub-menu">
+								<li><a target="_top" href="/photo-prints">View All</a></li>
+								<li><a target="_top" href="/prints-enlargements">Prints &amp; Enlargements</a></li>
+								<li><a target="_top" href="/prints-enlargements/metallic-prints">Metal Paper Prints</a></li>
+								<li><a target="_top" href="/prints-enlargements/deep-matte-prints">Deep Matte Prints</a></li>
+								<li><a target="_top" href="/photo-prints/scrapbook-pages">Scrapbook Pages</a></li>
+								<li><a target="_top" href="/prints-enlargements/collage-posters">Collages &amp; Posters</a></li>
+								<!--<li><a target="_top" href="/prepaidplans">Prepaid Plans</a></li>-->
+								<li><a target="_top" href="/photo-prints/iphone-android-prints">iPhone/Android Prints</a></li>
+								<li><a target="_top" href="/photo-prints/facebook-instagram-prints">Facebook/Instagram Prints</a></li>
+							</ul> 
+						</div>	
+					</li>
+						<li class="menu-item-has-children"><a target="_top" href="/photo-books">Books</a>
+							<div class="sub-nav">
+								<ul class="sub-menu">
+									<!--li class="menu-item-has-children"><a target="_top" href="#">Classic Photo Books</a>
+										<div class="sub-nav">
+											<ul class="sub-menu">
+												<li><a class="current-menu-item"href="#">About 1</a></li>
+												<li><a target="_top" href="#">About 2</a></li>
+											</ul>
+										</div>
+									</li-->
+									<li><a target="_top" href="/photo-books">View All</a></li>
+									<li><a target="_top" href="/photo-books/classic">Classic Books</a></li>
+									<li><a target="_top" href="/photo-books/premium">Premium Books</a></li>
+									<li><a target="_top" href="/photo-books/lay-flat">Lay Flat Books</a></li>
+									<li><a target="_top" href="/photo-books/soft-cover">Soft Cover Books</a></li>
+								</ul> 
+							</div>
+						</li>
+						<li class="menu-item-has-children"><a target="_top" href="/cards-stationery">Cards</a>
+							<div class="sub-nav">
+								<ul class="sub-menu">
+									<li><a target="_top" href="/cards-stationery">View All</a></li>
+									<li><a target="_top" href="/cards-stationery/flat-photo-cards">Flat Cards</a></li>
+									<li><a target="_top" href="/cards-stationery/folded-photo-cards">Folded Cards</a></li>
+									<li><a target="_top" href="/cards-stationery/personalized-note-pads">Notepads</a></li>
+									<li><a target="_top" href="/cards-stationery/photo-note-cards">Note Cards</a></li>
+									<li><a target="_top" href="/cards-stationery/photo-stamps">Stamps</a></li>
+									<li><a target="_top" href="/photo-prints/scrapbook-pages">Scrapbook Pages</a></li>
+								</ul> 
+							</div>
+						</li>
+						<li class="menu-item-has-children"><a target="_top" href="/photo-calendars/classic-photo-calendars">Calendars</a>
+							<div class="sub-nav">
+								<ul class="sub-menu">
+									<!--<li><a target="_top" href="/photo-calendars">View All</a></li>-->
+									<li><a target="_top" href="/photo-calendars/classic-photo-calendars">Classic Bound Calendars</a></li>
+									<!--<li><a target="_top" href="/photo-calendars/flip-photo-calendars">Flip Calendars</a></li>-->
+								</ul> 
+							</div>
+						</li>
+						<li class="menu-item-has-children"><a target="_top" href="/photo-gifts/wall-decor">D&eacute;cor</a>
+							<div class="sub-nav">
+								<ul class="sub-menu">
+									<li><a target="_top" href="/photo-gifts/wall-decor">View All</a></li>
+									<li><a target="_top" href="/prints-enlargements/canvas-enlargements">Canvas Wraps</a></li>
+									<!--<li><a target="_top" href="/prints-enlargements/metallic-prints">Metallic Prints</a></li>-->
+									<li><a target="_top" href="/prints-enlargements/deep-matte-prints">Deep Matte Prints</a></li>
+									<li><a target="_top" href="/prints-enlargements/metal-prints">Metal Prints</a></li>
+									<li><a target="_top" href="/prints-enlargements/walcouture">WalCouture</a></li>
+									<li><a target="_top" href="/prints-enlargements/collage-posters">Collages &amp; Posters</a></li>
+									<li><a target="_top" href="/prints-enlargements/poster-prints">Enlargements</a></li>
+									<li><a target="_top" href="/prints-enlargements/custom-banners">Banners</a></li>
+								</ul> 
+							</div>                        
+						</li>
+						<li class="menu-item-has-children"><a target="_top" href="/photo-gifts">Gifts</a>
+							<div class="sub-nav">
+								<ul class="sub-menu">
+									<li><a target="_top" href="/photo-gifts">View All</a></li>
+                                    <li><a target="_top" href="/gift-guide">Holiday Gift Guide</a></li>
+									</ul> 
+							</div>
+						</li>
+						<li class="menu-item-has-children"><a target="_top" href="/photo-services">Services</a>
+							<div class="sub-nav">
+								<ul class="sub-menu">
+									<li><a target="_top" href="/photo-services">View All</a></li>
+									<!--li><a target="_top" href="/services/1-hour-products">1 Hour Products</a></li-->
+									<li><a target="_top" href="/photo-services/iphone-app">iPhone App</a></li>
+									<li><a target="_top" href="/photo-services/photo-scanning-services">Scanning</a></li>
+									<li><a target="_top" href="/photo-services/film-developing">Film Developing</a></li>
+									<li><a target="_top" href="/photo-services/mounting-laminating">Mounting &amp; Laminating</a></li>
+									<li><a target="_top" href="/photo-services/image-recovery">Image Recovery</a></li>
+									<li><a target="_top" href="/photo-services/video-transfer-services">Video Transfers</a></li>
+									<li><a target="_top" href="/photo-services/passport-photos">Passport Photos</a></li>
+									<li><a target="_top" href="/photo-services/photo-dvd">DVDs</a></li>
+									<li><a target="_top" href="/photo-services/picture-cd">CDs</a></li>
+								</ul> 
+							</div>
+						</li>
+					</ul>                                  
+					</nav>                    
+                    <div class="clear"></div>
+                </div>
+                </div>
+            <!--</header>-->
+        </div>
+    </div>
+
+</div>
+
+<!-- ********** this ends Umbraco HeaderBody ********** -->	
