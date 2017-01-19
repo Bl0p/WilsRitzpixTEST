@@ -1,0 +1,203 @@
+<!-- ********** this starts Umbraco FooterBody ********** -->
+<!-- adb 2016-09-30 9:23am -->
+<div id="rvt-footer-content">
+<div class="the-footer">
+
+<!--==============================footer=================================-->    
+    <div class="footer">
+    	<div class="container">
+        	<div class="pre_footer">
+            	<div class="row">
+                	<div class="col-sm-3">
+                    	<div class="sidepanel widget_text footer_lists">
+                        	<h4 class="title">Prints &amp; Posters</h4>
+                        	<ul>
+								<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">Prints by Mail</a></li>
+								<li><a target="_top" href="/prints-enlargements">Photo Enlargements</a></li>
+								<li><a target="_top" href="/prints-enlargements/metallic-prints">Metallic Prints</a></li>
+								<li><a target="_top" href="/prints-enlargements/deep-matte-prints">Deep Matte Prints</a></li>
+								<li><a target="_top" href="/prints-enlargements/canvas-enlargements">Canvas Enlargements</a></li>
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">Big Print You</a></li>-->
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">4x6 Prints</a></li>-->
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">5x7 Prints</a></li>-->
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">8x10 Prints</a></li>-->
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">11x14 Enlargements</a></li>-->
+							</ul>
+                        </div>	
+                    </div>
+					<div class="col-sm-3">
+                    	<div class="sidepanel widget_text footer_lists">
+                        	<h4 class="title">Photo Products</h4>
+                        	<ul>
+								<li><a target="_top" href="/photo-books/classic">Classic Photo Books</a></li>
+								<li><a target="_top" href="/photo-books/premium">Premium Photo Books</a></li>
+								<li><a target="_top" href="/photo-books/lay-flat">Layflat Photo Books</a></li>
+								<!--<li><a target="_top" href="#">Square Photo Books</a></li>-->
+								<!--<li><a target="_top" href="#">8&half;x11 Photo Books</a></li>-->
+								<li><a target="_top" href="/cards-stationery/flat-photo-cards">Photo Cards</a></li>
+								<li><a target="_top" href="/cards-stationery/photo-note-cards">Note Cards</a></li>
+								<li><a target="_top" href="/create/catalog/bytype/24015/">Calendars</a></li>
+								<li><a target="_top" href="/photo-services">Photo Services</a></li>
+								<li><a target="_top" href="/photo-gifts">Gifts</a></li>								
+							</ul>
+                        </div>	
+                    </div>
+					<div class="col-sm-3">
+                    	<div class="sidepanel widget_text footer_lists">
+                        	<h4 class="title">Business &amp; Services</h4>
+                        	<ul>
+								<li><a target="_top" href="/about">About Us</a></li>
+								<!--<li><a href="#">RitzPix Blog</a></li>-->
+								<!--<li><a href="#">RitzPix Photo Patrol</a></li>-->
+								<li><a target="_top" href="/photo-services/photo-scanning-services">RitzPix Scanman Photo</a></li>
+								<!--<li><a href="#">Tax Exempt Sales</a></li>-->
+								<!--<li><a href="#">Picasa</a></li>-->
+								<li><a target="_top" href="/about/affiliate">Affiliates</a></li>
+								<li><a target="_top" href="/photo-prints/iphone-android-prints">iPhone/iPad App</a></li>
+								<!--<li><a target="_top" href="#">Special Offers</a></li>-->
+								<!--<li><a target="_top" href="#">What's New?</a></li>-->
+							</ul>
+                        </div>	
+                    </div>
+					<div class="col-sm-3">
+                    	<div class="sidepanel widget_text footer_lists">
+                        	<h4 class="title">Help &amp; Support</h4>
+                        	<ul>
+								<li><a target="_top" href="/help/privacy-statement">Privacy Statement</a></li>
+								<li><a target="_top" href="/help/terms-and-conditions">Terms &amp; Conditions</a></li>
+								<li><a target="_top" href="/help/pricing">Pricing + Shipping</a></li>
+								<li><a target="_top" href="/trackorder">Order Status</a></li>
+								<li>&nbsp;</li>
+								<li><a target="_top" href="/stores">Find a Store</a></li>
+								<!--<li><a target="_top" href="#">Videos</a></li>-->
+								<!--<li><a target="_top" href="#">FAQ</a></li>-->
+								<!--<li><a target="_top" href="#">Sitemap</a></li>-->
+							</ul>
+                            <!--signup form-->
+                            <div class="form-signup">
+							<form action="https://echo2.bluehornet.com/phase2/bullseye/contactupdate1.php3" method="POST" onsubmit="return doSubmit(this);" name="bullseye"  target="signup" id="bullseye">
+								<script language='javascript' src='https://echo2.bluehornet.com/two/phase2/bhecho_files/smartlists/check_entry.js'></script>
+								<!--
+								<script language='javascript' src='https://echo2.bluehornet.com/two/phase2/bhecho_files/smartlists/check_entry.js?_=1478169701132'></script>
+								<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+								<script language="javascript">
+									function check_cdfs(form) {
+													return true;
+									}
+								</script>
+								<script language='javascript' type='text/javascript'>
+									function doSubmit() {
+										if (check_cdfs(document.survey)) {
+											window.open('','signup','resizable=1,scrollbars=0,width=300,height=150,top=450,left=500');
+											return true;
+										}  
+										else { return false; } 
+									}
+								</script>
+								<style type="text/css">
+									body{
+										background-color:#FFFFFF;
+									}
+								</style>
+										<div class="form-value">
+										<input type=hidden name="cid" value="1c74d6ce862473fa1026fdcb7f4e99a7">
+										<div align="right" class="label">Sign up for RitzPix news</div>
+										
+										<div class="email-input"><input id="email" required type="text" value="" placeholder="email address" name="email"></div>
+                                        <div class="submit-input">
+										<input id="SubmitBullsEye" type="submit" name="SubmitBullsEye" value="Submit">
+										<input type=hidden name='grp[]' value='485959'> 
+										<input type='hidden' name='fontface' value='Arial, Helvetica, sans-serif'>
+										<input type='hidden' name='fontsize' value='12px'>
+										<input type='hidden' name='background_color' value='#FFFFFF'>
+										<input type='hidden' name='textColor' value='#000000'>
+										<input type='hidden' name='schema' value='echo2'>
+										</div>
+										<div class="col-sm-12"><input type='hidden' name='message' value="Thank you. Your information has been submitted. To ensure delivery of your newsletter(s), please add customerserv@Ritzpix.com to your address book or spam filter whitelist, or tell your company's IT group to allow this address to pass through any filtering software they may have set up."></div>
+										</div>
+							</form>
+                            </div>
+							<!--End signup form-->
+                        </div>	
+                    </div>		
+                </div>
+            </div>
+            <div class="footer_bottom pb20">
+				<div class="col-sm-4 pl0">
+					<div class="footer_brands">
+						<ul>
+							<li><img src="/media/images/brand_icon_wolf.jpg" class="img-responsive" alt="" /></li>
+							<li><img src="/media/images/brand_icon_inkleys.jpg" class="img-responsive" alt="" /></li>
+							<li><img src="/media/images/brand_icon_ritz.jpg" class="img-responsive" alt="" /></li>
+							<!--<li><img src="/media/images/brand_icon_cameraswest.jpg" class="img-responsive" alt="" /></li>
+							<li><img src="/media/images/brand_icon_cameraworld.jpg" class="img-responsive" alt="" /></li>-->
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-4">
+                	<img id="trustwaveSealImage" src="https://sealserver.trustwave.com/seal_image.php?customerId=w6oj3BxxrlKu4gUB1cFEuabiX2IgvC&amp;size=105x54&amp;style=" border="0" style="cursor:pointer;" onclick="javascript:window.open('https://sealserver.trustwave.com/cert.php?customerId=w6oj3BxxrlKu4gUB1cFEuabiX2IgvC&amp;size=105x54&amp;style=normal', 'c_TW', 'location=no, toolbar=no, resizable=yes, scrollbars=yes, directories=no, status=no, width=615, height=720'); return false;" oncontextmenu="javascript:alert('Copying Prohibited by Law - Trusted Commerce is a Service Mark of TrustWave Holdings, Inc.'); return false;" translate="" translate-attr-alt="Checkout_Trustwave" translate-attr-title="Checkout_Trustwave" class="ng-scope" alt="This site protected by Trustwave's Trusted Commerce program" title="This site protected by Trustwave's Trusted Commerce program">
+					<div class="copyright">&copy; 2017 RitzPix LLC.  All Rights Reserved.</div>
+				</div>
+				<div class="col-sm-4 pr0">
+					<div class="footer_ritzsocials">
+						<ul>							
+							<li><a href="https://fb.me/RitzPix"><span class="contact_info_icon iconcolor-facebook"><i class="icon-facebook"></i></span></a></li>
+                            <li><a href="https://plus.google.com/+Ritzpix"><span class="contact_info_icon iconcolor-googleplus"><i class="icon-google-plus"></i></span></a></li>
+							<!--<li><a href="#"><span class="contact_info_icon iconcolor-twitter"><i class="icon-twitter"></i></span></a></li>-->
+							<!--<li><a href="#"><span class="contact_info_icon iconcolor-youtube"><i class="icon-youtube"></i></span></a></li>-->
+							<!--<li><a href="#"><span class="contact_info_icon iconcolor-pinterest"><i class="icon-pinterest"></i></span></a></li>-->
+						</ul>
+                    </div>
+				</div>  
+				<div class="clear"></div>				
+            </div>
+        </div>
+    </div>   
+    <div class="fixed-menu"></div>	
+</div>
+</div>	
+    
+ <style>
+.form-signup {
+  border-top: 1px solid #484b51;
+  float: left;
+  margin-top: 30px;
+  padding-top: 30px;
+  width: 100%;
+}
+.form-signup .form-value, .form-signup .form-value .label{ width:100%; float:left;}
+.form-signup .form-value .label{
+  color: #9aa0ac !important;
+  font-family:"Lato",sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  padding: 0 !important;
+   margin-bottom: 15px;
+  text-align: left !important;
+}
+
+.form-signup .form-value .email-input{ width:65%; float:left;}
+.form-signup .form-value .submit-input{ width:34%; float:right;}
+.form-signup .form-value .email-input input {
+    border: medium none !important;
+    border-radius: 5px 0 0 5px !important;
+    height: 35px !important;
+    margin-bottom:0 !important;
+}
+.form-signup .form-value .submit-input input {
+  border-radius: 0 5px 5px 0 !important;
+  margin-bottom: 0 !important;
+}
+
+@media ( max-width:1200px){
+.form-signup .form-value .submit-input input {
+  border-radius: 0 5px 5px 0 !important;
+  font-size: 12px !important;
+  margin-bottom: 0 !important;
+  padding: 0 5px !important;
+  width: 100%;
+}
+}
+    </style>
+    
+<!-- ********** this ends Umbraco FooterBody ********** -->
