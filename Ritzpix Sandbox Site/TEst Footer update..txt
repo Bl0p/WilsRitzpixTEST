@@ -139,13 +139,13 @@
 					<div class="copyright">&copy; 2016 Ritz Camera &amp; Image.  All Rights Reserved.</div>
 				</div>
 
-<div class="col-sm-1">
+<div class="col-sm-2">
                 <a href="https://itunes.apple.com/us/app/ritzpix-one-hour-prints-enlargements/id487269133?mt=8" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;"></a>
                 </div>
 
-<div class="col-sm-1">
+<div class="col-sm-2">
 <span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=7KAiDm85bQz21oLlpzx7T52TzmlA6WZCRWe7h0ZgClWLsZ78uv"></script></span>
-<div class="col-sm-1">
+</div>
 
 
 				<div class="col-sm-1 pr0">

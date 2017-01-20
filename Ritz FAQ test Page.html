@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"fc263411d1","applicationID":"3809173","transactionName":"NFBaMksCXhBZW01ZCQ0adTB6THgMVV16XwgXR1cKVQZCTHFWXVUe","queueTime":0,"applicationTime":186,"agent":"","atts":""}</script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[(new Date).getTime()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var s=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(s,function(e,t){f[t]=o(l+t,!0,"api")}),f.addPageAction=o(l+"addPageAction",!0),f.setCurrentRouteName=o(l+"routeName",!0),t.exports=newrelic,f.interaction=function(){return(new r).get()};var d=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(p+"tracer",[Date.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return t.apply(this,arguments)}finally{c.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){d[t]=o(p+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o){if(!p.aborted){e&&e(n,r,o);for(var i=t(o),a=v(n),u=a.length,c=0;c<u;c++)a[c].apply(i,r);var f=s[w[n]];return f&&f.push([y,n,r,i]),i}}function d(e,t){b[e]=v(e).concat(t)}function v(e){return b[e]||[]}function g(e){return l[e]=l[e]||o(n)}function m(e,t){f(e,function(e,n){t=t||"feature",w[n]=t,t in s||(s[t]=[])})}var b={},w={},y={on:d,emit:n,get:g,listeners:v,context:t,buffer:m,abort:a,aborted:!1};return y}function i(){return new r}function a(){(s.api||s.feature)&&(p.aborted=!0,s=p.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},l={},p=t.exports=o();p.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!h++){var e=y.info=NREUM.info,t=l.getElementsByTagName("script")[0];if(setTimeout(f.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return f.abort();c(b,function(t,n){e[t]||(e[t]=n)}),u("mark",["onload",a()],null,"api");var n=l.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===l.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=e("ee"),s=window,l=s.document,p="addEventListener",d="attachEvent",v=s.XMLHttpRequest,g=v&&v.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:v,REQ:s.Request,EV:s.Event,PR:s.Promise,MO:s.MutationObserver},e(1);var m=""+location,b={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1016.min.js"},w=v&&g&&g[p]&&!/CriOS/.test(navigator.userAgent),y=t.exports={offset:a(),origin:m,features:{},xhrWrappable:w};l[p]?(l[p]("DOMContentLoaded",i,!1),s[p]("load",r,!1)):(l[d]("onreadystatechange",o),s[d]("onload",r)),u("mark",["firstbyte",a()],null,"api");var h=0},{}]},{},["loader"]);</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <script>
+        (function () {
+            if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+                var msViewportStyle = document.createElement("style");
+                msViewportStyle.appendChild(
+                    document.createTextNode(
+                        "@-ms-viewport{width:auto!important}"
+                    )
+                );
+                document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+            }
+        })();
+    </script>
+
+    <title ng-bind="$$title + 'Pricing : Prints, Enlargements, Photo Books, Calendars, Photo Cards, Photo Gifts and More | RitzPix.com'"></title>
+    <base href="https://www.ritzpix.com/" />
+
+    <meta name="description" content="Ritzpix.com Help, Contact us if you have any questions!">
+    <meta name="keywords" content="Help, Contact Us, RitzPix, Customer Services">
+
+                    <meta name="apple-itunes-app" content="app-id=487269133" />
+
+    <link ng-if="$$canonical" rel="canonical" href="{{ $$canonical }}">
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/fontawesome/4.6.1/css/font-awesome.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/toastr/2.1.2/toastr.min.css">
+
+<link href="/bundles/vendor/css?v=WIU8Mrp-tIAOeKo4QmdQf5OOVXGorzXilDRfTlfP9I01" rel="stylesheet"/>
+
+<link href="/bundles/app/css?v=KTa6cCXAb51WfNxV1ZtBcmtAcnwYLRWd0uM2vKcixQw1" rel="stylesheet"/>
+
+
+<style ng-if="$$fullpage">
+    #page-wrapper {
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -webkit-user-select: none;
+        bottom: 0;
+        cursor: default;
+        left: 0;
+        max-width: 100%;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        top: 0;
+        user-select: none;
+    }
+
+    #header {
+    }
+
+    #content {
+        bottom: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+        max-width: 100%;
+        padding: 0;
+        position: absolute;
+        top: 52px;
+        width: 100%;
+    }
+
+    #footer {
+        display: none !important;
+    }
+</style>
+
+
+
+
+    
+
+
+<!-- [PagePart-begin] HtmlHeadInclude -->
+
+<!-- ********** Start: Umbraco PagePart: HtmlHeadInclude-Mobile ********** -->
+
+<link href="https://fonts.googleapis.com/css?family=Raleway:100,200, 300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+<!--<link rel="stylesheet" href="media/css/new-theme/style.css" type="text/css" media="all" />-->
+<!--<link rel="stylesheet" href="media/css/new-theme/style_icon.css" type="text/css" media="all" />-->
+<!--<link rel="stylesheet" href="media/css/new-theme/responsive.css" type="text/css" media="all" />-->
+<!--<link rel="stylesheet" href="media/css/new-theme/font-awesome.min.css" type="text/css" media="all" />-->
+<!--<link rel="stylesheet" href="media/css/new-theme/owl_carousel.css" type="text/css" media="all" />-->
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<link rel="shortcut icon" href="media/img/favicon.ico" type="image/x-icon">
+
+<link rel="apple-touch-icon" href="media/img/apple_icons_57x57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="media/img/apple_icons_72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="media/img/apple_icons_114x114.png">
+
+<link href="//fonts.googleapis.com/css?family=Roboto:400,300,300italic,100,400italic,700,500,900" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css">
+
+<link rel="stylesheet" href="media/css/RitzStylesCompiled.css" type="text/css" media="all" />
+<!--
+<link rel="stylesheet/less" href="media/css/bootstrap.min.css" type="text/css" media="all" />
+<link rel="stylesheet/less" href="media/css/theme.css" type="text/css" media="all" />-->
+<!--link rel="stylesheet/less" href="media/css/revslider.css" type="text/css" media="all" /-->
+<!--<link rel="stylesheet/less" href="media/css/custom.css" type="text/css" media="all" />
+<link rel="stylesheet/less" href="media/css/ritzpix.css" type="text/css" media="all" />
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.0/less.min.js"></script>
+-->
+<link rel="stylesheet" href="/media/css/ritzpixstyles.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/media/css/animate.css" type="text/css" media="all">
+<link rel="stylesheet" href="/media/css/gift-guide.css" type="text/css" media="all"/>
+<link rel="stylesheet" href="/media/css/vertical-carosel.css" type="text/css" media="all"/>
+
+<!-- START CSS FOR NEW BOOK CALCULATOR -->
+<link rel="stylesheet" href="media/css/calculator.css">
+<!-- END CSS FOR NEW BOOK CALCULATOR -->
+
+<script>
+var _prum = [['id', '554cca10abe53d78055a32ff'],
+             ['mark', 'firstbyte', (new Date()).getTime()]];
+(function() {
+    var s = document.getElementsByTagName('script')[0]
+      , p = document.createElement('script');
+    p.async = 'async';
+    p.src = '//rum-static.pingdom.net/prum.min.js';
+    s.parentNode.insertBefore(p, s);
+})();
+</script>
+
+<meta name="google-site-verification" content="ucDVjyxppRxIKHn0G7sLQAs39jiW8v91Tjcc-lZg0JE" />
+
+<!-- BEGIN ABANDONAID CODE -->
+<!--<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://" : "http://");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "s3.amazonaws.com/aascript/ritzpix.com/abandonaid-ritzpix.com.js' type='text/javascript'%3E%3C/script%3E"));
+</script>-->
+<!--END ABANDONAID CODE -->
+
+<!-- BEGIN LUCKY ORANGE CODE -->
+<script type='text/javascript'>
+window.__lo_site_id = 58378;
+	(function() {
+		var wa = document.createElement('script'); wa.type = 'text/javascript'; wa.async = true;
+		wa.src = 'https://d10lpsik1i8c69.cloudfront.net/w.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
+	  })();
+	</script>
+<!-- END LUCKY ORANGE CODE -->
+
+<!-- Hotjar Tracking Code --> 
+<!--<script>     (function(f,b){         var c;         f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};         f._hjSettings={hjid:43211, hjsv:4};         c=b.createElement("script");c.async=1;         c.src="//static.hotjar.com/c/hotjar-"+f._hjSettings.hjid+".js?sv="+f._hjSettings.hjsv;         b.getElementsByTagName("head")[0].appendChild(c);      })(window,document); </script>-->
+<!-- End Hotjar Tracking Code -->
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '178265432635658');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=178265432635658&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- ********** End: Umbraco PagePart: HtmlHeadInclude-Mobile ********** -->
+   
+<!-- [PagePart-end] HtmlHeadInclude -->
+
+</head>
+<body ng-class="{ fullpage: $$fullpage, home: $$home, authenticated: $$pf.user.isAuthenticated, anonymous: !$$pf.user.isAuthenticated }"
+      scroll-to-top="$$scrollToTop"
+      animate-scroll="false"
+      orientation-change>
+
+<div id="page-wrapper">
+    <div id="header">
+<!-- [PagePart-begin] HeaderBody -->
+
+<!-- ********** this starts Umbraco HeaderBody *********** -->
+<!-- Facebook Pixel code -->
+<script>
+/*
+try {
+console.log('Start FacebookPixel Test');
+var pageUrl = window.location.href;
+
+console.log('pageUrl =' +pageUrl );
+if( (pageUrl.indexOf("/photo-prints") != -1) || (pageUrl.indexOf("/photo-books") != -1) || (pageUrl.indexOf("/photo-gifts") != -1)   ) {
+    console.log('calling fbq track ViewContent + fbq =' + typeof (fbq) );
+    fbq('track', 'ViewContent', {value: 0.00,currency: 'USD'});
+}
+else if( (pageUrl.indexOf("/mobile/cart") != -1) || (pageUrl.indexOf("/mobile/checkout/review") != -1)  ) {
+    console.log('calling fbq track AddToCart + fbq =' + typeof (fbq) );
+    fbq('track', 'AddToCart', {value: 0.00,currency: 'USD'});
+}
+else if( pageUrl.indexOf("mobile/checkout/options") != -1  ) {
+    console.log('calling fbq track InitiateCheckout + fbq =' + typeof (fbq) );
+    fbq('track', 'InitiateCheckout');
+}
+else if( pageUrl.indexOf("mobile/checkout/confirmation") != -1  ) {
+    console.log('calling fbq track purchase + fbq =' + typeof (fbq) );
+    fbq('track', 'Purchase', {value: 0.00,currency: 'USD'});
+
+}
+
+
+} catch (err) { console.log('FB Pixel error:' + err.message); }
+*/
+</script>
+<!-- End: Facebook Pixel code -->
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N6JJF3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="rvt-header-content">
+<div class="the-header">
+
+<!--==============================header=================================-->
+
+<div class="main_header type1">
+	<div class="top-band">
+    	<div class="container">
+       <div>
+        	<!-- Original Hours -->
+            <!--span class="pull-left" style="margin-bottom:0px;">Need Help? Call Us! 1-800-225-9799 - M-T: 9am-6pm est, F: 9am-4pm est</span-->
+            <!-- Holiday Hours -->
+            <span class="pull-left" style="margin-bottom:0px;">Need Help? Call Us! 1-800-225-9799 - Su: 12-9: M-Th: 9-Midnight, F: 9-4 est</span>
+        </div>
+        <div class="fright">
+        	<ul>
+			<!--script type="text/javascript">
+			if (PF.user.isAuthenticated) {
+			document.write("<a href=\"\/signout\">Sign Out<\/a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=\"\/account\">Account<\/a>");
+			}
+			else if (window.location.href.indexOf("signin") > -1) {
+			// Don't show signin link on the signin page
+			}
+			else{
+			document.write("<a href=\"\/startsharing\">Join for free<\/a><span style=\"text-transform:lowercase;\">&nbsp;&nbsp;or&nbsp;&nbsp;</span><a id=\"signInLink\" class=\"no-user signin iframe secure\" href=\"\/signin\">Sign In<\/a>");
+			}
+			</script-->
+				<li id="top-join"><a target="_top" href="/mobile/join/335445">Join</a></li>
+				<li id="top-signin"><a target="_top" href="/signin">Log In</a></li>
+				<li><a target="_top" href="/prints">Upload</a></li>
+				<li><a target="_top" href="/prints">My Photos</a></li>
+				<li><a target="_top" href="/projects">My Projects</a></li>
+				<li><a target="_top" href="/mobile/cart">Cart</a></li>
+				<li><a target="_top" href="/search">Search</a></li>
+                <li><a target="_top" href="/help">Help</a></li>
+			</ul>		
+		</div>  
+        <div class="fleft">
+			<!--span style="color:#000;">FREE SHIPPING on all orders over $30!*</span-->
+		</div>
+        <div class="clear"></div>
+		</div>
+    </div>
+    <div class="header_parent_wrap">
+    	<header>
+        	<div class="container">
+            	<a class="top_menu_toggler" href="javascript:void(0)"></a>
+                <div class="logo_sect">
+				<a target="_top" href="/" class="logo"><img src="/media/images/logo.png" class="logo_def" alt="" /><img src="/media/images/retina/logo.png" class="logo_retina" alt="" /></a>     
+			</div> 
+			<!--<div style="margin-left:10px">	
+            <span class="pull-left" style="margin-bottom:0px; margin-left:10px">Call Us! 1-800-225-9799<br>
+            M - T: 9am-6pm EST<br>F: 9am-4pm<p></p></span>
+            </div>-->
+            <nav>
+				<ul class="menu">
+					<li class="menu-item-has-children"><a target="_top" href="/photo-prints">Prints</a>
+						<div class="sub-nav">
+							<ul class="sub-menu">
+								<li><a target="_top" href="/photo-prints">View All</a></li>
+								<li><a target="_top" href="/prints-enlargements">Prints &amp; Enlargements</a></li>
+								<li><a target="_top" href="/prints-enlargements/metallic-prints">Metal Paper Prints</a></li>
+								<li><a target="_top" href="/prints-enlargements/deep-matte-prints">Deep Matte Prints</a></li>
+								<li><a target="_top" href="/photo-prints/scrapbook-pages">Scrapbook Pages</a></li>
+								<li><a target="_top" href="/prints-enlargements/collage-posters">Collages &amp; Posters</a></li>
+								<!--<li><a target="_top" href="/prepaidplans">Prepaid Plans</a></li>-->
+								<li><a target="_top" href="/photo-prints/iphone-android-prints">iPhone/Android Prints</a></li>
+								<li><a target="_top" href="/photo-prints/facebook-instagram-prints">Facebook/Instagram Prints</a></li>
+							</ul> 
+						</div>	
+					</li>
+						<li class="menu-item-has-children"><a target="_top" href="/photo-books">Books</a>
+							<div class="sub-nav">
+								<ul class="sub-menu">
+									<!--li class="menu-item-has-children"><a target="_top" href="#">Classic Photo Books</a>
+										<div class="sub-nav">
+											<ul class="sub-menu">
+												<li><a class="current-menu-item"href="#">About 1</a></li>
+												<li><a target="_top" href="#">About 2</a></li>
+											</ul>
+										</div>
+									</li-->
+									<li><a target="_top" href="/photo-books">View All</a></li>
+									<li><a target="_top" href="/photo-books/classic">Classic Books</a></li>
+									<li><a target="_top" href="/photo-books/premium">Premium Books</a></li>
+									<li><a target="_top" href="/photo-books/lay-flat">Lay Flat Books</a></li>
+									<li><a target="_top" href="/photo-books/soft-cover">Soft Cover Books</a></li>
+								</ul> 
+							</div>
+						</li>
+						<li class="menu-item-has-children"><a target="_top" href="/cards-stationery">Cards</a>
+							<div class="sub-nav">
+								<ul class="sub-menu">
+									<li><a target="_top" href="/cards-stationery">View All</a></li>
+									<li><a target="_top" href="/cards-stationery/flat-photo-cards">Flat Cards</a></li>
+									<li><a target="_top" href="/cards-stationery/folded-photo-cards">Folded Cards</a></li>
+									<li><a target="_top" href="/cards-stationery/personalized-note-pads">Notepads</a></li>
+									<li><a target="_top" href="/cards-stationery/photo-note-cards">Note Cards</a></li>
+									<li><a target="_top" href="/cards-stationery/photo-stamps">Stamps</a></li>
+									<li><a target="_top" href="/photo-prints/scrapbook-pages">Scrapbook Pages</a></li>
+								</ul> 
+							</div>
+						</li>
+						<li class="menu-item-has-children"><a target="_top" href="/photo-calendars/classic-photo-calendars">Calendars</a>
+							<div class="sub-nav">
+								<ul class="sub-menu">
+									<!--<li><a target="_top" href="/photo-calendars">View All</a></li>-->
+									<li><a target="_top" href="/photo-calendars/classic-photo-calendars">Classic Bound Calendars</a></li>
+									<!--<li><a target="_top" href="/photo-calendars/flip-photo-calendars">Flip Calendars</a></li>-->
+								</ul> 
+							</div>
+						</li>
+						<li class="menu-item-has-children"><a target="_top" href="/photo-gifts/wall-decor">D&eacute;cor</a>
+							<div class="sub-nav">
+								<ul class="sub-menu">
+									<li><a target="_top" href="/photo-gifts/wall-decor">View All</a></li>
+									<li><a target="_top" href="/prints-enlargements/canvas-enlargements">Canvas Wraps</a></li>
+									<!--<li><a target="_top" href="/prints-enlargements/metallic-prints">Metallic Prints</a></li>-->
+									<li><a target="_top" href="/prints-enlargements/deep-matte-prints">Deep Matte Prints</a></li>
+									<li><a target="_top" href="/prints-enlargements/metal-prints">Metal Prints</a></li>
+									<li><a target="_top" href="/prints-enlargements/walcouture">WalCouture</a></li>
+									<li><a target="_top" href="/prints-enlargements/collage-posters">Collages &amp; Posters</a></li>
+									<li><a target="_top" href="/prints-enlargements/poster-prints">Enlargements</a></li>
+									<li><a target="_top" href="/prints-enlargements/custom-banners">Banners</a></li>
+								</ul> 
+							</div>                        
+						</li>
+						<li class="menu-item-has-children"><a target="_top" href="/photo-gifts">Gifts</a>
+							<div class="sub-nav">
+								<ul class="sub-menu">
+									<li><a target="_top" href="/photo-gifts">View All</a></li>
+                                    <!--<li><a target="_top" href="/gift-guide">Holiday Gift Guide</a></li>-->
+									</ul> 
+							</div>
+						</li>
+						<li class="menu-item-has-children"><a target="_top" href="/photo-services">Services</a>
+							<div class="sub-nav">
+								<ul class="sub-menu">
+									<li><a target="_top" href="/photo-services">View All</a></li>
+									<!--li><a target="_top" href="/services/1-hour-products">1 Hour Products</a></li-->
+									<li><a target="_top" href="/photo-services/iphone-app">iPhone App</a></li>
+									<li><a target="_top" href="/photo-services/photo-scanning-services">Scanning</a></li>
+									<li><a target="_top" href="/photo-services/film-developing">Film Developing</a></li>
+									<li><a target="_top" href="/photo-services/mounting-laminating">Mounting &amp; Laminating</a></li>
+									<li><a target="_top" href="/photo-services/image-recovery">Image Recovery</a></li>
+									<li><a target="_top" href="/photo-services/video-transfer-services">Video Transfers</a></li>
+									<li><a target="_top" href="/photo-services/passport-photos">Passport Photos</a></li>
+									<li><a target="_top" href="/photo-services/photo-dvd">DVDs</a></li>
+									<li><a target="_top" href="/photo-services/picture-cd">CDs</a></li>
+								</ul> 
+							</div>
+						</li>
+                                               <li class="visible-xs signin-mobilemenu" ><a target="_top" href="/signin">Sign In</a></li>
+					    <li class="visible-xs join-mobilemenu"><a target="_top" href="/join">Join</a></li>
+					    <li class="visible-xs signout-mobilemenu"><a target="_top" href="/signout">Sign out</a></li>
+					    <li class="visible-xs account-mobilemenu"><a target="_top" href="/account">Account</a></li>
+					</ul>                                  
+					</nav>                    
+                    <div class="clear"></div>
+                </div>
+                </div>
+            <!--</header>-->
+        </div>
+    </div>
+
+</div>
+
+<!-- ********** this ends Umbraco HeaderBody ********** -->
+   
+<!-- [PagePart-end] HeaderBody -->
+
+    </div>
+
+    <div id="content">
+        
+<div ui-view class="col-sm-12 view">
+
+    
+    <!-- BEGIN USER DEFINED CONTENT -->
+    <!-- ********** this starts Umbraco main content rvt0519 ********** -->
+  <div id="rvt-page-content">
+    <div class="the-page">
+
+      <!--==============================main/slider=================================-->
+
+
+      <div class="wrapper" style="background-color:#fff;">
+        <div class="container">
+          <div class="content_block row left-sidebar pt50">
+            <div class="fl-container">
+              <h1 class="title-page">Frequently Asked Questions</h1>
+              <h3 style="text-align:center;">Check to see if your Question is listed below:</h3>
+              <div class="col-sm-12 module_cont module_accordion pb10 animate" data-anim-type="bounceInRight" data-anim-delay="250">
+					<!--Question0-->
+			  <div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="1" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;font-size:12px;font-weight:bold">How do I move photos from one collection to another?<span class="ico"></span></h5>
+					<!--Answer0-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:15px;padding-bottom:15px;text-align:left-side;">Click on a Product name or title to learn more information and order.<br />For shipping times and costs, click on the "Shipping" link next to each product.</p>
+					</div><!-- shortcode_toggles_item_body -->
+				  </div>
+				  </div>
+					<!--Question1-->
+              <div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="2" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">When will I receive my RitzPix order?<span class="ico"></span></h5>
+					<!--Answer1-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;">Your order will take 1 to 2 business days to produce in our lab. Once produced, your order will ship according to the criteria you selected during the checkout process<br />Standard delivery is between 3 to 7 business days. <br/>Expedited delivery is 2 to 3 business days. <br/> Express delivery is 1 to 2 business days.</p>
+                
+                    </div>
+                  </div>
+                </div>
+					<!--Question2-->
+                <div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">Does RitzPix ship outside the United States?<span class="ico"></span></h5>
+					<!--Answer2-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;">No, at this time we do not ship outside of the U.S.</p>
+                    </div>
+                    </div>
+                  </div>
+                
+					<!--Question3-->
+                <div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">How do I update item quantities in the Shopping Cart?<span class="ico"></span></h5>
+					<!--Answer3-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;">Click on “Cart” at the top right of the page.Next to the product you wish to update, type the quantity you would like, and then click the "Update" button to apply the change. If you would like to remove an item, click the "Delete" trash can icon.</p>
+                    </div>
+                  </div>
+                </div>
+					<!--Questions4-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">What if I have a question about my order or would like to cancel my order?<span class="ico"></span></h5>
+					<!--Answer4-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;">Please contact us as soon as possible at:<br />customerserv@ritzpix.com 1-800-225-9799</p>
+                    </div>
+                  </div>
+                </div>
+					<!--Questions5-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;"> How do I upload photos?<span class="ico"></span></h5>
+					<!--Answer5-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;"> Click the UPLOAD button located in the red banner at the top of your screen. On the upload page select "UPLOAD PHOTOS" and then "ADD PHOTOS" or “BROWSE”. Select the photos you want to upload and click "OK". You can continue to add photos by clicking on "UPLOAD PHOTOS" again. Note: You can also edit, download or delete photos by clicking on them to highlight them and then choosing from the menu at the top right.</p>
+                    </div>
+                  </div>
+                </div>
+					<!--Questions6-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">How do I choose which photos I want to print?<span class="ico"></span></h5>
+					<!--Answer6-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;">Click on either "UPLOAD" or "MY PHOTOS" in the red banner at the top of your screen. Choose your photo(s) by clicking on them to highlight them. You can also "Select All." Choose your size by clicking on the "+" symbol in the menu bar on the right. To deselect, press "-". When finished, click on "CHECKOUT." You will be offered additional printing options for your photos.</p>
+                    </div>
+                  </div>
+                </div>	
+					<!--Questions7-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">How can I pay for my order?<span class="ico"></span></h5>
+					<!--Answer7-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;">We accept American Express, Discover, MasterCard, and Visa. We also accept PayPal.</p>
+                    </div>
+                  </div>
+                </div>	
+					<!--Questions8-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">Do you charge sales tax?<span class="ico"></span></h5>
+					<!--Answer8-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;">If one of our retail stores is located in your state, there will be sales tax on your order. If there are no stores in your state, no sales tax will be applied.</p>
+                    </div>
+                  </div>
+                </div>	
+					<!--Questions9-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">How do I refund or reprint my order?<span class="ico"></span></h5>
+					<!--Answer9-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;">If you are unhappy with your order please email us at customerserv@ritzpix.com  with an image or two of the unsatisfactory items, along with the order number and a brief description of the issue, and we will replace or refund the items. Please note that we can only fix mistakes made by us</p>
+                    </div>
+                  </div>
+                </div>	
+					<!--Questions10-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">What file types can I upload?<span class="ico"></span></h5>
+					<!--Answer10-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;">We support JPEG and PNG file types.</p>
+                    </div>
+                  </div>
+                </div>	
+					<!--Questions11-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">What is the largest file size I can upload?<span class="ico"></span></h5>
+					<!--Answer11-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;">We recommend uploading images no bigger than 10 megabytes. You may be able to upload files bigger than this, but it has been known to cause errors and slowdowns.</p>
+                    </div>
+                  </div>
+                </div>	
+					<!--Questions12-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">How can I tell if my image will print clearly?<span class="ico"></span></h5>
+					<!--Answer12-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;">After you've selected your print size, if an exclamation point shows up in the upper right corner of your selected image, it means that the image is below the recommended resolution. If you hover your mouse over the exclamation point it will show what percentage below the recommended resolution the image is. You can edit your photo, change the orientation, or choose another print size.</p>
+                    </div>
+                  </div>
+                </div>	
+					<!--Questions13-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">How do I move photos from one collection to another?<span class="ico"></span></h5>
+					<!--Answer13-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;"> You can select a collection on the "MY PHOTOS" or "UPLOAD" page. Click the “ORGANIZE” button towards the upper right. You can now click and drag the image to the desired collection. </p>
+                    </div>
+                  </div>
+                </div>						
+					<!--Questions14-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">How can I delete a photo?<span class="ico"></span></h5>
+					<!--Answer14-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;"> Click on “MY PHOTOS' in the red banner at the top of your screen to see your collections. Click on a photo to highlight it and then click on the "Delete" trash can icon in the upper right of the page. </p>
+                    </div>
+                  </div>
+                </div>	
+					<!--Questions15-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">How do I delete a collection of photos?<span class="ico"></span></h5>
+					<!--Answer15-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;"> From the "MY PHOTOS" or "UPLOAD" page click on the collection that you would like to delete. Once the collection is open, click the "Options" button in the upper middle part of the screen. On the window that pops up click “Delete Collection”. </p>
+                    </div>
+                  </div>
+                </div>	
+					<!--Questions16-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">Can I download my pictures?<span class="ico"></span></h5>
+					<!--Answer16-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;"> Yes. Select the image that you would like to download and then click the "Download" icon at the upper right of the page. Please note that you can download only one image at a time. </p>
+                    </div>
+                  </div>
+                </div>	
+					<!--Questions17-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">Can I edit my photos on Ritzpix?<span class="ico"></span></h5>
+					<!--Answer17-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;"> Yes. If you would like to edit an image, click on the image and then click the "Edit" pencil icon at the right. A dropdown menu will appear. Choose either Adobe Creative Cloud or PicMonkey to edit your image.  </p>
+                    </div>
+                  </div>
+                </div>	
+					<!--Questions18-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">Do you color-correct my photos?<span class="ico"></span></h5>
+					<!--Answer18-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;"> Yes. We use a system called Image Intelligence to color-correct images. If you would like us not color-correct your images, please send an email to customerserv@ritzpix.com with the order number and request that Image Intelligence be turned off </p>
+                    </div>
+                  </div>
+                </div>	
+					<!--Questions19-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">Do you automatically crop photos?<span class="ico"></span></h5>
+					<!--Answer19-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;"> No. If you wish, you can crop your photos during the checkout process. The full bleed option allows you to select which part of the image you want cropped. If you want to see the entire image, the “Fit to Page” option will put 2 white borders along the edges of the print to ensure that the entire image is shown. </p>
+                    </div>
+                  </div>
+                </div>	
+					<!--Questions20-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">How do I log in with my Facebook account?<span class="ico"></span></h5>
+					<!--Answer20-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;"> From the "MY PHOTOS" page, click on the downward arrow next to "MY PHOTOS" on the left side of the screen. From the dropdown menu click on the Facebook. </p>
+                    </div>
+                  </div>
+                </div>	
+					<!--Questions21-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">How do I share photos on RitzPix?<span class="ico"></span></h5>
+					<!--Answer21-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;"> Click on the collection you would like to share on the My Photos page. Then click the “Share” button located towards the upper middle of the page. </p>
+                    </div>
+                  </div>
+                </div>	
+					<!--Questions22-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">Can I order a CD of my pictures?<span class="ico"></span></h5>
+					<!--Answer22-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;"> Yes, during the checkout process you will be able to select if you would like to order a CD of the images in your order. </p>
+                    </div>
+                  </div>
+                </div>	
+					<!--Questions23-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">Questions<span class="ico"></span></h5>
+					<!--Answer23-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;"> Answer </p>
+                    </div>
+                  </div>
+                </div>	
+					<!--Questions24-->
+ 				<div class="shortcode_toggles_shortcode toggles">
+                  <h5 data-count="3" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">Questions<span class="ico"></span></h5>
+					<!--Answer24-->
+                  <div class="shortcode_toggles_item_body">
+                    <div class="ip" style="padding-top:25px;">
+                      <p style="font-size:11px;padding-bottom:15px;text-align:center;"> Answer </p>
+                    </div>
+                  </div>
+                </div>	
+				
+                    </div>
+                  </div>
+                </div>
+              </div>
+      </div>
+    </div>
+  </div>
+<!-- ********** this ends Umbraco main content ********** -->
+    <!-- END USER DEFINED CONTENT -->
+   
+     </div>
+
+
+    </div>
+
+    <footer id="footer" class="ng-cloak">
+<!-- [PagePart-begin] FooterBody -->
+
+<!-- ********** this starts Umbraco FooterBody ********** -->
+<!-- adb 2016-09-30 9:23am -->
+<div id="rvt-footer-content">
+<div class="the-footer">
+
+<!--==============================footer=================================-->    
+    <div class="footer">
+    	<div class="container">
+        	<div class="pre_footer">
+            	<div class="row">
+                	<div class="col-sm-3">
+                    	<div class="sidepanel widget_text footer_lists">
+                        	<h4 class="title">Prints &amp; Posters</h4>
+                        	<ul>
+								<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">Prints by Mail</a></li>
+								<li><a target="_top" href="/prints-enlargements">Photo Enlargements</a></li>
+								<li><a target="_top" href="/prints-enlargements/metallic-prints">Metallic Prints</a></li>
+								<li><a target="_top" href="/prints-enlargements/deep-matte-prints">Deep Matte Prints</a></li>
+								<li><a target="_top" href="/prints-enlargements/canvas-enlargements">Canvas Enlargements</a></li>
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">Big Print You</a></li>-->
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">4x6 Prints</a></li>-->
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">5x7 Prints</a></li>-->
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">8x10 Prints</a></li>-->
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">11x14 Enlargements</a></li>-->
+							</ul>
+                        </div>	
+                    </div>
+					<div class="col-sm-3">
+                    	<div class="sidepanel widget_text footer_lists">
+                        	<h4 class="title">Photo Products</h4>
+                        	<ul>
+								<li><a target="_top" href="/photo-books/classic">Classic Photo Books</a></li>
+								<li><a target="_top" href="/photo-books/premium">Premium Photo Books</a></li>
+								<li><a target="_top" href="/photo-books/lay-flat">Layflat Photo Books</a></li>
+								<!--<li><a target="_top" href="#">Square Photo Books</a></li>-->
+								<!--<li><a target="_top" href="#">8&half;x11 Photo Books</a></li>-->
+								<li><a target="_top" href="/cards-stationery/flat-photo-cards">Photo Cards</a></li>
+								<li><a target="_top" href="/cards-stationery/photo-note-cards">Note Cards</a></li>
+								<li><a target="_top" href="/create/catalog/bytype/24015/">Calendars</a></li>
+								<li><a target="_top" href="/photo-services">Photo Services</a></li>
+								<li><a target="_top" href="/photo-gifts">Gifts</a></li>								
+							</ul>
+                        </div>	
+                    </div>
+					<div class="col-sm-3">
+                    	<div class="sidepanel widget_text footer_lists">
+                        	<h4 class="title">Business &amp; Services</h4>
+                        	<ul>
+								<li><a target="_top" href="/about">About Us</a></li>
+								<!--<li><a href="#">RitzPix Blog</a></li>-->
+								<!--<li><a href="#">RitzPix Photo Patrol</a></li>-->
+								<li><a target="_top" href="/photo-services/photo-scanning-services">RitzPix Scanman Photo</a></li>
+								<!--<li><a href="#">Tax Exempt Sales</a></li>-->
+								<!--<li><a href="#">Picasa</a></li>-->
+								<li><a target="_top" href="/about/affiliate">Affiliates</a></li>
+								<li><a target="_top" href="/photo-prints/iphone-android-prints">iPhone/iPad App</a></li>
+								<!--<li><a target="_top" href="#">Special Offers</a></li>-->
+								<!--<li><a target="_top" href="#">What's New?</a></li>-->
+							</ul>
+                        </div>	
+                    </div>
+					<div class="col-sm-3">
+                    	<div class="sidepanel widget_text footer_lists">
+                        	<h4 class="title">Help &amp; Support</h4>
+                        	<ul>
+								<li><a target="_top" href="/help/privacy-statement">Privacy Statement</a></li>
+								<li><a target="_top" href="/help/terms-and-conditions">Terms &amp; Conditions</a></li>
+								<li><a target="_top" href="/help/pricing">Pricing + Shipping</a></li>
+								<li><a target="_top" href="/trackorder">Order Status</a></li>
+								<li>&nbsp;</li>
+								<li><a target="_top" href="/stores">Find a Store</a></li>
+								<!--<li><a target="_top" href="#">Videos</a></li>-->
+								<!--<li><a target="_top" href="#">FAQ</a></li>-->
+								<!--<li><a target="_top" href="#">Sitemap</a></li>-->
+							</ul>
+                            <!--signup form-->
+                            <div class="form-signup">
+							<form action="https://echo2.bluehornet.com/phase2/bullseye/contactupdate1.php3" method="POST" onsubmit="return doSubmit(this);" name="bullseye"  target="signup" id="bullseye">
+								<script language='javascript' src='https://echo2.bluehornet.com/two/phase2/bhecho_files/smartlists/check_entry.js'></script>
+								<!--
+								<script language='javascript' src='https://echo2.bluehornet.com/two/phase2/bhecho_files/smartlists/check_entry.js?_=1478169701132'></script>
+								<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+								<script language="javascript">
+									function check_cdfs(form) {
+													return true;
+									}
+								</script>
+								<script language='javascript' type='text/javascript'>
+									function doSubmit() {
+										if (check_cdfs(document.survey)) {
+											window.open('','signup','resizable=1,scrollbars=0,width=300,height=150,top=450,left=500');
+											return true;
+										}  
+										else { return false; } 
+									}
+								</script>
+								<style type="text/css">
+									body{
+										background-color:#FFFFFF;
+									}
+								</style>
+										<div class="form-value">
+										<input type=hidden name="cid" value="1c74d6ce862473fa1026fdcb7f4e99a7">
+										<div align="right" class="label">Sign up for RitzPix news</div>
+										
+										<div class="email-input"><input id="email" required type="text" value="" placeholder="email address" name="email"></div>
+                                        <div class="submit-input">
+										<input id="SubmitBullsEye" type="submit" name="SubmitBullsEye" value="Submit">
+										<input type=hidden name='grp[]' value='485959'> 
+										<input type='hidden' name='fontface' value='Arial, Helvetica, sans-serif'>
+										<input type='hidden' name='fontsize' value='12px'>
+										<input type='hidden' name='background_color' value='#FFFFFF'>
+										<input type='hidden' name='textColor' value='#000000'>
+										<input type='hidden' name='schema' value='echo2'>
+										</div>
+										<div class="col-sm-12"><input type='hidden' name='message' value="Thank you. Your information has been submitted. To ensure delivery of your newsletter(s), please add customerserv@Ritzpix.com to your address book or spam filter whitelist, or tell your company's IT group to allow this address to pass through any filtering software they may have set up."></div>
+										</div>
+							</form>
+                            </div>
+							<!--End signup form-->
+                        </div>	
+                    </div>		
+                </div>
+            </div>
+            <div class="footer_bottom pb20">
+				<div class="col-sm-3 pl0">
+					<div class="footer_brands">
+						<ul>
+							<li><img src="/media/images/brand_icon_wolf.jpg" class="img-responsive" alt="" /></li>
+							<li><img src="/media/images/brand_icon_inkleys.jpg" class="img-responsive" alt="" /></li>
+							<li><img src="/media/images/brand_icon_ritz.jpg" class="img-responsive" alt="" /></li>
+							<!--<li><img src="/media/images/brand_icon_cameraswest.jpg" class="img-responsive" alt="" /></li>
+							<li><img src="/media/images/brand_icon_cameraworld.jpg" class="img-responsive" alt="" /></li>-->
+						</ul>
+					</div>
+				</div>
+				<div class="col-sm-2 col-xs-12">
+<a href="https://itunes.apple.com/us/app/ritzpix-one-hour-prints-enlargements/id487269133?mt=8" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;"></a></li>
+				</div>
+				<div class="col-sm-2 col-xs-12">
+                	<img id="trustwaveSealImage" src="https://sealserver.trustwave.com/seal_image.php?customerId=w6oj3BxxrlKu4gUB1cFEuabiX2IgvC&amp;size=105x54&amp;style=" border="0" style="cursor:pointer;" onclick="javascript:window.open('https://sealserver.trustwave.com/cert.php?customerId=w6oj3BxxrlKu4gUB1cFEuabiX2IgvC&amp;size=105x54&amp;style=normal', 'c_TW', 'location=no, toolbar=no, resizable=yes, scrollbars=yes, directories=no, status=no, width=615, height=720'); return false;" oncontextmenu="javascript:alert('Copying Prohibited by Law - Trusted Commerce is a Service Mark of TrustWave Holdings, Inc.'); return false;" translate="" translate-attr-alt="Checkout_Trustwave" translate-attr-title="Checkout_Trustwave" class="ng-scope" alt="This site protected by Trustwave's Trusted Commerce program" title="This site protected by Trustwave's Trusted Commerce program">
+					
+				</div>
+				<div class="col-sm-2 col-xs-12">
+				<span id="siteseal"><img style="cursor:pointer;cursor:hand" src="https://seal.godaddy.com/images/3/en/siteseal_gd_3_h_l_m.gif" onclick="verifySeal();" alt="SSL site seal - click to verify"></span></li>
+				</div>
+				<div class="col-sm-3 pr0 col-xs-12">
+					<div class="footer_ritzsocials">
+						<ul>							
+							<li><a href="https://fb.me/RitzPix"><span class="contact_info_icon iconcolor-facebook"><i class="icon-facebook"></i></span></a></li>
+                            <li><a href="https://plus.google.com/+Ritzpix"><span class="contact_info_icon iconcolor-googleplus"><i class="icon-google-plus"></i></span></a></li>
+							<!--<li><a href="#"><span class="contact_info_icon iconcolor-twitter"><i class="icon-twitter"></i></span></a></li>-->
+							<!--<li><a href="#"><span class="contact_info_icon iconcolor-youtube"><i class="icon-youtube"></i></span></a></li>-->
+							<!--<li><a href="#"><span class="contact_info_icon iconcolor-pinterest"><i class="icon-pinterest"></i></span></a></li>-->
+						</ul>
+                    </div>
+				</div>  
+					<div class="col-sm-12 col-xs-12">
+					<div class="copyright">&copy; 2017 RitzPix LLC.  All Rights Reserved.</div>
+
+				<div class="clear"></div>				
+            </div>
+        </div>
+    </div>   
+    <div class="fixed-menu"></div>	
+</div>
+</div>	
+    
+ <style>
+.form-signup {
+  border-top: 1px solid #484b51;
+  float: left;
+  margin-top: 30px;
+  padding-top: 30px;
+  width: 100%;
+}
+.form-signup .form-value, .form-signup .form-value .label{ width:100%; float:left;}
+.form-signup .form-value .label{
+  color: #9aa0ac !important;
+  font-family:"Lato",sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+  padding: 0 !important;
+   margin-bottom: 15px;
+  text-align: left !important;
+}
+
+.form-signup .form-value .email-input{ width:65%; float:left;}
+.form-signup .form-value .submit-input{ width:34%; float:right;}
+.form-signup .form-value .email-input input {
+    border: medium none !important;
+    border-radius: 5px 0 0 5px !important;
+    height: 35px !important;
+    margin-bottom:0 !important;
+}
+.form-signup .form-value .submit-input input {
+  border-radius: 0 5px 5px 0 !important;
+  margin-bottom: 0 !important;
+}
+
+@media ( max-width:1200px){
+.form-signup .form-value .submit-input input {
+  border-radius: 0 5px 5px 0 !important;
+  font-size: 12px !important;
+  margin-bottom: 0 !important;
+  padding: 0 5px !important;
+  width: 100%;
+}
+}
+    </style>
+    
+<!-- ********** this ends Umbraco FooterBody ********** -->
+   
+<!-- [PagePart-end] FooterBody -->
+
+    </footer>
+</div>
+
+
+<script type="text/javascript">
+    
+try {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-32258-1', {
+
+        'userId': '664489239',
+
+        'cookieDomain': '.ritzpix.com'
+    });
+
+    ga('require', 'displayfeatures');
+
+
+    ga('create', 'UA-3487814-1', {
+'name': 'DealerTracker',
+
+        'userId': '664489239',
+
+        'cookieDomain': '.ritzpix.com'
+    });
+
+
+} catch (ex) {}
+
+</script>
+
+<script src="//cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+<script src="//cdn.jsdelivr.net/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="//cdn.jsdelivr.net/lodash/4.13.1/lodash.min.js" type="text/javascript"></script>
+<script src="//cdn.jsdelivr.net/toastr/2.1.2/toastr.min.js"></script>
+
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-animate.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-cookies.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-sanitize.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-touch.min.js"></script>
+
+<script src="/bundles/vendor/js?v=N6ILRhJMbITtss5_gGzcyWNTGG9MfRW932n2oev47MQ1"></script>
+
+<script src="/bundles/app/js?v=lEKG6wljayjwhXhc52vu02z_QHh14mYBbvyBmRNRP_E1"></script>
+
+
+<script>
+    (function (pf) {
+        pf.allowSharing = true;
+        pf.apiKey = "x3p4dr7thuGaYabrudEd";
+        pf.apiUrl = "https://api3.photofinale.com/";
+        pf.currencyCulture = "en-US";
+
+        pf.dealerName = pf.dealer.name = "RitzPix";
+        pf.dealerCode = pf.dealer.code = "6275";
+        pf.dealerCountry = pf.dealer.country = "US";
+        pf.dealerEmail = pf.dealer.email = "ritzpix@ritzcamera.com";
+        pf.dealerPhone = pf.dealer.phone = "1-800-225-9799";
+
+        pf.dealer.options.demandware = false;
+        pf.dealer.options.dpi_threshold = 150;
+        pf.dealer.options.express_upload_dpi = 1344;
+        pf.dealer.options.fast_upload_dpi = 1800;
+        pf.dealer.options.hide_country_on_delivery = true;
+        pf.dealer.options.hide_print_cropping_options = false;
+        pf.dealer.options.offer_prepayment_only_when_required = false;
+        pf.dealer.options.prevent_multiple_coupons = false;
+
+        pf.domain = "https://www.ritzpix.com";
+        pf.facebookAppId = "416181621769399";
+        pf.instagramAppId = "a792c3a385e6478a83e9adf3e81523cb";
+        pf.isPrintNetwork = false;
+        pf.region = "en-US";
+        pf.secureDomain = "https://www.ritzpix.com";
+        pf.serviceDomain = "https://www.ritzpix.com";
+        pf.trackingId = "664489239";
+        pf.googleMapsApiKey = "";
+
+        pf.analytics.dealerUa = "UA-3487814-1";
+        pf.analytics.domain = ".ritzpix.com";
+        pf.analytics.enabled = true;
+        pf.analytics.trackDealer = true;
+        pf.analytics.ua = "UA-32258-1";
+
+        pf.ui.availableLanguages = [
+            {name:'Español', value:'es-ES'},{name:'Suomi', value:'fi-FI'},{name:'Français', value:'fr-CA'},{name:'Italiano', value:'it-IT'},{name:'日本語', value:'ja-JP'},{name:'Norsk (Bokmål)', value:'nb-NO'},{name:'English', value:'en-US'},{name:'Svenska', value:'sv-SE'}
+        ];
+        pf.ui.blockUploads = false;
+        pf.ui.creativeMode = "silverlight";
+        pf.ui.hasCustomContent = true;
+        pf.ui.isPFAtKiosk = false;
+        pf.ui.isMobileDevice = false;
+        pf.ui.isSilverlightDisabled = true;
+        pf.ui.links = {
+            $default: "default.aspx",
+            continueShopping: "https://www.ritzpix.com/mobile/prints",
+            create: "https://www.ritzpix.com/mobile/create",
+            forgotPassword: "https://www.ritzpix.com/forgotpassword",
+            prints: "https://www.ritzpix.com/mobile/prints"
+        };
+
+        pf.user.isAuthenticated = false;
+
+pf.user.personId = '664489239';
+        pf.sourceApplication = pf.ui.isPFAtKiosk ? "PF Kiosk" : String.format("Photo Finale Mobile ({0})", Browser.mobileDevice.any() ? "mobile" : "desktop");
+
+    }(window.PF = window.PF || {}));
+</script>
+
+
+
+
+
+
+<!-- [PagePart-begin] FooterExtra -->
+
+<!-- ********** this starts Umbraco FooterExtra-Mobile ********** -->
+ 	
+    <!-- comment out for umbraco, keep in for localhost dev -->
+	<!--script src="//cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+	<script src="//cdn.jsdelivr.net/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript"></script-->   
+    <!-- end -->
+
+
+	<script type="text/javascript" src="/media/js/modules.js"></script>	
+	<script type="text/javascript" src="/media/js/theme.js"></script> 
+	
+	<script type="text/javascript" src="/media/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="/media/js/jquery.themepunch.revolution.min.js"></script>    
+	
+	<script type="text/javascript" src="/media/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="/media/js/sorting.js"></script>
+
+   <!-- <script src="media/js/new-theme/owl.carousel.min.js"></script>-->
+    <!--<script src="media/js/new-theme/custom.js"></script>-->
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="/media/js/jquery.easing.min.js"></script>
+    <script type="text/javascript">
+        var theNewScript = document.createElement("script");
+        var srcAttr = $('#s-include').data('include');
+        if (srcAttr != null) {
+            theNewScript.type = "text/javascript";
+            theNewScript.src = $('#s-include').data('include');
+            $('script[src="/media/js/jquery.easing.min.js"]').after(theNewScript);
+        }
+    </script>
+	
+    <script type="text/javascript">
+		jQuery(document).ready(function() {
+if(typeof irEvent !== 'undefined'){
+  irEvent.setOrderId(oid);
+  irEvent.addItem("sale","sale",subTotalMinusDiscount,"1");
+  //irEvent.setAmount(subTotalMinusDiscount);
+  irEvent.fire();
+}
+		   "use strict";			   						
+		   jQuery('.fullscreen_slider').show().revolution({
+				delay: 0,
+				startwidth: 1170,
+				startheight: 765,
+				fullWidth:"off",
+				fullScreen:"on",
+				navigationType:"bullet",
+				fullScreenOffsetContainer: ".main_header",
+				fullScreenOffset: ""
+			});
+      
+      if (PF.user.isAuthenticated) {
+        jQuery('.top-band .fright ul').prepend('<li>Hello, ' + PF.user.firstName + '!</li>');
+        jQuery('#top-join').html('<a href="/signout.aspx" target="_top">Sign Out</a>');
+        jQuery('#top-signin').html('<a href="/account" target="_top">Account</a>');
+        jQuery('#top-join1').html('<a href="/signout.aspx" target="_top">Sign Out</a>');
+        jQuery('#top-signin1').html('<a href="/account" target="_top">Account</a>');
+      }
+      else if (window.location.href.indexOf("signin") > -1) {
+        // Don't show signin link on the signin page
+      }
+      else {
+        jQuery('#top-join').html('<a href="/signup?membershipId=335445" target="_top">Join</a>');
+        jQuery('#top-signin').html('<a href="/signin" target="_top">Sign In</a>');
+        jQuery('#top-join1').html('<a href="/signup?membershipId=335445" target="_top">Join</a>');
+        jQuery('#top-signin1').html('<a href="/signin" target="_top">Sign In</a>');
+      }
+      
+		});
+		
+		// button popup on product details pages
+		function centerModal() {
+			$(this).css('display', 'block');
+			var $dialog = $(this).find(".modal-dialog");
+			var offset = ($(window).height() - $dialog.height()) / 2;
+			// Center modal vertically in window
+			$dialog.css("margin-top", offset);
+		}
+
+		$('.modal').on('show.bs.modal', centerModal);
+		$(window).on("resize", function () {
+			$('.modal:visible').each(centerModal);
+		});
+		
+		
+		// all products page gallery
+		items_set = [                    
+			{src : '/media/images/gallery/16.jpg', zoom : '/media/images/gallery/16.jpg', url : '#', sortcategory: 'gifts', title: 'Unde Sed ut', itemcategory: 'Print Design'},
+			{src : '/media/images/gallery/17.jpg', zoom : '/media/images/gallery/17.jpg', url : '#', sortcategory: 'books', title: 'Tempore Nam Libero', itemcategory: 'Business'},
+			{src : '/media/images/gallery/18.jpg', zoom : '/media/images/gallery/18.jpg', url : '#', sortcategory: 'wall', title: 'Dolores Magni', itemcategory: 'People'},
+			{src : '/media/images/gallery/19.jpg', zoom : '/media/images/gallery/19.jpg', url : '#', sortcategory: 'books', title: 'Unde Sed ut', itemcategory: 'Print Design'},
+			{src : '/media/images/gallery/20.jpg', zoom : '/media/images/gallery/20.jpg', url : '#', sortcategory: 'wall books', title: 'Tempore Nam Libero', itemcategory: 'Business'}
+		];
+		jQuery('#list').portfolio_addon({
+			type : 0, // wall portfolio
+			load_count : 5,
+			items : items_set
+		});
+
+	</script> 
+  <script>
+    jQuery(document).ready(function($){
+      $('a.scroll-down').on('click', function(e){
+        e.preventDefault();
+        var target = $(this.hash);
+        var metalOffset = 158;
+        if($(window).scrollTop() > 100){
+          metalOffset = 100;
+        }
+        if(target.length){
+          $('html, body').animate({
+            scrollTop: target.offset().top - metalOffset
+          }, 1000);
+          return false;
+        }
+      });
+      
+      $('.sizes').on('click', function(){
+        $(this).addClass('sizeSelected');
+        var productLink = $(this).val();
+        $('#url').attr('href', productLink);
+        var metalImg = $(this).attr('data-img-url');
+        $('#metal-image').attr('src', metalImg);
+        $('.sizes').each(function(){
+          $(this).closest('.row').removeClass('selected-size');
+        });
+        $(this).closest('.row').addClass('selected-size');
+      });
+    });
+    
+    $(window).scroll(function(){
+      if($(document).scrollTop() > 58){
+        $('.masthead').addClass('fixed-metal-nav');
+      }
+      else{
+        $('.masthead').removeClass('fixed-metal-nav');
+      }
+    });
+  </script>
+
+    <script type="text/javascript">
+        $(function () {
+            //fixed nav spacing sdjust for acroll
+            var spacingAdjust = 73;
+            if (window.matchMedia('(max-width: 767px)').matches) {
+                 spacingAdjust = 0;
+            }
+
+            //collapse show
+            $('#gift-tabs a').click(function (e) {
+                e.preventDefault()
+                $(this).tab('show')
+            });
+            //scroll to shown collapse
+            $('a.cat-link').click(function (e) {
+                e.preventDefault();
+            });
+            $(".cat-collapse").on("shown.bs.collapse", function () {
+                $('html, body').animate({
+                    scrollTop: $(this).offset().top - spacingAdjust
+                }, 500);
+            });
+            $(".cat-collapse").on("hidden.bs.collapse", function () {
+                $('html, body').animate({
+                    scrollTop: $(this).prev().offset().top - spacingAdjust
+                }, 500);
+            });
+            //Enter
+            $('#enter-btn').click(function () {
+                $('html, body').animate({
+                    scrollTop: $('#gift-tabs').offset().top - spacingAdjust
+                }, 500, function () {
+                        $('#gift-tabs li:first-child a').click();
+                });
+            });
+            //collapsed categories on mobile
+            if (window.matchMedia('(max-width: 480px)').matches) {
+                $('.cat-collapse').removeClass('in');
+            }
+        });
+</script>
+
+<!-- Facebook Pixel code -->
+<script>
+try {
+
+function FireFBPixel()
+{
+
+console.log('Start FacebookPixel Test 2');
+var pageUrl = window.location.href;
+
+console.log('2pageUrl =' +pageUrl );
+if( (pageUrl.indexOf("/photo-prints") != -1) || (pageUrl.indexOf("/photo-books") != -1) || (pageUrl.indexOf("/photo-gifts") != -1)   ) {
+    console.log('2calling fbq track ViewContent + fbq =' + typeof (fbq) );
+    fbq('track', 'ViewContent', {value: 0.00,currency: 'USD'});
+}
+else if( (pageUrl.indexOf("/cart") != -1) || (pageUrl.indexOf("/checkout/review") != -1)  ) {
+    console.log('2calling fbq track AddToCart + fbq =' + typeof (fbq) );
+    fbq('track', 'AddToCart', {value: 0.00,currency: 'USD'});
+}
+else if( pageUrl.indexOf("/checkout/options") != -1  ) {
+    console.log('2calling fbq track InitiateCheckout + fbq =' + typeof (fbq) );
+    fbq('track', 'InitiateCheckout');
+}
+else if( pageUrl.indexOf("/checkout/confirmation") != -1  ) {
+   console.log('2calling fbq track purchase + fbq =' + typeof (fbq) );
+    fbq('track', 'Purchase', {value: 0.00,currency: 'USD'});
+}
+
+} /* end FireFBPixel */
+$(document).on("$viewContentLoaded", function() {
+  var fbTimeout;
+   fbTimeout = setTimeout(FireFBPixel, 3000);
+
+});
+
+} catch (err) { console.log('FB Pixel error:' + err.message); }
+</script>
+<!-- End: Facebook Pixel code -->
+
+
+ 
+ <!-- ********** this ends Umbraco FooterExtra-Mobile ********** -->
+   
+<!-- [PagePart-end] FooterExtra -->
+
+</body>
+</html>
