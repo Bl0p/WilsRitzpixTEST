@@ -1,0 +1,290 @@
+/* ritzpix.com styles */
+/*@import url('bootstrap.min.css');*/
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+  color:#555555;
+  line-height:15px;
+  width:100%;
+  background-color:#fff;
+}
+#content {
+  position:relative;
+  top:0;
+  display:inline;
+}
+.rp-quicklinks .btn, .rp-search .btn {
+  border-radius:4px;
+  line-height: 1.42857143;
+  font-weight:normal;
+}
+.rp-quicklinks .btn-default:hover, .rp-search .btn-default:hover {
+  color: #333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+.rp-quicklinks .btn-info:hover {
+  color: #ffffff;
+  background-color: #39b3d7;
+  border-color: #269abc;
+}
+/*
+.rp-search .btn-default:hover {
+  color: #333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}*/
+div.accountBar {
+  width:100%;
+  padding-top:5px;
+  padding-bottom:5px;
+  background-color:#eee;
+  text-align:right;
+}
+.accountBar .fa-shopping-cart {font-size:16px;}
+.navbar-default {background-color:#fff;}
+.navbar-brand img {width:100%; height:auto;}
+div#join-signin {
+  width:300px;
+  padding-top:5px;
+}
+span.welcometext { 
+  color:#ec1b23;
+  font-size:15px;
+  text-decoration:underline;
+  white-space:nowrap;
+  vertical-align:middle;
+  font-weight:bold;
+}
+a.welcometext-nologin { 
+  color:#ec1b23;
+  font-size:15px;
+  text-decoration:underline;
+  white-space:nowrap; 
+  vertical-align:middle;
+  font-weight:bold;
+}
+.rp-divider {padding:0px 5px;}
+a#signInLink {
+  color:#405ef4;
+  vertical-align:middle;
+}
+.rp-quicklinks {
+  float:right;
+  margin-top:10px;
+}
+.rp-quicklinks a{
+  color:#000;
+  font-size:12px;
+}
+li.my-account {display:none;}
+li.my-account span.fa {width:20px;}
+.btn-info {
+  background-color:rgba(91, 192, 222, 0.26);
+}
+.btn-default {
+  background-color:#f1f1f1;
+}
+.navbar-nav>li>a {
+  padding:10px 14px;
+  font-size:14px;
+  color:#000;
+}
+#header .navbar .navbar-collapse .dropdown-menu {
+  right:auto;
+  left:auto;
+}
+.rp-search {
+  width:200px;
+  float:right;
+}
+.fa.fa-search {
+  line-height:1.3;
+  font-size:22px;
+  padding-left:5px;
+}
+a.fa-search {
+  color:#777;
+}
+a.fa-search:hover {
+  color:#000;
+  text-decoration:none;
+}
+
+#rp-main {
+  margin:0 auto;
+  padding-left:6px;
+  padding-right:6px;
+}
+#rp-main .breadcrumb {padding:0; background-color:#fff; margin-bottom:5px;}
+#rp-main #pagetitle {width:100%; border-bottom:#bbb solid 1px; height:25px; margin-bottom:10px;}
+#rp-main #pagetitle h1 {font-size:20px; color:#000; display:block; float:left; margin:0px; font-weight:bold;}
+
+#rp-main .page-desc{
+  font-size:14px;
+  line-height:1.4em;
+  margin-bottom:34px;
+}
+#rp-main .page-desc img {
+  float:right;
+  width:32%;
+  min-width:198px;
+  max-width:329px;
+  height:auto;
+  border:0;
+}
+#rp-main .page-desc .btn-danger{
+  border-width:2px;
+  text-shadow:1px 1px 3px #000;
+}
+#rp-main .page-desc .btn-danger:hover{
+  color:#fff;
+  background-color:#d2322d;
+  border-color:#ac2925;
+}
+#rp-main .pricetable td {
+  border-top:none;
+  line-height:1em;
+}
+#rp-main .panel-default.pricetable {
+  border-radius:8px;
+}
+#rp-main .pricetable .panel-heading{
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+}
+
+#rp-main .ios-app img{
+  width:100%;
+  max-width:215px;
+  border:0;
+}
+#rp-main .ios-app .col-sm-7 {padding-top:16px;}
+#rp-main .block-head-red {font-weight:bold;color:#ec1b2e;font-size:2.2em;margin-top:20px;}
+#rp-main .block-head-black {font-weight:bold;color:#000;font-size:2.2em;margin-top:20px;}
+#rp-main .block-text{font-size:1.2em;line-height:1.4em;margin-bottom:10px;}
+
+#rp-main .productbox{
+  border: 1px solid #ddd;
+  margin:10px;
+}
+#rp-main .productbox h3 {
+  margin:0px;
+  text-align:center;
+  background-color:#ddd;
+}
+#rp-main .productbox .caption a {color:#000;}
+#rp-main .productbox .caption a:hover {text-decoration:none;}
+#rp-main .productbox .productbox-foot {
+  position:absolute;
+  bottom:5px;
+  width:100%;
+}
+#rp-main .productbox .productbox-foot a {
+  float:right;
+  margin-right:37px;
+}
+#rp-main .productbox .thumbnail{
+  border:none;
+}
+
+
+#rp-footer {margin:0 auto;}
+#rp-footer .rp-disclaimer {font-size:11px; margin-left:20px;}
+#rp-footer .list-group-item {
+  border:none;
+  padding:4px;
+}
+#rp-footer .panel-default { margin-bottom:0; min-height:281px; }
+#rp-footer .panel-body { padding:11px; }
+#rp-footer .list-group { margin-bottom:0; }
+#rp-footer .rp-copyright { text-align:center; padding-top:10px; padding-bottom:40px;}
+
+.m-footer{
+  display:none;
+  width:100%;
+  text-align:center;
+}
+.m-footer a{
+  font-size:56px;
+  color:#000;
+  padding:10px;
+}
+
+@media (max-width:300px){
+  a.navbar-brand {width:70%;}
+}
+@media (max-width:767px){
+  #header .navbar .navbar-collapse {
+    float:none !important;
+  }
+  .accountBar {
+    display:none;
+  }
+  .rp-quicklinks {
+    margin-top:0px;
+    padding-top:10px;
+    padding-left:10px;
+    float:left;
+  }
+  .rp-quicklinks .btn-lg {
+    padding:7px 5px;
+    width:auto;
+    margin-bottom:5px;
+  }
+  .rp-search {
+    padding-top:10px;
+  }
+  div#join-signin {
+    margin-left:14px;
+  }
+  .container {padding-right:15px;}
+  .rp-quicklinks .btn {display:none;}
+  li.my-account {display:block;}
+}
+@media (min-width:992px) and (max-width:1199px){
+  #join-signin {
+    float:right;
+    margin-top:20px;
+  }
+}
+@media (max-width:500px){
+  .rp-search {
+    float:left;
+    padding-left:10px;
+  }
+  #rp-main #pagetitle h1 {font-size:17px;}
+  .hide-small, .nav > li.hide-small{display:none;}
+  .m-footer { display:block; }
+}
+@media (min-width:768px){
+  #rp-main{width:750px;}
+  #rp-main .productbox .caption h3{font-size:17px;}
+  #rp-footer {width:750px;}
+  .container-sm-height {
+    display:table;
+    padding-left:0px;
+    padding-right:0px;
+    border-collapse:separate;
+    border-spacing:10px;
+  }
+  .row-sm-height {
+    display:table-row;
+  }
+  .col-sm-height {
+    display:table-cell;
+    float:none;
+  }  
+}
+@media (min-width:992px){
+  #rp-main{width:970px;}
+  #rp-main .page-desc img {width:100%;}
+  #rp-main .productbox .caption h3{font-size:24px;}
+  #rp-footer {width:970px;}
+  #rp-footer .five-col .col-md-1 {width:19.84%;}
+}
+@media (min-width:1200px){
+  #rp-main{width:1170px;}
+  #rp-footer {width:1170px;}
+}
+

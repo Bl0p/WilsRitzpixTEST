@@ -1,0 +1,217 @@
+/* ritzpix.com styles */
+/*@import url('bootstrap.min.css');*/
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+  color:#666;
+  /*line-height:15px;*/
+  background-color:#fff;
+}
+.page .page-caption .title
+{
+  overflow:visible;
+}
+.checkout-page .payment-page .payment-form .payment-method label {
+  line-height: initial;
+}
+.checkout-page .confirm-page .order-content .order-heading .confirmation-detail {
+  line-height: initial;
+}
+#rp-header .accountBar {
+  width:100%;
+  padding-top:5px;
+  padding-bottom:5px;
+  background-color:#eee;
+  text-align:right;
+}
+#rp-header .accountBar .fa-shopping-cart {font-size:16px;}
+#rp-header .welcometext { 
+  color:#ec1b23;
+  font-size:12px;
+  text-decoration:underline;
+  white-space:nowrap;
+  vertical-align:middle;
+  font-weight:bold;
+}
+#rp-header .welcometext-nologin { 
+  color:#ec1b23;
+  font-size:12px;
+  text-decoration:underline;
+  white-space:nowrap; 
+  vertical-align:middle;
+  font-weight:bold;
+}
+#rp-header .rp-quicklinks .btn,
+#rp-header .rp-search .btn {
+  border-radius:4px;
+  line-height: 1.42857143;
+  font-weight:normal;
+}
+#rp-header .rp-quicklinks .btn-default:hover,
+#rp-header .rp-search .btn-default:hover {
+  color: #333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+#rp-header .btn-info {
+  background-color:rgba(91, 192, 222, 0.26);
+}
+#rp-header .btn-default {
+  background-color:#f1f1f1;
+}
+#rp-header .rp-quicklinks .btn-info:hover {
+  color: #ffffff;
+  background-color: #39b3d7;
+  border-color: #269abc;
+}
+#rp-header .rp-quicklinks {
+  float:right;
+  margin-top:10px;
+}
+#rp-header .rp-quicklinks a{
+  color:#000;
+  font-size:12px;
+}
+
+#rp-header .my-account span.fa{ width:20px; }
+#rp-header .navbar-default{
+  border:none;
+}
+.rp-divider {padding:0px 5px;}
+#rp-header a, 
+#rp-main a, 
+#rp-footer a{
+  color:#099;
+}
+#rp-header a:hover, 
+#rp-main a:hover,
+#rp-footer a:hover{
+  color:#666;
+}
+#rp-header .navbar-default .navbar-nav > li > a:hover,
+#rp-header .navbar-default .navbar-nav > li > a:focus{
+  background:transparent;
+}
+#rp-header .container > .navbar-header{
+  margin-left:0px;
+  margin-right:0px;
+}
+#rp-header .navbar-default .navbar-toggle{
+  border:1px solid #ddd;
+  background:#eee;
+  width:100%;
+  margin-top:10px;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:5px;
+}
+#rp-header .navbar-default .navbar-toggle .icon-bar{
+  margin-left:auto;
+  margin-right:auto;
+}
+#rp-header .nav > li > a{
+  padding:10px;
+}
+
+#content {
+  /*position:relative;*/
+  top:127px;
+  display:inline;
+}
+
+#rp-main .breadcrumb{
+  background:transparent;
+  font-size:11px;
+  padding:0;
+  margin-bottom:5px;
+}
+#rp-main .breadcrumb>li+li:before{
+  content:"\00bb";
+}
+#rp-main .page-title{
+  margin-top:0;
+  background:#dfdfdf;
+  padding:5px 0px 5px 10px;
+  font-weight:bold;
+}
+#rp-main .product-box h4{
+  color:#099;
+  margin-top:0;
+  font-weight:bold;
+}
+#rp-main .product-box .thumbnail{
+  border:none;
+}
+#rp-main .product-box .btn-get-started{
+  background:#099;
+  color:#fff;
+  padding:2px 25px;
+  margin-top:10px;
+}
+#rp-main a.btn{
+  text-transform:none;
+  color:#fff;
+}
+#rp-main a.btn:hover{
+  color:#fff;
+}
+#rp-main .more-info h5,
+#rp-main .more-info h3{
+  font-weight:bold;
+}
+
+
+#rp-footer .m-footer{
+  text-align:center;
+}
+#rp-footer .m-footer{
+  color:#000;
+  padding:10px;
+  font-size:56px;
+}
+#rp-footer .rp-copyright{
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:40px;
+}
+#rp-footer .rp-disclaimer{
+  font-size:11px;
+}
+#rp-footer .list-group-item{
+  border:none;
+  padding:4px;
+}
+#rp-footer .panel-default{
+  margin-bottom:0;
+}
+#rp-footer .panel-body{
+  padding:11px;
+}
+#rp-footer .list-group{
+  margin-bottom:0;
+}
+
+
+@media (min-width:768px){
+  .container-sm-height {
+    display:table;
+    padding-left:0px;
+    padding-right:0px;
+  }
+  .row-sm-height {
+    display:table-row;
+  }
+  .col-sm-height {
+    display:table-cell;
+    float:none;
+  }   
+}
+@media (min-width:992px){
+  #rp-footer .five-col .col-md-1 {width:19.84%;}
+  #rp-header .navbar-nav.navbar-right{ margin-top:-10px; }
+}
+@media (min-width:1200px){
+  #rp-header #join-signin{
+    margin-top:19px;
+  }
+}

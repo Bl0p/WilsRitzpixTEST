@@ -1,0 +1,167 @@
+
+/* ######### CSS for Inverted Modern Bricks II Tabs. Remove if not using ######### */
+
+.modernbricksmenu2{
+padding: 0;
+background: transparent;
+voice-family: "\"}\"";
+voice-family: inherit;
+}
+
+.modernbricksmenu2 ul{
+margin:0;
+margin-left: 10px; /*margin between first menu item and left browser edge*/
+padding: 0;
+list-style: none;
+}
+
+.modernbricksmenu2 li{
+display: inline;
+margin: 0 2px 0 0;
+padding: 0;
+text-transform:uppercase;
+}
+
+.modernbricksmenu2 a{
+float: left;
+display: block;
+font: bold 11px Arial;
+color: white;
+text-decoration: none;
+margin: 3px; /*Margin between each menu item*/
+padding: 5px 10px;
+background-color: #bbbbbb; 
+border-top: 1px solid white;
+}
+
+.modernbricksmenu2 a:hover{
+background-color: #b61c1c; 
+color: white;
+}
+
+.modernbricksmenu2 a.selected{ /*currently selected tab*/
+background-color: #b61c1c; 
+color: white;
+border-color: #b61c1c;  
+}
+
+
+
+
+/* ######### CSS for Inverted Modern Bricks II Tabs. Remove if not using ######### */
+
+.bookspagetabs{
+padding: 0;
+background: transparent;
+voice-family: "\"}\"";
+voice-family: inherit;
+}
+
+.bookspagetabs ul{
+margin:0;
+margin-left: 10px; /*margin between first menu item and left browser edge*/
+padding: 0;
+}
+
+.bookspagetabs li{
+display: inline-block;
+margin: 0 2px 0 0;
+padding: 0;
+text-transform:uppercase;
+padding-bottom:10px;
+}
+
+.bookspagetabs a{
+float: left;
+display: block;
+font: bold 1.1em Arial;
+color: white;
+text-decoration: none;
+margin: 3px; /*Margin between each menu item*/
+padding: 8px 20px;
+background-color: #9CB1EB; 
+border-top: 1px solid white;
+}
+
+.bookspagetabs a:hover{
+background-color: #EC1B2E; 
+color: white;
+}
+
+.bookspagetabs a.selected{ /*currently selected tab*/
+background-color: #EC1B2E; 
+color: white;
+border-color: #EC1B2E;  
+}
+
+
+
+.tabcontent{
+display:none;
+}
+
+@media print {
+.tabcontent {
+display:block !important;
+}
+}
+
+.booktabcontent{
+display:none;
+}
+
+@media print {
+.booktabcontent {
+display:block !important;
+}
+}
+
+.booksizepagetabs{
+padding: 0;
+background: transparent;
+voice-family: "\"}\"";
+voice-family: inherit;
+}
+
+.booksizepagetabs ul{
+margin:0;
+margin-left: 10px; /*margin between first menu item and left browser edge*/
+padding: 0;
+}
+
+.booksizepagetabs li{
+display: inline-block;
+margin: 0 2px 0 0;
+padding: 0;
+text-transform:uppercase;
+padding-bottom:10px;
+width:16%;
+}
+
+.booksizepagetabs a{
+float: left;
+display: inline-block;
+font: bold 1.1em Arial;
+color: white;
+text-decoration: none;
+text-align:center;
+margin: 3px; /*Margin between each menu item*/
+padding: 8px 0px;
+width:100%;
+background-color: #9CB1EB; 
+border-top: 1px solid white;
+}
+
+.booksizepagetabs a:hover{
+background-color: #EC1B2E; 
+color: white;
+}
+
+.booksizepagetabs a.selected{ /*currently selected tab*/
+background-color: #EC1B2E; 
+color: white;
+border-color: #EC1B2E;  
+}
+
+
+
