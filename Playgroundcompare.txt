@@ -1,0 +1,519 @@
+      <!-- ********** this starts Umbraco main content rvt09292015 ********** -->
+  <div id="rvt-page-content">
+    <div class="the-page">
+
+      <!--==============================main/slider=================================-->
+<!-- this is a comment that does nothing -->
+      <div class="wrapper" style="background:#fff;">
+        <div class="container">
+          <div class="content_block row no-sidebar">
+            <div class="fl-container">
+              <div class="posts-block">
+                <div class="contentarea">
+                  <!-- Slider -->
+                  <div class="fw_block bg_start wall_wrap mb0">
+                    <div class="row" style="margin-left:0; margin-right:0;">
+
+                      <!-- Carousel -->
+                      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                          <li data-target="#myCarousel" data-slide-to="1"></li>
+                          <!--<li data-target="#myCarousel" data-slide-to="2"></li>-->
+                          <!--<li data-target="#myCarousel" data-slide-to="3"></li>-->
+                          <!--<li data-target="#myCarousel" data-slide-to="4"></li>-->
+                          <!--<li data-target="#myCarousel" data-slide-to="5"></li>-->
+                          <!--<li data-target="#myCarousel" data-slide-to="6"></li>-->
+                          <!--<li data-target="#myCarousel" data-slide-to="7"></li>-->
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+
+					<!-- This starts the slide section -->
+
+						<!-- Start Slide 1 -->
+						<div class="item active">
+                            <img class="first-slide" src="/media/images/slider-promos/dec-cards-books-prints_banner5.jpg" alt="first slide">
+                           <div class="container">
+                           		<div class="carousel-caption left-side animate" style="top:0; background-color:rgba(0,0,0,.4); height:350px;" data-anim-type="bounceInRight">
+                            		<h1 style="margin-top:20px; font-color:white; font-size:50px; line-height:55px;">40% Off</h1>
+                                    <h1 style="margin-top:0px; font-color:white; font-size:30px; line-height:55px;">All Gallery Wrapped Canvases</h1>
+                                    <hr class="hidden-xs" /><br> 
+                            		<p class="top20">Promo: WALLART  |  Ends Saturday</p>
+                            		<p><a class="shortcode_button btn_large btn_type5" href="/prints-enlargements/canvas-enlargements?coupon=WALLART" target="_top" role="button" data-anim-type="bounceInRight">CREATE NOW</a></p>
+								</div>
+                            </div>
+                          </div>
+                        <!-- End Slide 1 -->
+                        
+                        <!-- Start Slide 2 -->
+						<div class="item">
+                            <img class="second-slide" src="/media/images/slider-promos/jan-canvas-sale_banner2.jpg" alt="second slide">
+                           <div class="container">
+                           		<div class="carousel-caption right-side animate" style="top:0; background-color:rgba(0,0,0,.4); height:300px;" data-anim-type="bounceInRight">
+                            		<h1 style="margin-top:30px; font-color:white; font-size:50px; line-height:55px;">50% Off</h1>
+                                    <h1 style="margin-top:0px; font-color:white; font-size:30px; line-height:35px;">All Standard Prints</h1>
+                                    <h3 style="margin-top:0px; font-color:white; font-size:20px; line-height:25px;">with $20+ order</h3>
+                                    <hr class="hidden-xs" />
+                                    <p class="top20">Promo: ADMIRE  |  Ends Saturday</p> 
+                            		<p><a class="shortcode_button btn_large btn_type5" href="/prints-enlargements?coupon=ADMIRE" target="_top" role="button" data-anim-type="bounceInRight">PRINT AWAY</a></p>
+								</div>
+                            </div>
+                          </div>
+                        <!-- End Slide 2 -->
+                        
+                        <!-- Start Slide 3 -->
+                        
+                        
+                                                
+                        <!-- End Slide 3 -->
+                        
+                        <!-- Start Slide 4 -->
+                        
+                        
+                        
+                        <!-- End Slide 4 -->
+                        
+                        <!-- Slide 5 -->
+                        
+                        
+                        
+                        <!-- End Slide 5 -->
+                        
+                        <!-- Slide 6 -->
+                        
+                        <!-- End Slide 6 -->
+                        
+                        
+                        <!-- Slide 7 -->
+                         
+                        <!-- End Slide 7 -->
+                        
+                        
+                        <!-- Slide 8 -->
+                          
+                        <!-- End Slide 8 -->
+                        
+                        
+                        <!-- Slide 9 -->
+                          
+                        <!-- End Slide 9 -->
+                          
+                          
+                       </div>
+                        
+                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                      </div><!-- /.carousel -->
+                    </div>
+                  </div>
+                  <!-- //Slider -->
+                  <div class="fw_block bg_start wall_wrap mb0">
+				  <div style="text-align:center;">
+						  <a target="_top" href="mobile/create/catalog/byoccasion/27/40708"> <img SRC="/media/images/slider-promos/Valentines-2017_Homepage-Banner.jpg" alt="Valentine's Day Offer"/></a>
+							</div>
+							</div>
+						<div class="fw_block bg_start pt74 pb20 mb0">
+                  	<div class="row">
+                      <div class="col-sm-12 module_cont pb0">
+                        <div class="bg_title">
+
+                          <h2>Getting started is easy...</h2>
+                        </div>
+                      </div>
+                    </div>
+		
+					
+
+                    <div class="row skills_start">
+                      <div class="col-sm-12 module_cont pb0">
+                        <div class="shortcode_diagram items3">
+                          <ul class="diagram_list" data-bg="#ffffff" data-color="#e72126" data-width="5px" data-size="130px" data-fontsize="40px">
+                            <li class="diagram_li animate" data-anim-type="fadeInRight" data-anim-delay="300">
+                              <a href="/photo-prints" target="_top">
+                                <div class="diagram_wrapper">
+                                  <div class="diagram_item">
+                                    <div class="chart_wrapper">
+                                      <div class="chart" data-percent="100">
+                                        <div class="ico"><i class="icon-truck"></i></div>
+                                      </div>
+                                    </div>
+                                    <div class="diagram_content">
+                                      <h3>Click to Order Prints</h3>
+                                      <div class="diagram_descr">Free shipping for orders over $30!</div>
+                                      <div class="diagram_descr">Use Promo Code SHIPFREE</div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
+                            <li class="diagram_li animate" data-anim-type="fadeInLeft" data-anim-delay="300">
+                              <a href="https://www.ritzpix.com/signup?membershipId=335445" target="_top">
+                                <div class="diagram_wrapper">
+                                  <div class="diagram_item">
+                                    <div class="chart_wrapper">
+                                      <div class="chart" data-percent="100">
+                                        <div class="ico"><i class="icon-users"></i></div>
+                                      </div>
+                                    </div>
+                                    <div class="diagram_content">
+                                      <h3>Click To Join</h3>
+                                      <div class="diagram_descr">Join and get 50 4x6 prints FREE!</div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
+                            <!--
+                              <li class="diagram_li animate" data-anim-type="fadeInUp" data-anim-delay="250">
+                                <a href="/mycollections" target="_top">
+                                <div class="diagram_wrapper">
+                                  <div class="diagram_item">
+                                    <div class="chart_wrapper">
+                                      <div class="chart" data-percent="100">
+                                        <div class="ico"><i class="icon-photo"></i></div>
+                                      </div>
+                                    </div>
+                                    <div class="diagram_content">
+                                      <h3>Add Your Photos</h3>
+                                      <div class="diagram_descr">Upload is fast and easy.</div>
+                                    </div>
+                                  </div>
+                                </div>
+                                  </a>
+                              </li>
+                            -->
+                            <li class="diagram_li animate" data-anim-type="fadeInUp" data-anim-delay="250">
+                              <a href="/create" target="_top">
+                                <div class="diagram_wrapper">
+                                  <div class="diagram_item">
+                                    <div class="chart_wrapper">
+                                      <div class="chart" data-percent="100">
+                                        <div class="ico"><i class="icon-crop"></i></div>
+                                      </div>
+                                    </div>
+                                    <div class="diagram_content">
+                                      <h3>Click To Create</h3>
+                                      <div class="diagram_descr">Photo Books, Cards, Calendars &amp; More!</div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
+                          </ul>
+                          <div class="clear"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="fw_block bg_start pt74 pb0 grey_bg mb0">
+                    <div class="row">
+                      <div class="col-sm-12 module_cont pb80 module_feature_posts">
+
+
+                        <div class="featured_items">
+                          <div class="items3 featured_posts">
+                            <ul class="item_list">
+                              <li class="animate" data-anim-type="fadeInUp" data-anim-delay="250">
+                                <div class="item">
+                                  
+                                  <!-- Replaced With Guift Guide -->
+                                  <!-- Photo Books Section -->
+                                  <div class="item_wrapper">
+                                    <div class="img_block wrapped_img">
+                                      <img src="/media/images/promo_books.jpg" class="img-responsive" alt="" />
+                                      <span class="block_fade"></span>
+                                      <div class="post_hover_info">
+                                        <a class="featured_ico_link view_link" target="_top" href="/photo-books"><i class="icon-link"></i></a>
+                                      </div>
+                                    </div>
+                                    <div class="featured_items_body">
+                                      <div class="featured_items_title">
+                                        <h5><a target="_top" href="/photo-books">Create a unique photo book</a></h5>
+                                      </div>
+                                      <div class="featured_item_content">A custom photo book makes a great gift for any occasion.<br><br></div>
+                                      <div class="featured_meta">
+                                        <div class="date">
+                                          Starting From $6.99
+                                        </div>
+                                        <div class="comments">
+                                          <a target="_top" href="/photo-books" class="shortcode_button btn_small btn_ritzred mr0 mb0">Shop Now ></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                  <!-- Gift Guide Block -->
+                                  <!--<div class="item_wrapper">
+                                    <div class="img_block wrapped_img">
+                                      <img src="/media/images/ritzpixbannergiftguide340x2401.jpg" class="img-responsive" alt="" />
+                                      <span class="block_fade"></span>
+                                      <div class="post_hover_info">
+                                        <a class="featured_ico_link view_link" target="_top" href="/gift-guide"><i class="icon-link"></i></a>
+                                      </div>
+                                    </div>
+                                    <div class="featured_items_body">
+                                      <div class="featured_items_title">
+                                        <h5><a target="_top" href="/photo-books">75+ Gifts from the Heart up to 80% Off</a></h5>
+                                      </div>
+                                      <div class="featured_meta">
+                                        <div class="comments">
+                                          <a target="_top" href="/gift-guide" class="shortcode_button btn_small btn_ritzred mr0 mb0">Gift Guide</a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>-->
+                                  <!-- EndGift Guide Block -->
+                                  
+                                </div>
+                              </li>
+                              <li class="animate" data-anim-type="fadeInUp" data-anim-delay="250">
+                                <div class="item">
+                                  <div class="item_wrapper">
+                                    <div class="img_block wrapped_img">
+
+                                      <img src="/media/images/photos-scattered_340x240.jpg" class="img-responsive" alt="" />
+                                      <span class="block_fade"></span>
+                                      <div class="post_hover_info">
+                                        <a target="_top" class="featured_ico_link view_link" href="/photo-prints"><i class="icon-link"></i></a>
+                                      </div>
+                                    </div>
+                                    <div class="featured_items_body">
+                                      <div class="featured_items_title">
+                                        <h5><a target="_top" href="/photo-prints">Prints</a></h5>
+                                      </div>
+                                      <div class="featured_item_content">We offer high quality prints in a variety of papers types and sizes.<br><br></div>
+                                      <div class="featured_meta">
+                                        <div class="date">
+                                          Starting From <strong>9&#162;</strong>
+                                        </div>
+                                        <div class="comments">
+                                          <a target="_top" href="/photo-prints" class="shortcode_button btn_small btn_ritzred mr0 mb0">Shop Now ></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="animate" data-anim-type="fadeInUp" data-anim-delay="350">
+                                <div class="item">
+                                  <div class="item_wrapper">
+                                    <div class="img_block wrapped_img">
+                                      <img src="/media/images/promo_canvas.jpg" class="img-responsive" alt="" />
+                                      <span class="block_fade"></span>
+                                      <div class="post_hover_info">
+                                        <a target="_top" class="featured_ico_link view_link" href="/prints-enlargements/canvas-enlargements"><i class="icon-link"></i></a>
+                                      </div>
+                                    </div>
+                                    <div class="featured_items_body">
+                                      <div class="featured_items_title">
+                                        <h5><a target="_top" href="/prints-enlargements/canvas-enlargements">Our canvas, your art gallery</a></h5>
+                                      </div>
+                                      <div class="featured_item_content">Make your walls come to life with pieces of art featuring your own photography.</div>
+                                      <div class="featured_meta">
+                                        <div class="date">
+                                          Starting From $5.99
+                                        </div>
+                                        <div class="comments">
+                                          <a target="_top" href="/prints-enlargements/canvas-enlargements" class="shortcode_button btn_small btn_ritzred mr0 mb0">Shop Now ></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12 module_cont pb80 module_feature_posts">
+                        <div class="featured_items">
+                          <div class="items3 featured_posts">
+                            <ul class="item_list">
+                              <li class="animate" data-anim-type="fadeInUp" data-anim-delay="150">
+                                <div class="item">
+                                  <div class="item_wrapper">
+                                    <div class="img_block wrapped_img">
+                                      <img src="/media/images/imgProduct_gifts-ceramic-mugs_340x240.jpg" class="img-responsive" alt="" />
+                                      <span class="block_fade"></span>
+                                      <div class="post_hover_info">
+                                        <a target="_top" class="featured_ico_link view_link" href="/shop/photo-gifts/home-and-kitchen/photo-mugs"><i class="icon-link"></i></a>
+                                      </div>
+                                    </div>
+                                    <div class="featured_items_body">
+                                      <div class="featured_items_title">
+                                        <h5><a target="_top" href="/shop/photo-gifts/home-and-kitchen/photo-mugs">Mugs</a></h5>
+                                      </div>
+                                      <div class="featured_item_content">Enjoy a photo memory each morning with your tea or coffee!</div>
+                                      <div class="featured_meta">
+                                        <div class="date">
+                                          Starting From $15.99
+                                        </div>
+                                        <div class="comments">
+                                          <a target="_top" href="/shop/photo-gifts/home-and-kitchen/photo-mugs" class="shortcode_button btn_small btn_ritzred mr0 mb0">Shop Now ></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="animate" data-anim-type="fadeInUp" data-anim-delay="250">
+                                <div class="item">
+                                  <div class="item_wrapper">
+                                    <div class="img_block wrapped_img">
+                                      <img src="/media/images/imgProduct_collages340x240.jpg" class="img-responsive" alt="" />
+                                      <span class="block_fade"></span>
+                                      <div class="post_hover_info">
+                                        <a target="_top" class="featured_ico_link view_link" href="/prints-enlargements/collage-posters"><i class="icon-link"></i></a>
+                                      </div>
+                                    </div>
+                                    <div class="featured_items_body">
+                                      <div class="featured_items_title">
+                                        <h5><a target="_top" href="/prints-enlargements/collage-posters">Posters &amp; Collages</a></h5>
+                                      </div>
+                                      <div class="featured_item_content">A custom photo book makes a great gift for any occasion.<br><br></div>
+                                      <div class="featured_meta">
+                                        <div class="date">
+                                          Starting From $6.99
+                                        </div>
+                                        <div class="comments">
+                                          <a target="_top" href="/prints-enlargements/collage-posters" class="shortcode_button btn_small btn_ritzred mr0 mb0">Shop Now ></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                              </li>
+                              <li class="animate" data-anim-type="fadeInUp" data-anim-delay="350">
+                                <div class="item">
+                                  <div class="item_wrapper">
+                                    <div class="img_block wrapped_img">
+                                      <img src="/media/images/gifts/promo_gifts1.jpg" class="img-responsive" alt="" />
+                                      <span class="block_fade"></span>
+                                      <div class="post_hover_info">
+                                        <a target="_top" class="featured_ico_link view_link" href="/photo-gifts"><i class="icon-link"></i></a>
+                                      </div>
+                                    </div>
+                                    <div class="featured_items_body">
+                                      <div class="featured_items_title">
+                                        <h5><a target="_top" href="/photo-gifts">Gifts</a></h5>
+                                      </div>
+                                      <div class="featured_item_content">Personalize the Perfect Gift for your Friends and Family.<br /><br /></div>
+                                      <div class="featured_meta">
+                                        <div class="date">
+                                          Starting From $5.99
+                                        </div>
+                                        <div class="comments">
+                                          <a target="_top" href="/photo-gifts" class="shortcode_button btn_small btn_ritzred mr0 mb0">Shop Now ></a>
+                                        </div>
+
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+					<div class="fw_block bg_start dark-grey_bg mt0 mb0 pt0">
+                    <div class="row">
+                      <div class="col-sm-6 module_content pt50">
+                        <h2 class="item_title ritz-text-light-t">RitzPix Photo Centers</h2>
+                        <p class="mb20 animate ritz-text-light-p" data-anim-type="fadeInUp" data-anim-delay="300">
+                          Let our experts help you with all your print needs.<br>Pick up in-store or have it delivered.
+                        </p>
+
+                        <p class="animate ritz-text-red-caps" data-anim-type="fadeInUp" data-anim-delay="350"><a href="/stores" target="_top">Browse store locations ></a></p>
+
+                        <p class="animate ritz-text-footnote pt74" data-anim-type="fadeInUp" data-anim-delay="400">
+                          *1 hour pickup subject to machine capacity and the following terms &amp; conditions.
+</p>
+                      </div>
+                      <div class="col-sm-6 module_cont pb0 animate" data-anim-type="fadeInRight" data-anim-delay="500">
+                        <img src="/media/images/photographer.jpg" class="mt0 center-block" alt="">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="fw_block bg_start grey_bg mt0 mb0 pt0">
+                    <div class="row">
+                      <div class="col-sm-6 module_cont pb0 animate" data-anim-type="fadeInLeft" data-anim-delay="500">
+                        <img src="/media/images/iPhone.jpg" class="mt0" alt="">
+                      </div>
+                      <div class="col-sm-6 module_content pt50">
+                        <h2 class="item_title">Order Prints From Your iPhone or iPad</h2>
+
+                        <p class="mb20 animate" data-anim-type="fadeInUp" data-anim-delay="300">
+                          Our free app connects you to your RitzPix account.  Upload photos to your account for safe (and unlimited!) storage and order prints for mail or in-store pickup.
+                          <br>
+                          <a target="_blank" href="https://itunes.apple.com/us/app/ritzpix/id487269133"><img src="/media/images/appStoreBadge_black.png" class="pt20" alt=""></a>
+                        </p>
+
+                        <p class="animate ritz-text-footnote pt74" data-anim-type="fadeInUp" data-anim-delay="350">No iOS device? Check out our <a target="_top" href="/photo-prints/iphone-android-prints">mobile photo tools.</a></p>
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--<div class="row">
+                    <div class="col-sm-12 animate" data-anim-type="fadeInUp" data-anim-delay="300">
+                      <div class="fw_block bg_start highlighted_colored mb0">
+                        <div class="shortcode_promoblock">
+                          <div class="promoblock_wrapper">
+                            <div class="promo_text_block">
+                              <div class="promo_text_block_wrapper">
+                                <h2 class="promo_text_main_title">Sign up for special offers and promotions</h2>
+                                <h6 class="promo_text_additional_title">Don't miss a deal! We'll send you all our coupons and special event days so you can save money.</h6>
+                              </div>
+                            </div>
+                            <div class="promo_button_block"><a class="shortcode_button btn_large btn_type5" href="javascript:void(0);">Sign Up</a></div>
+                            <div class="clear"></div>
+
+                          </div>
+                        </div>
+                        <div class="clear"></div>
+                      </div>
+                    </div>
+                  </div>-->
+
+                  <!--div class="fw_block bg_start mt0 mb0 pt0">
+                    <div class="row">
+                      <div class="col-sm-6 module_cont pb0 animate" data-anim-type="fadeInLeft" data-anim-delay="800">
+                        <img src="/media/images/photos-scattered.jpg" class="mt0" alt="">
+                      </div>
+
+
+                      <div class="col-sm-6 module_content pt50">
+                        <h2 class="item_title">Create Your Free RitzPix Account</h2>
+                        <p class="mb20 animate ritz-text-light-special" data-anim-type="fadeInUp" data-anim-delay="300">
+                          Receive <a target="_top" href="#">50 free</a> 4x6 prints
+                        </p>
+                        <a target="_top" href="/signup?membershipId=335445" class="shortcode_button btn_normal btn_type5 mt28">Register Today</a>
+
+                      </div>
+                    </div>
+
+                  </div-->
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      
+  <!-- ********** this ends Umbraco main content ********** -->

@@ -1,0 +1,137 @@
+!--  this starts Umbraco main content rvt0519  --
+  div id=rvt-page-content
+    div class=the-page
+
+      !--==============================mainslider=================================--
+
+
+      div class=wrapper
+        div class=container
+          div class=content_block row left-sidebar pt50
+            div class=fl-container
+              div class=row
+                div class=left-sidebar-block
+                  div class=breadcrumbs animate data-anim-type=fadeInUp data-anim-delay=50
+                    h1 class=title-pageHelp &amp; Supporth1
+                  div
+
+                  div class=sidepanel animate data-anim-type=fadeInUp data-anim-delay=50
+                    div class=featured_item_content
+                      h3 style=margin-bottom10px;span class=glyphicon glyphicon-earphone style=padding-right0;spanCall Us!h3
+                      pstrong1-800-225-9799strongbr Monday - Thursday 9am-6pm ESTbr Friday 9am-4pmp
+                      h3 style=margin-bottom10px; padding-right0;Emailh3
+                      pCustomer Service email customerserv@ritzpix.comp
+                      !--pCorporate email amazonrc@ritzinteractive.comp--
+                      !--pCorporate Addressbr2 Bergin Turnpike, Ridgefield Park NJ 07660p--
+                      hr style=border-color#333; hr
+                      h3 style=margin-top20px; margin-bottom10px;Call Your Local Storeh3
+                      p style=margin-bottom0;Hours may vary depending on store location.p
+                      h4 style=margin-top0;a href=stores target=_topFind Your Storeah4
+                    div
+                  div
+
+                div
+                div class=posts-block hasLS
+                  div class=contentarea
+
+                    div class=row
+                      div class=col-sm-12 module_cont pb30 module_feature_posts
+                        div class=featured_items
+                          div class=items3 featured_posts
+                            ul class=item_list
+                              !--li class=animate data-anim-type=fadeInUp data-anim-delay=300
+                                div class=item
+                                  div class=item_wrapper
+                                    div class=img_block wrapped_img
+                                      img src=mediaimagesFAQ.gif class=img-responsive alt= 
+                                      span class=block_fadespan
+                                      div class=post_hover_info
+                                        a class=featured_ico_link view_link target=_top href=helpfaqi class=icon-linkia
+                                      div
+                                    div
+                                    div class=featured_items_body
+                                      div class=featured_item_content
+                                        pBrowse our most frequently asked questions for your answer.  Categorized by topic.p
+                                      div
+                                      div class=featured_meta
+                                        div class=comments
+                                          a target=_top href=helpfaq class=shortcode_button btn_small btn_ritzredGO a
+                                        div
+                                      div
+                                    div
+                                  div
+                                div
+                              li
+                              li class=animate data-anim-type=fadeInUp data-anim-delay=300
+                                !--div class=item
+                                  div class=item_wrapper
+                                    div class=img_block wrapped_img
+                                      img src=mediaimagesvideo.gif class=img-responsive alt= 
+                                      span class=block_fadespan
+                                      div class=post_hover_info
+                                        a class=featured_ico_link view_link target=_top href=videosi class=icon-linkia
+                                      div
+                                    div
+                                    div class=featured_items_body
+                                      div class=featured_item_content
+                                        pWatch Television Commercials, Funny Videos and How-To Videos.p
+                                        br 
+                                      div
+                                      div class=featured_meta
+                                        div class=comments
+                                          a target=_top href=videos class=shortcode_button btn_small btn_ritzredGO a
+                                        div
+                                      div
+                                    div
+                                  div
+                                div
+                              li--
+                              li class=animate data-anim-type=fadeInUp data-anim-delay=300
+                                div class=item
+                                  div class=item_wrapper
+                                    div class=img_block wrapped_img
+                                      img src=mediaimagesaccount.gif class=img-responsive alt= 
+                                      !--span class=block_fadespan--
+                                      !--div class=post_hover_info
+                                        a class=featured_ico_link view_link target=_top href=accounti class=icon-linkia
+                                      div--
+                                    div
+                                    div class=featured_items_body
+                                      div class=featured_item_content
+                                        ul style=list-styledisc;
+                                          li style=displayblock; widthauto; margin-top0;a href=account target=_topMy Accountali
+                                          li style=displayblock; widthauto; margin-top0;a href=changepassword target=_topChange Your Passwordali
+                                          li style=displayblock; widthauto; margin-top0;a href=myorders target=_blankOrder Historyali
+                                        ul
+                                      div
+                                      div class=featured_meta
+                                        div class=comments
+                                          a target=_top href=account class=shortcode_button btn_small btn_ritzredGO a
+                                        div
+                                      div
+                                    div
+                                  div
+                                div
+                              li
+
+
+                            ul
+                          div
+                        div
+                      div
+                    div
+
+
+
+                  div
+                div
+
+              div
+            div
+          div
+        div
+      div
+
+    div
+  div
+  !--  this ends Umbraco main content  --
