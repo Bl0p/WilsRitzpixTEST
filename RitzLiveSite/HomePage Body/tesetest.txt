@@ -1,4 +1,5 @@
 <!-- ********** this starts Umbraco main content rvt09292015 ********** -->
+<a id="popup-iframe" href="https://email.ritzpix.com/form/2321/721/2" data-featherlight="iframe" onClick="ga('send', 'event', 'Popup', 'Show', 'Newsletter Served');" ></a>
   <div id="rvt-page-content">
     <div class="the-page">
 
@@ -33,14 +34,14 @@
 
 						<!-- Start Slide 1 -->
 						<div class="item active">
-                            <img class="first-slide" src="/media/images/slider-promos/jan-new-year-book-sale_banner1.gif" alt="first slide">
+                            <img class="first-slide" src="/media/images/slider-promos/feb_premium-photobooks_banner1.jpg" alt="first slide">
                            <div class="container">
-                           		<div class="carousel-caption right-side animate" style="top:0; background-color:rgba(0,0,0,.4); height:375px;" data-anim-type="bounceInRight">
-                            		<h1 style="margin-top:20px; font-color:white; font-size:40px; line-height:55px;">40% Off<br>All Photo Books</h1>
-                                    <h3 style="margin-top:10px; font-color:white; font-size:30px; line-height:35px;">Plus! 3 Free 5x7 Prints with every book</h3>
-                                    <hr class="hidden-xs" /><br> 
-                            		<p class="top20">Promo: STORYTIME  |  Ends 1/9/16</p>
-                            		<p><a class="shortcode_button btn_large btn_type5" href="/photo-books/classic?coupon=STORYTIME" target="_top" role="button" data-anim-type="bounceInRight">MAKE A BOOK</a></p>
+                           		<div class="carousel-caption right-side animate" style="top:0; background-color:rgba(0,0,0,.4); height:350px;" data-anim-type="bounceInRight">
+                            		<h1 style="margin-top:30px; font-color:white; font-size:40px; line-height:55px;">Premium Books with Photo Covers</h1>
+                                    <h1 style="margin-top:0px; font-color:white; font-size:40px; line-height:35px;">BOGO Sale!</h1>
+                                    <hr class="hidden-xs" /><br>
+                            		<p class="top20">Promo: ALLBOOKED  |  Ends Sunday</p>
+                            		<p><a class="shortcode_button btn_large btn_type5" href="/photo-books/premium?coupon=ALLBOOKED" target="_top" role="button" data-anim-type="bounceInRight">MAKE BOOKS</a></p>
 								</div>
                             </div>
                           </div>
@@ -48,14 +49,13 @@
                         
                         <!-- Start Slide 2 -->
 						<div class="item">
-                            <img class="second-slide" src="/media/images/slider-promos/jan-new-year-book-sale_banner2.jpg" alt="second slide">
+                            <img class="second-slide" src="/media/images/slider-promos/feb_premium-photobooks_banner2.jpg" alt="second slide">
                            <div class="container">
                            		<div class="carousel-caption left-side animate" style="top:0; background-color:rgba(0,0,0,.4); height:300px;" data-anim-type="bounceInRight">
-                            		<h1 style="margin-top:10px; font-color:white; font-size:40px; line-height:55px;">Snap Happy Savings</h1>
-                                    <h3 style="margin-top:10px; font-color:white; font-size:30px; line-height:35px;">4x6 Prints Just 9¢</h3>
+                            		<h1 style="margin-top:30px; font-color:white; font-size:50px; line-height:55px;">20% Off All LayFlat Books</h1>
                                     <hr class="hidden-xs" />
-                                    <p class="top20">Promo: SNOWPICS  |  Ends 1/9/16</p> 
-                            		<p><a class="shortcode_button btn_large btn_type5" href="/prints/standard-prints?coupon=SNOWPICS" target="_top" role="button" data-anim-type="bounceInRight">ORDER PRINTS</a></p>
+                                    <p class="top20">Promo: ALLBOOKED  |  Ends Sunday</p> 
+                            		<p><a class="shortcode_button btn_large btn_type5" href="/photo-books/lay-flat?coupon=ALLBOOKED" target="_top" role="button" data-anim-type="bounceInRight">MAKE BOOKS</a></p>
 								</div>
                             </div>
                           </div>
@@ -63,13 +63,19 @@
                         
                         <!-- Start Slide 3 -->
                         
+                        
+                                                
                         <!-- End Slide 3 -->
                         
                         <!-- Start Slide 4 -->
                         
+                        
+                        
                         <!-- End Slide 4 -->
                         
                         <!-- Slide 5 -->
+                        
+                        
                         
                         <!-- End Slide 5 -->
                         
@@ -107,12 +113,17 @@
                     </div>
                   </div>
                   <!-- //Slider -->
-                  <div class="fw_block bg_start pt74 pb20 mb0">
+                  <div class="fw_block bg_start wall_wrap mb0">
+				  <div style="text-align:center;">
+						  <a target="_top" href="mobile/create/catalog/byoccasion/27/40708"> <img SRC="/media/images/slider-promos/march20banner.jpg"/></a>
+							</div>
+							</div>
+						<div class="fw_block bg_start pt74 pb20 mb0">
                   	<div class="row">
                       <div class="col-sm-12 module_cont pb0">
                         <div class="bg_title">
 
-                          <h2>Getting started is easy. . .</h2>
+                          <h2>Getting started is easy...</h2>
                         </div>
                       </div>
                     </div>
@@ -330,7 +341,7 @@
                                 <div class="item">
                                   <div class="item_wrapper">
                                     <div class="img_block wrapped_img">
-                                      <img src="/media/images/imgProduct_gifts-ceramic-mugs_340x240.jpg" class="img-responsive" alt="" />
+                                      <img src="/media/images/photo_mug_resized.jpg" class="img-responsive" alt="" />
                                       <span class="block_fade"></span>
                                       <div class="post_hover_info">
                                         <a target="_top" class="featured_ico_link view_link" href="/shop/photo-gifts/home-and-kitchen/photo-mugs"><i class="icon-link"></i></a>
@@ -381,11 +392,11 @@
                                 </div>
 
                               </li>
-                              <!--<li class="animate" data-anim-type="fadeInUp" data-anim-delay="350">
+                              <li class="animate" data-anim-type="fadeInUp" data-anim-delay="350">
                                 <div class="item">
                                   <div class="item_wrapper">
                                     <div class="img_block wrapped_img">
-                                      <img src="/media/images/promo_gifts.jpg" class="img-responsive" alt="" />
+                                      <img src="/media/images/promo_gifts_redone.jpg" class="img-responsive" alt="" />
                                       <span class="block_fade"></span>
                                       <div class="post_hover_info">
                                         <a target="_top" class="featured_ico_link view_link" href="/photo-gifts"><i class="icon-link"></i></a>
@@ -393,9 +404,9 @@
                                     </div>
                                     <div class="featured_items_body">
                                       <div class="featured_items_title">
-                                        <h5><a target="_top" href="/photo-gifts">Back To School Gifts</a></h5>
+                                        <h5><a target="_top" href="/photo-gifts">Gifts</a></h5>
                                       </div>
-                                      <div class="featured_item_content">Back to school gifts.<br /><br /></div>
+                                      <div class="featured_item_content">Personalize the perfect gift for your Friends and Family!<br /><br /></div>
                                       <div class="featured_meta">
                                         <div class="date">
                                           Starting From $5.99
@@ -408,7 +419,7 @@
                                     </div>
                                   </div>
                                 </div>
-                              </li>-->
+                              </li>
                             </ul>
                           </div>
                         </div>

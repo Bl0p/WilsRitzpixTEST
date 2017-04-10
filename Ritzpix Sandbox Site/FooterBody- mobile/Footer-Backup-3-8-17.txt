@@ -14,10 +14,10 @@
                         	<ul>
 								<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">Prints by Mail</a></li>
 								<li><a target="_top" href="/prints-enlargements">Photo Enlargements</a></li>
-								<li><a target="_top" href="/prints-enlargements/metallic-prints">Metallic Prints</a></li>
+								<li><a target="_top" href="/prints-enlargements/metallic-prints">Metallic Paper Prints</a></li>
 								<li><a target="_top" href="/prints-enlargements/deep-matte-prints">Deep Matte Prints</a></li>
 								<li><a target="_top" href="/prints-enlargements/canvas-enlargements">Canvas Enlargements</a></li>
-								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">Big Print You</a></li>-->
+								<li><a target="_top" href="/prints-enlargements/metal-prints">Metal Prints</a></li>
 								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">4x6 Prints</a></li>-->
 								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">5x7 Prints</a></li>-->
 								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">8x10 Prints</a></li>-->
@@ -70,7 +70,7 @@
 								<li>&nbsp;</li>
 								<li><a target="_top" href="/stores">Find a Store</a></li>
 								<!--<li><a target="_top" href="#">Videos</a></li>-->
-								<!--<li><a target="_top" href="#">FAQ</a></li>-->
+								<li><a target="_top" href="/help/faq">FAQ</a></li>
 								<!--<li><a target="_top" href="#">Sitemap</a></li>-->
 							</ul>
                             <!--signup form-->
@@ -144,7 +144,7 @@
 				<div class="col-sm-2 col-xs-12">
 				<span id="siteseal"><img style="cursor:pointer;cursor:hand" src="https://seal.godaddy.com/images/3/en/siteseal_gd_3_h_l_m.gif" onclick="verifySeal();" alt="SSL site seal - click to verify"></span></li>
 				</div>
-				<div class="col-sm-3 pr0">
+				<div class="col-sm-3 pr0 col-xs-12">
 					<div class="footer_ritzsocials">
 						<ul>							
 							<li><a href="https://fb.me/RitzPix"><span class="contact_info_icon iconcolor-facebook"><i class="icon-facebook"></i></span></a></li>
@@ -155,7 +155,7 @@
 						</ul>
                     </div>
 				</div>  
-					<div class="col-sm-12">
+					<div class="col-sm-12 col-xs-12">
 					<div class="copyright">&copy; 2017 RitzPix LLC.  All Rights Reserved.</div>
 
 				<div class="clear"></div>				

@@ -1,0 +1,68 @@
+<!-- ********** this starts Umbraco main content  ********** -->
+  <div id="rvt-page-content">
+    <div class="the-page">
+
+      <!--==============================main/slider=================================-->
+
+
+      <div class="wrapper" style="background:#fff;">
+        <div class="container">
+          <div class="content_block row no-sidebar pt30">
+            <div class="fl-container">
+              <div class="posts-block">
+                <div class="contentarea">
+
+                  <div class="row">
+
+                    <div class="col-md-6 module_cont pb20">
+                      <img src="/media/images/store-400x266.jpg" class="img-responsive">
+                    </div>
+
+                    <div class="col-md-6 module_cont pb20">
+                      <h1 class="title-page">About Ritz Camera &amp; Image</h1>
+                      The legacy began in 1918. In that year Benjamin Ritz began operating a portrait studio on the famous boardwalk in Atlantic City. With the success of the studio in Atlantic City, Benjamin opened additional studios in New York and Philadelphia. In 1936 Benjamin traveled to Washington DC to open a film-processing lab with his younger brother Edward. At this time our customers could get quality black and white film developed and printed overnight for 25 cents a roll.
+                      <br><br>
+                      Today we are known as Ritz & Wolf Camera & Image, the premier retail destination for cameras and imaging. Ritz & Wolf is headquartered in Ridgefield Pard, N.J. and operates 11 store locations from coast to coast.
+                      <br><br>
+                      In July 2003, the company launched an online imaging site – RitzPix.com, providing online ordering and pick-up at retail locations. Offering services for prints, online storage and more than 100 personalized photo gifts, the company continues to dedicate its legacy to empowering consumers to share, display and save all of life’s treasured memories.
+                      <br /><br />
+                      For more information on the company, please visit the <a href="http://ritzcameraandimage.com" target="_blank">corporate website</a>.
+                      <br /><br />
+
+
+                      <div class="clear"></div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-12 animate" data-anim-type="fadeInUp" data-anim-delay="300">
+                      <div class="fw_block bg_start highlighted_colored mb0">
+                        <div class="shortcode_promoblock">
+                          <div class="promoblock_wrapper">
+                            <div class="promo_text_block">
+                              <div class="promo_text_block_wrapper">
+                                <h2 class="promo_text_main_title">Create a free account - unlimited storage!</h2>
+                                <h6 class="promo_text_additional_title">We offer free, secure, unlimited storage for all your photos. You can even save your creative products to return to later or edit and reorder!</h6>
+                              </div>
+                            </div>
+                            <div class="promo_button_block"><a class="shortcode_button btn_large btn_type5" target="_top" href="/signup?membershipId=335445">Sign Up</a></div>
+                            <div class="clear"></div>
+                          </div>
+                        </div>
+                        <div class="clear"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+  <!-- ********** this ends Umbraco main content ********** -->

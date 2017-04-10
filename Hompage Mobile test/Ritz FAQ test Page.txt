@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <script>
+        (function () {
+            if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+                var msViewportStyle = document.createElement("style");
+                msViewportStyle.appendChild(
+                    document.createTextNode(
+                        "@-ms-viewport{width:auto!important}"
+                    )
+                );
+                document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+            }
+        })();
+    </script>
+
+    <title ng-bind="$$title + 'Photo Finale Managed Demo Site'"></title>
+    <base href="https://silverline.pfsandbox.com/" />
+
+    <meta name="description" content="We print photos, enlargements, books, calendars, cards and a ton of unique photo gifts, like mugs and mousepads, in our shop on Jones Branch in McLean, Virginia. Order online or via our Silverline iPhone app.">
+    <meta name="keywords" content="prints, photos, pictures, upload, online storage, posters, same day service, foto depot, foto source, one hour prints, photo books, calendars, greeting cards, canvas, metal prints">
+
+                    <meta name="apple-itunes-app" content="app-id=1020812098" />
+
+    <link ng-if="$$canonical" rel="canonical" href="{{ $$canonical }}">
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/toastr/2.1.3/toastr.min.css">
+
+<link href="/bundles/vendor/css?v=QhtgK2G-WpnL9ufdgdmdLKQfQOAsdW8L3jYR4NR5lxQ1" rel="stylesheet"/>
+
+<link href="/bundles/app/css?v=DcPEie1SRRCKJknxnjZGtQ2lnqWaOnqYPBz62NVs-5A1" rel="stylesheet"/>
+
+
+<style ng-if="$$fullpage">
+    #page-wrapper {
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -webkit-user-select: none;
+        bottom: 0;
+        cursor: default;
+        left: 0;
+        max-width: 100%;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        top: 0;
+        user-select: none;
+    }
+
+    #header {
+    }
+
+    #content {
+        bottom: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+        max-width: 100%;
+        padding: 0;
+        position: absolute;
+        top: 52px;
+        width: 100%;
+    }
+
+    #footer {
+        display: none !important;
+    }
+</style>
+
+
+
+
+    
+
+
+<!-- [PagePart-begin] HtmlHeadInclude -->
+
+<!-- ********** Start: Umbraco PagePart: HtmlHeadInclude ********** -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+<link rel="shortcut icon" href="media/img/favicon.ico" type="image/x-icon">
+
+<link rel="apple-touch-icon" href="media/img/apple_icons_57x57.png">
+<link rel="apple-touch-icon" sizes="72x72" href="media/img/apple_icons_72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="media/img/apple_icons_114x114.png">
+
+<link href="//fonts.googleapis.com/css?family=Roboto:400,300,300italic,100,400italic,700,500,900" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet" type="text/css">
+<link href='//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="media/css/FSStylesCompiled.css" type="text/css" media="all" />
+<link rel="stylesheet" href="media/css/PFLite.css" type="text/css" media="all" />
+
+<!--
+<link rel="stylesheet/less" href="media/css/bootstrap.min.css" type="text/css" media="all" />
+<link rel="stylesheet/less" href="media*css/theme.css" type="text/css" media="all" />-->
+<!--link rel="stylesheet/less" href="media/css/revslider.css" type="text/css" media="all" /-->
+<!--<link rel="stylesheet/less" href="media/css/custom.css" type="text/css" media="all" />
+<link rel="stylesheet/less" href="media/css/fs.css" type="text/css" media="all" />
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.0/less.min.js"></script>
+-->
+<link rel="stylesheet" href="/media/css/FSstyles.css" type="text/css" media="all" />
+
+
+
+<!-- ********** End: Umbraco PagePart: HtmlHeadInclude ********** -->
+   
+<!-- [PagePart-end] HtmlHeadInclude -->
+
+</head>
+<body ng-class="{ fullpage: $$fullpage, home: $$home, authenticated: $$pf.user.isAuthenticated, anonymous: !$$pf.user.isAuthenticated }"
+      scroll-to-top="$$scrollToTop"
+      animate-scroll="false"
+      orientation-change>
+
+    <div id="page-wrapper">
+
+        <div id="header">
+<!-- [PagePart-begin] HeaderBody -->
+
+<!-- ********** this starts Umbraco HeaderBody-mobile *********** -->
+
+<div id="PF-Header">
+    <!-- Navigation -->
+	<div class="navbar navbar-inverse navbar-fixed-verytop hidden-xs" role="navigation">	
+		<div class="container">
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="join-topmenu"><a target="_top" href="/signup?membershipId=695980">Join</a></li>
+					<li class="signin-topmenu"><a target="_top" href="/signin">Sign In</a></li>
+					<li class="signout-topmenu"><a target="_top" href="/signout">Sign Out</a></li>
+					<li><a target="_top" href="/prints">Order Prints</a></li>
+					<li><a target="_top" href="/create">Create</a></li>
+					<li><a target="_top" href="/projects">My Projects</a></li>
+					<li><a target="_top" href="/mycart">Cart</a></li>
+					<li><a target="_top" href="/prepaidplans">Prepaid Plans</a></li>
+                                        <li><select id="language-selector"></select></li>
+				</ul>
+			</div>   
+		</div>
+	</div>
+	
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation" style="border-bottom: 1px solid #c2c2c2;">
+		<div class="container">
+			<div class="navbar-header page-scroll">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" target="_top" href="/">
+					<img class="hidden-xs hidden-sm" alt="" style="height:50px;" src="/media/images/logo_300x50_2.png">
+					<img class="visible-xs visible-sm" alt="" style="height:42px;padding-top:5px;" src="/media/images/logo_300x50_2.png">
+				</a>
+			
+			</div>
+			<div class="collapse navbar-collapse ld-special" id="bs-example-navbar-collapse-2">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="hidden"><a target="_top" href="/"></a></li>
+                                        <li class="menu-item visible-xs" style="margin-top:0px;margin-left:15px;">
+                                <i style="position:absolute;text-indent:10px;margin-top:2px;color:#000;font-size:20px;line-height:31px" class="fa fa-search" aria-hidden="true"></i>
+                                <input style="text-indent:25px;background:#efefef;width:200px;" id="idMobileSearchPhrase2" type="text"  target="_top" placeholder="   PRODUCT SEARCH   "  onclick="window.location='mobile/search?phrase=';"/> </li>
+					<li class="visible-xs"><a target="_top" href="/create">Shop All</a></li>
+					<li class="visible-xs"><a target="_top" href="/prints">Order Prints</a></li>
+					<li class="visible-xs"><a target="_top" href="/create">Create Products</a></li>
+					<li class="visible-xs"><a target="_top" href="/projects">Saved Projects</a></li>
+					
+                                        <li class="hidden-xs" style="margin-top:10px;"><i style="position:absolute;text-indent:10px;margin-top:2px;color:#000;font-size:20px;line-height:31px" class="fa fa-search" aria-hidden="true"></i>
+                                <input style="text-indent:25px;background:#efefef;min-width:180px;" id="idMobileSearchPhrase" type="text"  target="_top" placeholder="PRODUCT SEARCH" /></li>
+					<li class="dropdown hidden-xs">
+						<a href="#">Shop<b class="caret"></b></a>
+						<ul class="dropdown-menu" style="background-color:#ddddee!important;">
+							<li><a target="_top" href="/create">Browse All Products</a></li>
+							<li><a target="_top" href="/prints">Prints &amp; Enlargements</a></li>
+							<li><a target="_top" href="/shop/photo-books">Photo Books</a></li>
+							<li><a target="_top" href="/shop/cards">Cards &amp; Stationery</a></li>
+							<li><a target="_top" href="/shop/canvas">Canvas</a></li>
+							<li><a target="_top" href="/shop/calendars">Calendars</a></li>
+							<li><a target="_top" href="/shop/wall-decor">Wall Décor</a></li>
+							<li><a target="_top" href="/create">Gifts &amp; Printed Novelties</a></li>
+							<!--li><a target="_top" href="/business">Business Products</a></li-->
+							
+							<!--li><a target="_top" href="/shop/occasions/mothers-day" style="color:#b40055; background-color:#ffc7e1!important;">Shop for Mother's Day!</a></li-->
+							<!--li><a target="_top" href="/shop/occasions/graduation" style="color:#005faf; background-color:#ffed30!important;">Shop for Grads</a></li-->
+							<!--<li><a target="_top" href="/shop/occasions/fathers-day" style="color:#005faf; background-color:#5cc722!important;">Shop for Father's Day</a></li>-->
+							<li><a target="_top" href="/shop/special-offers" style="color:#ffffff; background-color:#f17700!important;">Special Offers</a></li>
+							<!--<li><a target="_top" href="/shop/occasions/vacation" style="color:#005faf; background-color:#0ac8bd!important;">Show Off Your Vacation Pics</a></li>
+							<li><a target="_top" href="/shop/occasions/baby" style="color:#ffffff; background-color:#105f00!important;">Shop for Kid-Themed Products</a></li>
+							<li><a target="_top" href="/shop/occasions/kids" style="color:#0082bf; background-color:#fbd1f6!important;">Shop for Baby</a></li>		
+							<li><a target="_top" href="/shop/occasions/wedding-and-engagement" style="color:#494949; background-color:#c9c8c3!important;">Shop for Wedding/Engagement</a></li>
+							<li><a target="_top" href="/shop/occasions/save-the-date" style="color:#ffffff; background-color:#471567!important;">We Have Save-the-Date Cards!</a></li>
+							<li><a target="_top" href="/shop/occasions/school" style="color:#ffffff; background-color:#b80000!important;">Shop for Back-to-School</a></li>
+							<li><a target="_top" href="/shop/occasions/autumn" style="color:#553717; background-color:#b7640a!important;">Shop Our Fall Favorites</a></li-->
+						</ul>
+					</li>
+					
+					<!-- umbraco -->
+					<!--<li><a class="page-scroll" target="_top" href="/#services">Store Services</a></li>-->
+					<li><a class="page-scroll" target="_top" href="/stores">Locations</a></li>
+					
+					<li class="join-mobilemenu"><a target="_top" href="/signup?membershipId=695980">Join</a></li>
+					<li class="signin-mobilemenu"><a target="_top" href="/mobile/signin">Sign In</a></li>
+					<li class="signout-mobilemenu"><a target="_top" href="/signout">Sign Out</a></li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>	
+</div>
+<!-- ********** this ends Umbraco HeaderBody-mobile ********** -->
+   
+<!-- [PagePart-end] HeaderBody -->
+
+        </div>
+
+        <div id="content">
+            
+<div ui-view class="col-sm-12 view">
+
+    
+      <!-- BEGIN USER DEFINED CONTENT -->
+      <!-- ********** this starts Umbraco main content rvt09292015 ********** -->
+  <div id="rvt-page-content">
+    <div class="the-page">
+
+      <!--==============================main/slider=================================-->
+
+      <div class="wrapper" style="background:#fff;">
+        <div class="container">
+          <div class="content_block row no-sidebar">
+            <div class="fl-container">
+              <div class="posts-block">
+                <div class="contentarea">
+                  <!-- Slider -->
+                  <div class="fw_block bg_start wall_wrap mb0">
+				  <div class="row" style="margin-left:0; margin-right:0;">
+
+<div id="PF-page">	
+    <!-- Header -->
+    <header>
+        <div class="container">
+
+            <div class="intro-text">
+			
+				
+                <div class="intro-lead-in">Welcome to Silverline Photo</div>
+                <div class="intro-heading">Secure & Responsive</div>
+                <a target="_top" href="/prints" class="btn btn-xl">Upload &amp; Print</a>
+				<a target="_top" href="/signup?membershipId=695980" class="btn btn-xl">Join for free</a>
+				            </div>
+							
+        </div>
+    </header>
+</div>	
+				  
+
+                    </div>
+                  </div>
+                  <!-- //Slider -->
+                  <div class="fw_block bg_start grey_bg pt74 pb20 mb0">
+                    <!--div class="row">
+                      <div class="col-sm-12 module_cont pb0">
+                        <div class="bg_title">
+                          <h2>Getting started is easy. . .</h2>
+                        </div>
+                      </div>
+                    </div-->
+
+                    <!--div class="row skills_start">
+                      <div class="col-sm-12 module_cont pb0">
+                        <div class="shortcode_diagram items3">
+                          <ul class="diagram_list" data-bg="#ffffff" data-color="#e72126" data-width="5px" data-size="130px" data-fontsize="40px">
+                            <li class="diagram_li animate" data-anim-type="fadeInRight" data-anim-delay="300">
+                              <a href="/photo-prints" target="_top">
+                                <div class="diagram_wrapper">
+                                  <div class="diagram_item">
+                                    <div class="chart_wrapper">
+                                      <div class="chart" data-percent="100">
+                                        <div class="ico"><i class="icon-truck"></i></div>
+                                      </div>
+                                    </div>
+                                    <div class="diagram_content">
+                                      <h3>Click to Order Prints</h3>
+                                      <div class="diagram_descr">Free shipping for orders over $30!</div>
+                                      <div class="diagram_descr">Use Promo Code </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
+                            <li class="diagram_li animate" data-anim-type="fadeInLeft" data-anim-delay="300">
+                              <a href="" target="_top">
+                                <div class="diagram_wrapper">
+                                  <div class="diagram_item">
+                                    <div class="chart_wrapper">
+                                      <div class="chart" data-percent="100">
+                                        <div class="ico"><i class="icon-users"></i></div>
+                                      </div>
+                                    </div>
+                                    <div class="diagram_content">
+                                      <h3>Click To Join</h3>
+                                      <div class="diagram_descr">Join now and get 50 FREE prints!</div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
+                            
+                              <li class="diagram_li animate" data-anim-type="fadeInUp" data-anim-delay="250">
+                                <a href="/mycollections" target="_top">
+                                <div class="diagram_wrapper">
+                                  <div class="diagram_item">
+                                    <div class="chart_wrapper">
+                                      <div class="chart" data-percent="100">
+                                        <div class="ico"><i class="icon-photo"></i></div>
+                                      </div>
+                                    </div>
+                                    <div class="diagram_content">
+                                      <h3>Add Your Photos</h3>
+                                      <div class="diagram_descr">Upload is fast and easy.</div>
+                                    </div>
+                                  </div>
+                                </div>
+                                  </a>
+                              </li>
+                            
+                            <li class="diagram_li animate" data-anim-type="fadeInUp" data-anim-delay="250">
+                              <a href="/create" target="_top">
+                                <div class="diagram_wrapper">
+                                  <div class="diagram_item">
+                                    <div class="chart_wrapper">
+                                      <div class="chart" data-percent="100">
+                                        <div class="ico"><i class="icon-crop"></i></div>
+                                      </div>
+                                    </div>
+                                    <div class="diagram_content">
+                                      <h3>Click To Create</h3>
+                                      <div class="diagram_descr">Photo Books, Cards, Calendars &amp; More!</div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </a>
+                            </li>
+                          </ul>
+                          <div class="clear"></div>
+                        </div>
+                      </div>
+                    </div-->
+                  </div>
+
+                  <div class="fw_block bg_start pt74 pb0 grey_bg mb0">
+                    <div class="row">
+                      <div class="col-sm-12 module_cont pb80 module_feature_posts">
+                        <div class="featured_items">
+                          <div class="items3 featured_posts">
+                            <ul class="item_list">
+                              <li class="animate" data-anim-type="fadeInUp" data-anim-delay="250">
+                                <div class="item">
+                                  <div class="item_wrapper">
+                                    <div class="img_block wrapped_img">
+                                      <img src="/media/images/ipi/Photobook.jpg" class="img-responsive" alt="" />
+                                      <!--span class="block_fade"></span-->
+                                      <!--div class="post_hover_info">
+                                        <a class="featured_ico_link view_link" target="_top" href="/photo-books"><i class="icon-link"></i></a>
+                                      </div-->
+                                    </div>
+                                    <div class="featured_items_body">
+                                      <div class="featured_items_title">
+                                        <h5><a target="_top" href="/shop/photo-books">Photo Books</a></h5>
+                                      </div>
+                                      <div class="featured_item_content">What better way to share your life story than with a photo book?  Choose from a big event, a year in the life, or just some photos you wish to bind together for safe keeping.
+Photo books are the perfect idea for saving school work, recipes and memories.  <br><br>
+<br><br></div>
+                                      <div class="featured_meta">
+                                        <div class="date">
+                                          Starting From $34.95<br>Get your photo book started!
+                                        </div>
+                                        <div class="shopnow">
+                                          <a target="_top" href="/shop/photo-books" class="shortcode_button btn_small btn_PFred mr0 mb0">Shop Now ></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="animate" data-anim-type="fadeInUp" data-anim-delay="250">
+                                <div class="item">
+                                  <div class="item_wrapper">
+                                    <div class="img_block wrapped_img">
+
+                                      <img src="/media/images/ipi/Cards-Grad.jpg" class="img-responsive" alt="" />
+                                      <!--span class="block_fade"></span>
+                                      <div class="post_hover_info">
+                                        <a target="_top" class="featured_ico_link view_link" href="/create"><i class="icon-link"></i></a>
+                                      </div-->
+                                    </div>
+                                    <div class="featured_items_body">
+                                      <div class="featured_items_title">
+                                        <h5><a target="_top" href="/shop/cards">Photo Greeting Cards</a></h5>
+                                      </div>
+                                      <div class="featured_item_content">We have cards for every occasion. Keep it classy with a single photo card, or get creative with a themed card or a collage of photos. You can customize the outside and the inside of the card, and we have hundreds of different styles to choose from. <br><br><br>
+<br></div>
+                                      <div class="featured_meta">
+                                        <div class="date">
+                                          Starting From <strong>30&#162;</strong><br>Celebrate your special occasion!
+                                        </div>
+                                        <div class="shopnow">
+                                          <a target="_top" href="/shop/cards" class="shortcode_button btn_small btn_PFred mr0 mb0">Shop Now ></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="animate" data-anim-type="fadeInUp" data-anim-delay="350">
+                                <div class="item">
+                                  <div class="item_wrapper">
+                                    <div class="img_block wrapped_img">
+                                      <img src="/media/images/ipi/WallArt.jpg" class="img-responsive" alt="" />
+                                      <!--span class="block_fade"></span>
+                                      <div class="post_hover_info">
+                                        <a target="_top" class="featured_ico_link view_link" href="/wall"><i class="icon-link"></i></a>
+                                      </div-->
+                                    </div>
+                                    <div class="featured_items_body">
+                                      <div class="featured_items_title">
+                                        <h5><a target="_top" href="/shop/wall-decor">Wall Art</a></h5>
+                                      </div>
+                                      <div class="featured_item_content">Personalize your home or office with your very own photos.  Choose from canvas prints, metal prints, acrylic or framed photos or create a wall using a variety.  Change up the look of a room in an instant by swapping out wall art.  If you have a handful of photos, create a collage and share many moments in one piece.
+We can help you customize your wall art too!<br><br>
+</div>
+                                      <div class="featured_meta">
+                                        <div class="date">
+                                          Starting From $64.99 <br>Create wall art now!
+                                        </div>
+                                        <div class="shopnow">
+                                          <a target="_top" href="/shop/wall-decor" class="shortcode_button btn_small btn_PFred mr0 mb0">Shop Now ></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12 module_cont pb80 module_feature_posts">
+                        <div class="featured_items">
+                          <div class="items3 featured_posts">
+                            <ul class="item_list">
+                              <li class="animate" data-anim-type="fadeInUp" data-anim-delay="150">
+                                <div class="item">
+                                  <div class="item_wrapper">
+                                    <div class="img_block wrapped_img">
+                                      <img src="/media/images/ipi/Drinkware.jpg" class="img-responsive" alt="" />
+                                      <!--span class="block_fade"></span>
+                                      <div class="post_hover_info">
+                                        <a target="_top" class="featured_ico_link view_link" href="/shop/gift-and-novelties"><i class="icon-link"></i></a>
+                                      </div-->
+                                    </div>
+                                    <div class="featured_items_body">
+                                      <div class="featured_items_title">
+                                        <h5><a target="_top" href="/shop/mugs-and-water-bottles">Drinkware</a></h5>
+                                      </div>
+                                      <div class="featured_item_content">Warm up with your favourite drink in a mug showing off a special photo or hydrate with a water bottle designed with a moment you never want to forget.
+Photo mugs make great gift items, fill them with candy or small items and personalize them for teachers, coaches, employees or for your business.  Photo water bottles are a great idea for sports teams or classroom so that everyone knows which bottle is theirs! <br><br><br>
+</div>
+                                      <div class="featured_meta">
+                                        <div class="date">
+                                          Starting From $34.95 <br> Personalize drinkware today!
+                                        </div>
+                                        <div class="shopnow">
+                                          <a target="_top" href="/shop/mugs-and-water-bottles" class="shortcode_button btn_small btn_PFred mr0 mb0">Shop Now ></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                              <li class="animate" data-anim-type="fadeInUp" data-anim-delay="250">
+                                <div class="item">
+                                  <div class="item_wrapper">
+                                    <div class="img_block wrapped_img">
+                                      <img src="/media/images/ipi/canvas.jpg" class="img-responsive" alt="" />
+                                      <!--span class="block_fade"></span>
+                                      <div class="post_hover_info">
+                                        <a target="_top" class="featured_ico_link view_link" href="/prints-enlargements"><i class="icon-link"></i></a>
+                                      </div-->
+                                    </div>
+                                    <div class="featured_items_body">
+                                      <div class="featured_items_title">
+                                        <h5><a target="_top" href="/Shop/canvas">Canvas</a></h5>
+                                      </div>
+                                      <div class="featured_item_content">Gallery wrapped canvas, with your photo going all the way around the edge. Finished back, complete with hanging hardware.<br><br><br><br><br><br><br><br></div>
+                                      <div class="featured_meta">
+                                        <div class="date">
+                                          Starting From $6.99<br>Make a poster or collage now!
+                                        </div>
+                                        <div class="shopnow">
+                                          <a target="_top" href="/shop/canvas" class="shortcode_button btn_small btn_PFred mr0 mb0">Shop Now ></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                              </li>
+                              <<li class="animate" data-anim-type="fadeInUp" data-anim-delay="350">
+                                <div class="item">
+                                  <div class="item_wrapper">
+                                    <div class="img_block wrapped_img">
+                                      <img src="/media/images/ipi/Calendar.jpg" class="img-responsive" alt="" />
+                                      <!--span class="block_fade"></span>
+                                      <div class="post_hover_info">
+                                        <a target="_top" class="featured_ico_link view_link" href="/calendars"><i class="icon-link"></i></a>
+                                      </div-->
+                                    </div>
+                                    <div class="featured_items_body">
+                                      <div class="featured_items_title">
+                                        <h5><a target="_top" href="/shop/calendars">Calendars</a></h5>
+                                      </div>
+                                      <div class="featured_item_content">Keep yourself organized with photo calendars.  Each month you’ll be able to display some of your favourite photos themed from years past in a unique way!  Did you take a special trip last year?  Create a photo calendar to help your relive the moments each day.<br>
+Calendars can even make a great gift for the hard to shop for family member or friend.  Ask in store or check out our online ordering site to see what calendar formats we offer!
+.<br /><br /></div>
+                                      <div class="featured_meta">
+                                        <div class="date">
+                                          Starting From $34.95 <br>Get organized now!
+                                        </div>
+                                        <div class="shopnow">
+                                          <a target="_top" href="/shop/Calendars" class="shortcode_button btn_small btn_PFred mr0 mb0">Shop Now ></a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+					<div class="fw_block bg_start dark-grey_bg mt0 mb0 pt0">
+                    <div class="row">
+                      <div class="col-sm-6 module_content pt50">
+                        <h2 class="item_title PF-text-light-t">Photo Finale locations</h2>
+                        <p class="mb20 animate PF-text-light-p" data-anim-type="fadeInUp" data-anim-delay="300">
+                          Let our experts help you with all your print needs.<br>Pick up in-store or have it delivered.
+                        </p>
+
+                        <p class="animate PF-text-red-caps" data-anim-type="fadeInUp" data-anim-delay="350"><a href="/stores" target="_top">Browse store locations ></a><br><br></p>
+
+                       
+                        <!--p class="animate PF-text-footnote pt74" data-anim-type="fadeInUp" data-anim-delay="400">
+                          *1 hour pickup subject to machine capacity and the following terms &amp; conditions.<br>
+                          *$30 minimum for free shipping is applied after all discounts are applied.
+                        </p-->
+                      </div>
+                      <!--div class="col-sm-6 module_cont pb0 animate" data-anim-type="fadeInRight" data-anim-delay="500">
+                        <img src="/media/images/photographer.jpg" class="mt0 center-block" alt="">
+                      </div-->
+                    </div>
+                  </div>
+
+                  <div class="fw_block bg_start grey_bg mt0 mb0 pt0">
+                    <div class="row">
+                      <div class="col-sm-6 module_cont pb0 animate" data-anim-type="fadeInLeft" data-anim-delay="500">
+                        <img src="/media/images/iPhone.jpg" class="mt0" alt="">
+                      </div>
+                      <div class="col-sm-6 module_content pt50">
+                        <h2 class="item_title">Order Prints From Your iPhone or iPad</h2>
+
+                        <p class="mb20 animate" data-anim-type="fadeInUp" data-anim-delay="300">
+                          Our free app connects you to your Photo Finale account.  Upload photos to your account for safe (and unlimited!) storage and order prints for mail or in-store pickup.
+                          <br>
+                          <a target="_blank" href="https://itunes.apple.com/bs/app/silverline-photo/id1020812098?mt=8"><img src="/media/images/appStoreBadge_black.png" class="pt20" alt=""></a>
+                        </p>
+
+                        <!--p class="animate PF-text-footnote pt74" data-anim-type="fadeInUp" data-anim-delay="350">No iOS device? Check out our <a target="_top" href="/prints">mobile photo tools.</a></p-->
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--div class="row">
+                    <div class="col-sm-12 animate" data-anim-type="fadeInUp" data-anim-delay="300">
+                      <div class="fw_block bg_start highlighted_colored mb0">
+                        <div class="shortcode_promoblock">
+                          <div class="promoblock_wrapper">
+                            <div class="promo_text_block">
+                              <div class="promo_text_block_wrapper">
+                                <h2 class="promo_text_main_title">Sign up for special offers and promotions</h2>
+                                <h6 class="promo_text_additional_title">Don't miss a deal! We'll send you all our coupons and special event days so you can save money.</h6>
+                              </div>
+                            </div>
+                            <div class="promo_button_block"><a class="shortcode_button btn_large btn_type5" href="javascript:void(0);">Sign Up</a></div>
+                            <div class="clear"></div>
+                          </div>
+                        </div>
+                        <div class="clear"></div>
+                      </div>
+                    </div>
+                  </div-->
+
+                  <!--div class="fw_block bg_start mt0 mb0 pt0">
+                    <div class="row">
+                      <div class="col-sm-6 module_cont pb0 animate" data-anim-type="fadeInLeft" data-anim-delay="800">
+                        <img src="/media/images/photos-scattered.jpg" class="mt0" alt="">
+                      </div>
+
+                      <div class="col-sm-6 module_content pt50">
+                        <h2 class="item_title">Create Your Free PFPix Account</h2>
+                        <p class="mb20 animate PF-text-light-special" data-anim-type="fadeInUp" data-anim-delay="300">
+                          Receive <a target="_top" href="#">50 free</a> 4x6 prints
+                        </p>
+                        <a target="_top" href="/signup?membershipId=335445" class="shortcode_button btn_normal btn_type5 mt28">Register Today</a>
+
+                      </div>
+                    </div>
+                  </div-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+  <!-- ********** this ends Umbraco main content ********** -->
+      <!-- END USER DEFINED CONTENT -->
+   
+     </div>
+
+
+        </div>
+
+        <footer id="footer" class="ng-cloak">
+<!-- [PagePart-begin] FooterBody -->
+
+<!-- ********** this starts Umbraco FooterBody ********** -->	
+<div id="rvt-footer-content">
+<div class="the-footer">
+
+<!--==============================footer=================================-->    
+    <div class="footer">
+    	<div class="container">
+        	<div class="pre_footer">
+            	<div class="row">
+                	<div class="col-sm-3">
+                    	<div class="sidepanel widget_text footer_lists">
+                        	<h4 class="title">Prints &amp; Posters</h4>
+                        	<ul>
+								<li><a target="_top" href="/prints/standard-prints">Standard Prints</a></li>
+								<li><a target="_top" href="/prints/square-prints">Square Prints</a></li>
+								<li><a target="_top" href="/prints/Large-format">Large Format</a></li>
+								<li><a target="_top" href="/shop/posters-and-collages">Posters & Collages</a></li>
+								<!--li><a target="_top" href="/prints-enlargements/canvas-enlargements">Canvas Enlargements</a></li-->
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">Big Print You</a></li>-->
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">4x6 Prints</a></li>-->
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">5x7 Prints</a></li>-->
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">8x10 Prints</a></li>-->
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">11x14 Enlargements</a></li>-->
+							</ul>
+                        </div>	
+                    </div>
+					<div class="col-sm-3">
+                    	<div class="sidepanel widget_text footer_lists">
+                        	<h4 class="title">Photo Products</h4>
+                        	<ul>
+								<li><a target="_top" href="/prints/standard-prints">Standard Prints</a></li>
+								<li><a target="_top" href="/prints/square-prints">Square Prints</a></li>
+								<li><a target="_top" href="/prints/Large-format">Large Format</a></li>
+								<li><a target="_top" href="/shop/posters-and-collages">Posters & Collages</a></li>
+								<!--li><a target="_top" href="/prints-enlargements/canvas-enlargements">Canvas Enlargements</a></li-->
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">Big Print You</a></li>-->
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">4x6 Prints</a></li>-->
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">5x7 Prints</a></li>-->
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">8x10 Prints</a></li>-->
+								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">11x14 Enlargements</a></li>-->
+							</ul>
+                        </div>	
+                    </div>
+					<div class="col-sm-3">
+                    	<div class="sidepanel widget_text footer_lists">
+                        	<h4 class="title">Photo Products</h4>
+                        	<ul>
+								<li><a target="_top" href="/shop/photo-books">Photo Books</a></li>
+								<li><a target="_top" href="/Shop/folded-cards">Folded Cards</a></li>
+								<li><a target="_top" href="/Shop/Flat-cards">Flat Cards</a></li>
+								<li><a target="_top" href="/shop/canvas">Canvas</a></li>
+								<li><a target="_top" href="/shop/wall-decor">Wall Decor</a></li>
+								<!--li><a target="_top" href="#">Photo Books</a></li-->
+								<li><a target="_top" href="/shop/acrylic">Acrylic</a></li>
+								<li><a target="_top" href="/shop/gifts">Gifts</a></li>
+								<li><a target="_top" href="/shop/stationery">Stationery</a></li>
+								<li><a target="_top" href="/shop/calendars">Calendars</a></li>
+								<!--li><a target="_top" href="/photo-services">Photo Services</a></li-->
+								<li><a target="_top" href="/create">Create</a></li>								
+							</ul>
+                        </div>	
+                    </div>
+					<div class="col-sm-3">
+                    	<div class="sidepanel widget_text footer_lists">
+                        	<h4 class="title">Business &amp; Services</h4>
+                        	<ul>
+								<li><a target="_top" href="/about">About Us</a></li>
+								<!--<li><a href="#">Tax Exempt Sales</a></li>-->
+								<!--<li><a href="#">Picasa</a></li>-->
+								<!--li><a target="_top" href="/about/affiliate">Affiliates</a></li-->
+								<li><a target="_top" href="/prints">iPhone/iPad App</a></li>
+								<!--<li><a target="_top" href="#">Special Offers</a></li>-->
+								<!--<li><a target="_top" href="#">What's New?</a></li>-->
+							</ul>
+                        </div>	
+                    </div>
+					<div class="col-sm-3">
+                    	<div class="sidepanel widget_text footer_lists">
+                        	<h4 class="title">Help &amp; Support</h4>
+                        	<ul>
+								<li><a target="_top" href="/privacy-statement">Privacy Statement</a></li>
+								<li><a target="_top" href="/terms-and-conditions">Terms &amp; Conditions</a></li>
+								<li><a target="_top" href="/pricelist">Pricing + Shipping</a></li>
+								<li>&nbsp;</li>
+								<li><a target="_top" href="/stores">Find a Store</a></li>
+								<!--<li><a target="_top" href="#">Videos</a></li>-->
+								<!--<li><a target="_top" href="#">FAQ</a></li>-->
+								<!--<li><a target="_top" href="#">Sitemap</a></li>-->
+							</ul>
+                        </div>	
+                    </div>		
+                </div>
+            </div>
+            <div class="footer_bottom pb20">
+				<div class="col-sm-4 pl0">
+					<div class="footer_brands">
+						<language-selector dropup="true"></language-selector>
+					</div>
+				</div>
+				<div class="col-sm-4">
+                	<!--img id="trustwaveSealImage" src="https://sealserver.trustwave.com/seal_image.php?customerId=w6oj3BxxrlKu4gUB1cFEuabiX2IgvC&amp;size=105x54&amp;style=" border="0" style="cursor:pointer;" onclick="javascript:window.open('https://sealserver.trustwave.com/cert.php?customerId=w6oj3BxxrlKu4gUB1cFEuabiX2IgvC&amp;size=105x54&amp;style=normal', 'c_TW', 'location=no, toolbar=no, resizable=yes, scrollbars=yes, directories=no, status=no, width=615, height=720'); return false;" oncontextmenu="javascript:alert('Copying Prohibited by Law - Trusted Commerce is a Service Mark of TrustWave Holdings, Inc.'); return false;" translate="" translate-attr-alt="Checkout_Trustwave" translate-attr-title="Checkout_Trustwave" class="ng-scope" alt="This site protected by Trustwave's Trusted Commerce program" title="This site protected by Trustwave's Trusted Commerce program"-->
+					<div class="copyright">&copy; 2017 Photo Finale.  All Rights Reserved.</div>
+				</div>
+				<div class="col-sm-4 pr0">
+					<div class="footer_FSsocials">
+						<ul>							
+							<li><a href="https://www.facebook.com/photofinaleinc"><span class="contact_info_icon iconcolor-facebook"><i class="icon-facebook"></i></span></a></li>
+							<li><a href="http://www.twitter.com/photofinaleinc"><span class="contact_info_icon iconcolor-twitter"><i class="icon-twitter"></i></span></a></li>
+							<!--li><a href="http://www.pinterest.com/photofinaleinc"><span class="contact_info_icon iconcolor-youtube"><i class="icon-youtube"></i></span></a></li-->
+							<li><a href="https://plus.google.com/+PhotoFinaleInc/about"><span class="contact_info_icon iconcolor-googleplus"><i class="icon-google-plus"></i></span></a></li>
+							<li><a href="http://www.pinterest.com/photofinaleinc"><span class="contact_info_icon iconcolor-pinterest"><i class="icon-pinterest"></i></span></a></li>
+						</ul>
+                    </div>
+				</div>  
+				<div class="clear"></div>				
+            </div>
+        </div>
+    </div>   
+    <div class="fixed-menu"></div>	
+</div>
+</div>	
+    
+	
+<!-- ********** this ends Umbraco FooterBody ********** -->
+   
+<!-- [PagePart-end] FooterBody -->
+
+        </footer>
+    </div>
+
+    
+<script type="text/javascript">
+    
+try {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-32258-1', {
+
+        'userId': '666653077',
+
+        'cookieDomain': '.pfsandbox.com'
+    });
+
+    ga('require', 'displayfeatures');
+
+
+    ga('create', 'UA-19247443-1', {
+'name': 'DealerTracker',
+
+        'userId': '666653077',
+
+        'cookieDomain': '.pfsandbox.com'
+    });
+
+
+} catch (ex) {}
+
+</script>
+
+<script src="//cdn.jsdelivr.net/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+<script src="//cdn.jsdelivr.net/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="//cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js" type="text/javascript"></script>
+<script src="//cdn.jsdelivr.net/toastr/2.1.3/toastr.min.js"></script>
+
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-animate.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-cookies.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-sanitize.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-touch.min.js"></script>
+
+<script src="/bundles/vendor/js?v=AiAxwHYAKYSegc0WCcyvlsv-AkVRqiX9JvTtJWgHZ4M1"></script>
+
+<script src="/bundles/app/js?v=q4Nu9jecoOtycBwt4R_OrmmzsgQKfc7KaTTKgjPB5081"></script>
+
+
+<script>
+    (function (pf) {
+        pf.allowSharing = true;
+        pf.apiKey = "x3p4dr7thuGaYabrudEd";
+        pf.apiUrl = "https://api3-sandbox.photofinale.com/";
+        pf.currencyCulture = "en-US";
+
+        pf.dealerName = pf.dealer.name = "Silverline Photo";
+        pf.dealerCode = pf.dealer.code = "9071";
+        pf.dealerCountry = pf.dealer.country = "US";
+        pf.dealerEmail = pf.dealer.email = "rachel@photofinale.com";
+        pf.dealerPhone = pf.dealer.phone = "(703) 564-3400";
+
+        pf.dealer.options.demandware = false;
+        pf.dealer.options.dpi_threshold = 50;
+        pf.dealer.options.express_upload_dpi = 1344;
+        pf.dealer.options.fast_upload_dpi = 1800;
+        pf.dealer.options.hide_country_on_delivery = false;
+        pf.dealer.options.hide_print_cropping_options = false;
+        pf.dealer.options.offer_prepayment_only_when_required = false;
+        pf.dealer.options.prevent_multiple_coupons = false;
+
+        pf.domain = "https://silverline.pfsandbox.com";
+        pf.facebookAppId = "494782137232569";
+        pf.instagramAppId = "3aad2f15d16d4d1fb3a826976f70211b";
+        pf.isPrintNetwork = false;
+        pf.region = "en-US";
+        pf.secureDomain = "https://silverline.pfsandbox.com";
+        pf.serviceDomain = "https://silverline.pfsandbox.com";
+        pf.trackingId = "666653077";
+        pf.googleMapsApiKey = "AIzaSyCcUhWFkg61NBtdWf15f9gGdd8FMkP3CvI";
+
+        pf.analytics.dealerUa = "UA-19247443-1";
+        pf.analytics.domain = ".pfsandbox.com";
+        pf.analytics.enabled = true;
+        pf.analytics.trackDealer = true;
+        pf.analytics.ua = "UA-32258-1";
+
+        pf.ui.availableLanguages = [
+            {name:'Español', value:'es-ES'},{name:'Suomi', value:'fi-FI'},{name:'Français', value:'fr-CA'},{name:'Italiano', value:'it-IT'},{name:'日本語', value:'ja-JP'},{name:'Norsk (Bokmål)', value:'nb-NO'},{name:'English', value:'en-US'},{name:'Svenska', value:'sv-SE'}
+        ];
+        pf.ui.blockUploads = false;
+        pf.ui.creativeMode = "html";
+        pf.ui.hasCustomContent = true;
+        pf.ui.isLocal = false;
+        pf.ui.isMobileDevice = false;
+        pf.ui.isPFAtKiosk = false;
+        pf.ui.isSilverlightDisabled = true;
+        pf.ui.links = {
+            $default: "default.aspx",
+            continueShopping: "https://silverline.pfsandbox.com/prints",
+            create: "https://silverline.pfsandbox.com/create",
+            forgotPassword: "https://silverline.pfsandbox.com/forgotpassword",
+            prints: "https://silverline.pfsandbox.com/prints"
+        };
+
+        pf.user.isAuthenticated = false;
+
+pf.user.personId = '666653077';
+        pf.sourceApplication = pf.ui.isPFAtKiosk ? "PF Kiosk" : String.format("Photo Finale Mobile ({0})", Browser.mobileDevice.any() ? "mobile" : "desktop");
+
+    }(window.PF = window.PF || {}));
+</script>
+
+
+
+    
+
+
+    <!-- [PagePart-begin] FooterExtra -->
+
+<!-- ********** this starts Umbraco FooterExtra-mobile ********** -->
+
+<!-- OLD METHOD BEFORE ADDITION OF $pf-url-visited
+<script type="text/javascript">
+$(document).on("$viewContentLoaded", function() {  
+     console.log( "Debug: viewContentLoaded Fired: " + window.location.href);
+     if (window.location.href.indexOf("/mobile/account/orders")>-1) {
+                $('.jumbotron').hide();
+                $('.summary-content').hide();
+                $('.title').html("Order History");
+                $('.tabs.nav.nav-tabs').hide();
+         }	
+
+  });
+</script>
+-->
+
+<script type="text/javascript">
+		$(document).on("$pf-url-visited", function (event, url)
+		{
+			console.log("Page change: " + url);
+		});
+</script>
+
+
+	<script type="text/javascript" src="/media/js/modules.js"></script>	
+	<script type="text/javascript" src="/media/js/theme.js"></script> 
+	
+	<script type="text/javascript" src="/media/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="/media/js/jquery.themepunch.revolution.min.js"></script>    
+	
+	<script type="text/javascript" src="/media/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="/media/js/sorting.js"></script>
+	
+    <script type="text/javascript">
+		jQuery(document).ready(function() {
+		   "use strict";			   						
+		   jQuery('.fullscreen_slider').show().revolution({
+				delay: 0,
+				startwidth: 1170,
+				startheight: 765,
+				fullWidth:"off",
+				fullScreen:"on",
+				navigationType:"bullet",
+				fullScreenOffsetContainer: ".main_header",
+				fullScreenOffset: ""
+			});
+      
+      if (PF.user.isAuthenticated) {
+        jQuery('.top-band .fright ul').prepend('<li>Hello, ' + PF.user.firstName + '!</li>');
+        jQuery('#top-join').html('<a href="/signout.aspx" target="_top">Sign Out</a>');
+        jQuery('#top-signin').html('<a href="/account" target="_top">Account</a>');
+      }
+      else if (window.location.href.indexOf("signin") > -1) {
+        // Don't show signin link on the signin page
+      }
+      else {
+        jQuery('#top-join').html('<a href="/signup?membershipId=335445" target="_top">Join</a>');
+        jQuery('#top-signin').html('<a href="/signin" target="_top">Sign In</a>');
+      }
+      
+      if(window.location.href.indexOf('prepaidplans') > 1){
+        sortUsingNestedText($('#ctl00_MainContent_ctl00_giftsDataList'), 'span', '.prepaidPlanContainer>span');
+      }
+		});
+		
+		// button popup on product details pages
+		function centerModal() {
+			$(this).css('display', 'block');
+			var $dialog = $(this).find(".modal-dialog");
+			var offset = ($(window).height() - $dialog.height()) / 2;
+			// Center modal vertically in window
+			$dialog.css("margin-top", offset);
+		}
+
+		$('.modal').on('show.bs.modal', centerModal);
+		$(window).on("resize", function () {
+			$('.modal:visible').each(centerModal);
+		});
+
+  //sort pre-paid plans page
+  function sortUsingNestedText(parent, childSelector, keySelector) {
+    var items = parent.children(childSelector).sort(function(a, b) {
+        var vA = $(keySelector, a).text();
+        var vB = $(keySelector, b).text();
+        vA = vA.replace('1', '9');  //sort cheat. ugly hack but hey, it works.
+        vB = vB.replace('1', '9');
+        return (vA < vB) ? -1 : (vA > vB) ? 1 : 0;
+    });
+    parent.append(items);
+  }		
+		
+		// all products page gallery
+		items_set = [                    
+			{src : '/media/images/gallery/16.jpg', zoom : '/media/images/gallery/16.jpg', url : '#', sortcategory: 'gifts', title: 'Unde Sed ut', itemcategory: 'Print Design'},
+			{src : '/media/images/gallery/17.jpg', zoom : '/media/images/gallery/17.jpg', url : '#', sortcategory: 'books', title: 'Tempore Nam Libero', itemcategory: 'Business'},
+			{src : '/media/images/gallery/18.jpg', zoom : '/media/images/gallery/18.jpg', url : '#', sortcategory: 'wall', title: 'Dolores Magni', itemcategory: 'People'},
+			{src : '/media/images/gallery/19.jpg', zoom : '/media/images/gallery/19.jpg', url : '#', sortcategory: 'books', title: 'Unde Sed ut', itemcategory: 'Print Design'},
+			{src : '/media/images/gallery/20.jpg', zoom : '/media/images/gallery/20.jpg', url : '#', sortcategory: 'wall books', title: 'Tempore Nam Libero', itemcategory: 'Business'}
+		];
+		jQuery('#list').portfolio_addon({
+			type : 0, // wall portfolio
+			load_count : 5,
+			items : items_set
+		});
+		
+		// Search text bar
+
+$(document).ready(function() {
+
+$( "#idMobileSearchPhrase" ).keypress(function( event ) {
+if ( event.which == 13 ) {
+
+event.preventDefault();
+
+var encodedUrl = encodeURIComponent( $("#idMobileSearchPhrase").val());
+
+
+window.location.href = "/mobile/search?phrase="+encodedUrl;
+	
+	}
+	});
+
+});
+
+$(function() {
+PF.ui.languageSelect("#language-selector");
+});
+
+	</script> 
+	
+<script src="//my.hellobar.com/0206846d8ef008d4c020a29e13038d03825afce6.js" type="text/javascript" charset="utf-8" async="async"></script>
+ 
+ <!-- ********** this ends Umbraco FooterExtra-mobile ********** -->
+   
+<!-- [PagePart-end] FooterExtra -->
+
+</body>
+</html>

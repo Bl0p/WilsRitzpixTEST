@@ -1,0 +1,391 @@
+
+
+<!-- ********** this starts Umbraco main content  ********** -->
+<div id="rvt-page-content">
+<div class="the-page">
+    
+	<!--==============================main/slider=================================-->
+		
+	
+	   <div class="wrapper" style="background:#fff;">
+    	<div class="container">
+        	<div class="content_block row no-sidebar pt30">
+            	<div class="fl-container">
+                	<div class="posts-block">
+                        <div class="contentarea">  
+							
+							<div class="breadcrumbs pb10">
+								<a target="_top" href="/">Home</a><span>></span><a target="_top" href="/photo-services">Services</a><span>></span>Film
+								
+							</div>
+                             
+                            <div class="row">
+							
+								<div class="col-md-6 module_cont pb20">
+									<img src="/media/images/imgProduct_services-film.jpg" class="img-responsive">
+                                </div>  
+							
+								<div class="col-md-6 module_cont pb20">
+									<h1 class="title-page">Film Service</h1>
+									 Drop your film off at one of our 13 Ritz, Wolf, Inkley's, or Camera World locations and pick it up in an hour.  We offer one hour film processing for both 35mm film and the Advanced Photo System (APS). We also offer processing of other types of film in our central lab in Atlanta, Georgia. So, if you have film, we have you covered!
+									<br><br>
+									<b>Film Options:</b>
+									<ul>
+										<li>Photo restoration</li>
+										<li>Develop, single prints</li>
+										<li>Develop, double prints</li>
+										<li>Develop, singles or doubles with photo CD</li>
+										<li>Develop only</li>
+										<li>Develop only, plus a photo CD</li>
+										<li>Develop and print Super Big Prints (8x6)</li>
+										<li>Develop only, plus a photo CD and a photo book</li>
+									</ul>
+									<br><br>
+									<div class="text-center" data-anim-type="fadeInUp" data-anim-delay="150"><a target="_top" href="/store-locations" class="shortcode_button btn_large btn_type5">Find a Store</a></div>
+									
+                                    <div class="clear"></div>
+                                </div>                                      	
+                            </div>                              
+                            
+							
+							<div class="fw_block bg_start pt20 pb0 grey_bg mb0">
+								<div class="breadcrumbs" data-anim-type="fadeInUp" data-anim-delay="50">
+								<h3 class="title-page">Other Services</h3>
+							</div>
+								<div class="row">
+									<div class="col-sm-12 module_cont pb80 module_feature_posts">
+										<div class="featured_items">
+											<div class="items4 featured_posts">
+												<ul class="item_list">                                                
+													
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="150">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																   <img src="/media/images/imgProduct_services-iPhone-app.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_blank" href="https://itunes.apple.com/us/app/ritzpix/id487269133"><i class="icon-link"></i></a>
+																	</div>                                                                 
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_blank" href="https://itunes.apple.com/us/app/ritzpix/id487269133">RitzPix iPhone App</a></h5>
+																	</div>
+																	<!--div class="featured_item_content">
+																	info here
+																	<br>
+																	<a target="_top" href="/services" class="fright">More Details ></a><br>
+																	</div-->
+																   <div class="featured_meta">
+																		<div class="date">
+																			free download
+																		</div>
+																		<div class="comments">
+																			<a target="_blank" href="https://itunes.apple.com/us/app/ritzpix/id487269133" class="shortcode_button btn_small btn_ritzred">Download ></a>
+																		</div>
+																	</div>                                                         
+																</div>                                                            
+															</div>
+														</div>
+													</li>
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="150">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																   <img src="/media/images/imgProduct_services-scanning.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/photo-services/photo-scanning-services"><i class="icon-link"></i></a>
+																	</div>                                                                 
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/photo-services/photo-scanning-services">Scanning</a></h5>
+																	</div>
+																	<!--div class="featured_item_content">
+																	info here
+																	<br>
+																	<a target="_top" href="/services" class="fright">More Details ></a><br>
+																	</div-->
+																	<div class="featured_meta">
+																		<div class="date">
+																			prints, slides, film
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/photo-services/photo-scanning-services" class="shortcode_button btn_small btn_ritzred">Info ></a>
+																		</div>
+																	</div>                                                         
+																</div>                                                            
+															</div>
+														</div>
+													</li>
+													<!--li class="animate" data-anim-type="fadeInUp" data-anim-delay="150">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																   <img src="/media/images/imgProduct_services-film.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/services/film"><i class="icon-link"></i></a>
+																	</div>                                                                  
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/services/film">Film Developing</a></h5>
+																	</div>
+																	<div class="featured_item_content">
+																	info here
+																	<br>
+																	<a target="_top" href="/services" class="fright">More Details ></a><br>
+																	</div>
+																	<div class="featured_meta">
+																		<div class="date">
+																			negatives!
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/services/film" class="shortcode_button btn_small btn_ritzred">Info ></a>
+																		</div>
+																	</div>                                                           
+																</div>                                                            
+															</div>
+														</div>
+													</li-->
+													
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="150">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																	<img src="/media/images/imgProduct_services-mounting.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/photo-services/mounting-laminating"><i class="icon-link"></i></a>
+																	</div>                                                                  
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/photo-services/mounting-laminating">Mounting &amp; Laminating</a></h5>
+																	</div>
+																	<!--div class="featured_item_content">
+																	info here
+																	<br>
+																	<a target="_top" href="/services" class="fright">More Details ></a><br>
+																	</div-->
+																	<div class="featured_meta">
+																		<div class="date">
+																			1 hour in-store service
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/photo-services/mounting-laminating" class="shortcode_button btn_small btn_ritzred">Info ></a>
+																		</div>
+																	</div>                                                       
+																</div>                                                            
+															</div>
+														</div>
+													</li>                                      
+													
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="150">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																	<img src="/media/images/imgProduct_services-image-recovery.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/photo-services/image-recovery"><i class="icon-link"></i></a>
+																	</div>                                                                  
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/photo-services/image-recovery">Image Recovery</a></h5>
+																	</div>
+																	<!--div class="featured_item_content">
+																	info here
+																	<br>
+																	<a target="_top" href="/services" class="fright">More Details ></a><br>
+																	</div-->
+																	<div class="featured_meta">
+																		<div class="date">
+																			on-site service
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/photo-services/image-recovery" class="shortcode_button btn_small btn_ritzred">Info ></a>
+																		</div>
+																	</div>                                                       
+																</div>                                                            
+															</div>
+														</div>
+													</li>                                   
+													
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="150">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																	<img src="/media/images/imgProduct_services-video-transfers.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/photo-services/video-transfer-services"><i class="icon-link"></i></a>
+																	</div>                                                               
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/photo-services/video-transfer-services">Video Transfers</a></h5>
+																	</div>
+																	<!--div class="featured_item_content">
+																	info here
+																	<br>
+																	<a target="_top" href="/services" class="fright">More Details ></a><br>
+																	</div-->
+																	<div class="featured_meta">
+																		<div class="date">
+																			8mm, VHS and more
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/photo-services/video-transfer-services" class="shortcode_button btn_small btn_ritzred">Info ></a>
+																		</div>
+																	</div>                                                                
+																</div>                                                            
+															</div>
+														</div>
+													</li>
+													
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="150">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																   <img src="/media/images/imgProduct_services-passport-photos.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/photo-services/passport-photos"><i class="icon-link"></i></a>
+																	</div>                                                                  
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/photo-services/passport-photos">Passport Photos</a></h5>
+																	</div>
+																	<!--div class="featured_item_content">
+																	info here
+																	<br>
+																	<a target="_top" href="/services" class="fright">More Details ></a><br>
+																	</div-->
+																	<div class="featured_meta">
+																		<div class="date">
+																			ready in 5 minutes!
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/photo-services/passport-photos" class="shortcode_button btn_small btn_ritzred">Info ></a>
+																		</div>
+																	</div>                                                           
+																</div>                                                            
+															</div>
+														</div>
+													</li>
+												
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="150">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																	<img src="/media/images/imgProduct_services-DVD.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/photo-services/photo-dvd"><i class="icon-link"></i></a>
+																	</div>                                                                  
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/photo-services/photo-dvd">MyShow DVD</a></h5>
+																	</div>
+																	<!--div class="featured_item_content">
+																	info here
+																	<br>
+																	<a target="_top" href="/services" class="fright">More Details ></a><br>
+																	</div-->
+																	<div class="featured_meta">
+																		<div class="date">
+																			photo movies
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/photo-services/dvds" class="shortcode_button btn_small btn_ritzred">Info ></a>
+																		</div>
+																	</div>                                                       
+																</div>                                                            
+															</div>
+														</div>
+													</li>                                      
+													
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="150">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																	<img src="/media/images/imgProduct_services-CD.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/photo-services/picture-cd"><i class="icon-link"></i></a>
+																	</div>                                                                  
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/services/cds">Photo CD</a></h5>
+																	</div>
+																	<!--div class="featured_item_content">
+																	info here
+																	<br>
+																	<a target="_top" href="/services" class="fright">More Details ></a><br>
+																	</div-->
+																	<div class="featured_meta">
+																		<div class="date">
+																			archive it
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/services/cds" class="shortcode_button btn_small btn_ritzred">Info ></a>
+																		</div>
+																	</div>                                                       
+																</div>                                                            
+															</div>
+														</div>
+													</li>                                   
+													
+													
+													   
+												</ul>
+											</div>
+										</div>                                                         
+									</div>
+								</div>             
+
+							</div>
+							
+							
+								
+                            
+                            <div class="row">
+                                <div class="col-sm-12 animate" data-anim-type="fadeInUp" data-anim-delay="300">
+                                	<div class="fw_block bg_start highlighted_colored mb0">
+                                        <div class="shortcode_promoblock">
+                                            <div class="promoblock_wrapper">
+                                                <div class="promo_text_block">
+                                                    <div class="promo_text_block_wrapper">
+                                                        <h2 class="promo_text_main_title">Create a free account - unlimited storage!</h2>
+                                                        <h6 class="promo_text_additional_title">We offer free, secure, unlimited storage for all your photos. You can even save your creative products to return to later or edit and reorder!</h6>
+                                                    </div>
+                                                </div>        
+                                                <div class="promo_button_block"><a class="shortcode_button btn_large btn_type5" href="/startsharing">Sign Up</a></div>
+                                                <div class="clear"></div>                                                                                
+                                            </div>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>                             	
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+	
+	
+	
+</div>
+</div>
+<!-- ********** this ends Umbraco main content ********** -->

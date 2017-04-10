@@ -33,28 +33,29 @@
 
 						<!-- Start Slide 1 -->
 						<div class="item active">
-                            <img class="first-slide" src="/media/images/slider-promos/feb_50-sitewide_banner1.jpg" alt="first slide">
+                            <img class="first-slide" src="/media/images/slider-promos/mar_cards-faves_banner1.jpg" alt="first slide">
                            <div class="container">
                            		<div class="carousel-caption right-side animate" style="top:0; background-color:rgba(0,0,0,.4); height:300px;" data-anim-type="bounceInRight">
-                            		<h1 style="margin-top:30px; font-color:white; font-size:50px; line-height:55px;">50% Off Sitewide</h1>
-                                    <hr class="hidden-xs" /><br> 
-                            		<p class="top20">Code: IHEARTYOU  |  Ends Thursday</p>
-                            		<p><a class="shortcode_button btn_large btn_type5" href="/create?coupon=IHEARTYOU" target="_top" role="button" data-anim-type="bounceInRight">START CREATING</a></p>
-								</div>
+                            		<h1 style="margin-top:20px; font-color:white; font-size:40px; line-height:55px;">Share your news</h1>
+                                    <h1 style="margin-top:20px; font-color:white; font-size:40px; line-height:35px;">40% Off Cards</h1>
+                                    <hr class="hidden-xs" />
+                            		<p class="top20">Code: CELEBRATE  |  Ends Monday 3/13</p>
+                            		<p><a class="shortcode_button btn_large btn_type5" href="/cards-stationery/flat-photo-cards?coupon=CELEBRATE" target="_top" role="button" data-anim-type="bounceInRight">Order Cards</a></p>
+                                    </div>
                             </div>
                           </div>
                         <!-- End Slide 1 -->
                         
                         <!-- Start Slide 2 -->
 						<div class="item">
-                            <img class="second-slide" src="/media/images/slider-promos/feb_50-sitewide_banner2.jpg" alt="second slide">
+                            <img class="second-slide" src="/media/images/slider-promos/mar_cards-faves_banner2.jpg" alt="second slide">
                            <div class="container">
-                           		<div class="carousel-caption right-side animate" style="top:0; background-color:rgba(0,0,0,.4); height:325px;" data-anim-type="bounceInRight">
-                            		<h1 style="margin-top:30px; font-color:white; font-size:50px; line-height:55px;">Print Your<br>Heart Out</h1>
-                                    <h1 style="margin-top:0px; font-color:white; font-size:40px; line-height:35px;">with 50% Off Prints</h1>
-                                   <hr class="hidden-xs" />
-                                    <p class="top20">Code: IHEARTYOU  |  Ends Thursday</p> 
-                            		<p><a class="shortcode_button btn_large btn_type5" href="/prints/standard-prints?coupon=IHEARTYOU" target="_top" role="button" data-anim-type="bounceInRight">START PRINTING</a></p>
+                           		<div class="carousel-caption left-side animate" style="top:0; background-color:rgba(0,0,0,.4); height:350px;" data-anim-type="bounceInRight">
+                            		<h1 style="margin-top:30px; font-color:white; font-size:40px; line-height:45px;">8 ½ x 11 Premium Books with Photo Covers</h1>
+                                    <h1 style="margin-top:0px; font-color:white; font-size:40px; line-height:45px;">$19.99</h1>
+                                    <hr class="hidden-xs" />
+                                    <p class="top20">Code: PLAYFAVORITES | Ends Monday 3/13</p> 
+                            		<p><a class="shortcode_button btn_large btn_type5" href="/photo-books/premium?coupon=BIGTIME?coupon=PLAYFAVORITES" target="_top" role="button" data-anim-type="bounceInRight">Make A Book</a></p>
 								</div>
                             </div>
                           </div>
@@ -63,14 +64,13 @@
                         <!-- Start Slide 3 -->
                         
                         <div class="item">
-                            <img class="second-slide" src="/media/images/slider-promos/feb_50-sitewide_banner3.jpg" alt="second slide">
+                            <img class="third-slide" src="/media/images/slider-promos/mar_cards-faves_banner3.jpg" alt="third slide">
                            <div class="container">
-                           		<div class="carousel-caption left-side animate" style="top:0; background-color:rgba(0,0,0,.4); height:350px;" data-anim-type="bounceInRight">
-                            		<h1 style="margin-top:30px; font-color:white; font-size:50px; line-height:55px;">Wrap Your Heart Out</h1>
-                                    <h1 style="margin-top:0px; font-color:white; font-size:30px; line-height:35px;">with 50% Off Canvases</h1>
+                           		<div class="carousel-caption right-side animate" style="top:0; background-color:rgba(0,0,0,.4); height:325px;" data-anim-type="bounceInRight">
+                            		<h1 style="margin-top:30px; font-color:white; font-size:40px; line-height:55px;">5x5 Standard Prints 24¢</h1>
                                     <hr class="hidden-xs" />
-                                    <p class="top20">Code: IHEARTYOU  |  Ends Thursday</p> 
-                            		<p><a class="shortcode_button btn_large btn_type5" href="/mobile/create/catalog/bytype/83030/?coupon=IHEARTYOU" target="_top" role="button" data-anim-type="bounceInRight">START CREATING</a></p>
+                                    <p class="top20">Code: PLAYFAVORITES | Ends Monday 3/13</p> 
+                            		<p><a class="shortcode_button btn_large btn_type5" href="/prints-enlargements/metal-prints?coupon=PLAYFAVORITES" target="_top" role="button" data-anim-type="bounceInRight">Order Prints</a></p>
 								</div>
                             </div>
                           </div>
@@ -80,14 +80,14 @@
                         <!-- Start Slide 4 -->
                         
                         <div class="item">
-                            <img class="second-slide" src="/media/images/slider-promos/feb_50-sitewide_banner4.jpg" alt="second slide">
+                            <img class="forth-slide" src="/media/images/slider-promos/mar_cards-faves_banner4.jpg" alt="forth slide">
                            <div class="container">
-                           		<div class="carousel-caption right-side animate" style="top:0; background-color:rgba(0,0,0,.4); height:300px;" data-anim-type="bounceInRight">
-                            		<h1 style="margin-top:30px; font-color:white; font-size:40px; line-height:45px;">Shine Your Heart Out</h1>
-                                    <h1 style="margin-top:0px; font-color:white; font-size:30px; line-height:35px;">with 50% Off Metal Prints</h1>
+                           		<div class="carousel-caption left-side animate" style="top:0; background-color:rgba(0,0,0,.4); height:325px;" data-anim-type="bounceInRight">
+                            		<h1 style="margin-top:30px; font-color:white; font-size:40px; line-height:55px;">12x18<br>Prints On Metal </h1>
+                                    <h1 style="margin-top:0px; font-color:white; font-size:40px; line-height:45px;">$24.99</h1>
                                     <hr class="hidden-xs" />
-                                    <p class="top20">Code: IHEARTYOU  |  Ends Thursday</p> 
-                            		<p><a class="shortcode_button btn_large btn_type5" href="/prints-enlargements/metal-prints?coupon=IHEARTYOU" target="_top" role="button" data-anim-type="bounceInRight">START CREATING</a></p>
+                                    <p class="top20">Code: PLAYFAVORITES | Ends Monday 3/13</p> 
+                            		<p><a class="shortcode_button btn_large btn_type5" href="/prints-enlargements/metal-prints?coupon=PLAYFAVORITES" target="_top" role="button" data-anim-type="bounceInRight">Order Metal Prints</a></p>
 								</div>
                             </div>
                           </div>
@@ -97,14 +97,14 @@
                         <!-- Slide 5 -->
                         
                         <div class="item">
-                            <img class="second-slide" src="/media/images/slider-promos/feb_50-sitewide_banner5.jpg" alt="second slide">
+                            <img class="fifth-slide" src="/media/images/slider-promos/mar_cards-faves_banner5.jpg" alt="fifth slide">
                            <div class="container">
-                           		<div class="carousel-caption left-side animate" style="top:0; background-color:rgba(0,0,0,.4); height:350px;" data-anim-type="bounceInRight">
-                            		<h1 style="margin-top:30px; font-color:white; font-size:50px; line-height:55px;">Sip Your Heart Out</h1>
-                                    <h1 style="margin-top:0px; font-color:white; font-size:30px; line-height:35px;">with 50% Off Mugs</h1>
+                           		<div class="carousel-caption right-side animate" style="top:0; background-color:rgba(0,0,0,.4); height:425px;" data-anim-type="bounceInRight">
+                            		<h1 style="margin-top:30px; font-color:white; font-size:40px; line-height:55px;">50% Off<br>Wrapped Canvases</h1>
+                                    <h1 style="margin-top:30px; font-color:white; font-size:40px; line-height:55px;">40% Off<br>Framed Canvases</h1>
                                     <hr class="hidden-xs" />
-                                    <p class="top20">Code: IHEARTYOU  |  Ends Thursday</p>
-                                    <p><a class="shortcode_button btn_large btn_type5" href="/mobile/create/catalog/bytype/40716/?coupon=IHEARTYOU" target="_top" role="button" data-anim-type="bounceInRight">START CREATING</a></p>
+                                    <p class="top20">Code: SHOWCASE | Ends Monday 3/13</p> 
+                            		<p><a class="shortcode_button btn_large btn_type5" href="/shop?category=canvas-products?coupon=SHOWCASE" target="_top" role="button" data-anim-type="bounceInRight">Order Canvases</a></p>
 								</div>
                             </div>
                           </div>
@@ -145,11 +145,11 @@
                     </div>
                   </div>
                   <!-- //Slider -->
-                  <div class="fw_block bg_start wall_wrap mb0">
+                  <!--div class="fw_block bg_start wall_wrap mb0">
 				  <div style="text-align:center;">
 						  <a target="_top" href="mobile/create/catalog/byoccasion/27/40708"> <img SRC="/media/images/slider-promos/Valentines-2017_Homepage-Banner.jpg" alt="Valentine's Day Offer"/></a>
 							</div>
-							</div>
+							</div-->
 						<div class="fw_block bg_start pt74 pb20 mb0">
                   	<div class="row">
                       <div class="col-sm-12 module_cont pb0">
@@ -373,7 +373,7 @@
                                 <div class="item">
                                   <div class="item_wrapper">
                                     <div class="img_block wrapped_img">
-                                      <img src="/media/images/imgProduct_gifts-ceramic-mugs_340x240.jpg" class="img-responsive" alt="" />
+                                      <img src="/media/images/photo_mug_resized.jpg" class="img-responsive" alt="" />
                                       <span class="block_fade"></span>
                                       <div class="post_hover_info">
                                         <a target="_top" class="featured_ico_link view_link" href="/shop/photo-gifts/home-and-kitchen/photo-mugs"><i class="icon-link"></i></a>
@@ -424,11 +424,11 @@
                                 </div>
 
                               </li>
-                              <!--<li class="animate" data-anim-type="fadeInUp" data-anim-delay="350">
+                              <li class="animate" data-anim-type="fadeInUp" data-anim-delay="350">
                                 <div class="item">
                                   <div class="item_wrapper">
                                     <div class="img_block wrapped_img">
-                                      <img src="/media/images/promo_gifts.jpg" class="img-responsive" alt="" />
+                                      <img src="/media/images/promo_gifts_redone.jpg" class="img-responsive" alt="" />
                                       <span class="block_fade"></span>
                                       <div class="post_hover_info">
                                         <a target="_top" class="featured_ico_link view_link" href="/photo-gifts"><i class="icon-link"></i></a>
@@ -436,9 +436,9 @@
                                     </div>
                                     <div class="featured_items_body">
                                       <div class="featured_items_title">
-                                        <h5><a target="_top" href="/photo-gifts">Back To School Gifts</a></h5>
+                                        <h5><a target="_top" href="/photo-gifts">Gifts</a></h5>
                                       </div>
-                                      <div class="featured_item_content">Back to school gifts.<br /><br /></div>
+                                      <div class="featured_item_content">Personalize the perfect gift for your Friends and Family!<br /><br /></div>
                                       <div class="featured_meta">
                                         <div class="date">
                                           Starting From $5.99
@@ -451,7 +451,7 @@
                                     </div>
                                   </div>
                                 </div>
-                              </li>-->
+                              </li>
                             </ul>
                           </div>
                         </div>

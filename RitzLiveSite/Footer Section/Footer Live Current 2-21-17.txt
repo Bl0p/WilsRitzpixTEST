@@ -14,9 +14,10 @@
                         	<ul>
 								<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">Prints by Mail</a></li>
 								<li><a target="_top" href="/prints-enlargements">Photo Enlargements</a></li>
-								<li><a target="_top" href="/prints-enlargements/metallic-prints">Metallic Prints</a></li>
+								<li><a target="_top" href="/prints-enlargements/metallic-prints">Metallic Paper Prints</a></li>
 								<li><a target="_top" href="/prints-enlargements/deep-matte-prints">Deep Matte Prints</a></li>
 								<li><a target="_top" href="/prints-enlargements/canvas-enlargements">Canvas Enlargements</a></li>
+								<li><a target="_top" href="/prints-enlargements/metal-prints">Metal Prints</a></li>
 								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">Big Print You</a></li>-->
 								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">4x6 Prints</a></li>-->
 								<!--<li><a target="_top" href="/prints-enlargements/digital-prints/mail-order-prints">5x7 Prints</a></li>-->
@@ -70,7 +71,7 @@
 								<li>&nbsp;</li>
 								<li><a target="_top" href="/stores">Find a Store</a></li>
 								<!--<li><a target="_top" href="#">Videos</a></li>-->
-								<!--<li><a target="_top" href="#">FAQ</a></li>-->
+								<li><a target="_top" href="/help/faq">FAQ</a></li>
 								<!--<li><a target="_top" href="#">Sitemap</a></li>-->
 							</ul>
                             <!--signup form-->
@@ -123,22 +124,28 @@
                 </div>
             </div>
             <div class="footer_bottom pb20">
-				<div class="col-sm-4 pl0">
+				<div class="col-sm-3 pl0">
 					<div class="footer_brands">
 						<ul>
 							<li><img src="/media/images/brand_icon_wolf.jpg" class="img-responsive" alt="" /></li>
 							<li><img src="/media/images/brand_icon_inkleys.jpg" class="img-responsive" alt="" /></li>
 							<li><img src="/media/images/brand_icon_ritz.jpg" class="img-responsive" alt="" /></li>
-							<li><img src="/media/images/brand_icon_cameraswest.jpg" class="img-responsive" alt="" /></li>
-							<li><img src="/media/images/brand_icon_cameraworld.jpg" class="img-responsive" alt="" /></li>
+							<!--<li><img src="/media/images/brand_icon_cameraswest.jpg" class="img-responsive" alt="" /></li>
+							<li><img src="/media/images/brand_icon_cameraworld.jpg" class="img-responsive" alt="" /></li>-->
 						</ul>
 					</div>
 				</div>
-				<div class="col-sm-4">
-                	<img id="trustwaveSealImage" src="https://sealserver.trustwave.com/seal_image.php?customerId=w6oj3BxxrlKu4gUB1cFEuabiX2IgvC&amp;size=105x54&amp;style=" border="0" style="cursor:pointer;" onclick="javascript:window.open('https://sealserver.trustwave.com/cert.php?customerId=w6oj3BxxrlKu4gUB1cFEuabiX2IgvC&amp;size=105x54&amp;style=normal', 'c_TW', 'location=no, toolbar=no, resizable=yes, scrollbars=yes, directories=no, status=no, width=615, height=720'); return false;" oncontextmenu="javascript:alert('Copying Prohibited by Law - Trusted Commerce is a Service Mark of TrustWave Holdings, Inc.'); return false;" translate="" translate-attr-alt="Checkout_Trustwave" translate-attr-title="Checkout_Trustwave" class="ng-scope" alt="This site protected by Trustwave's Trusted Commerce program" title="This site protected by Trustwave's Trusted Commerce program">
-					<div class="copyright">&copy; 2016 Ritz Camera &amp; Image.  All Rights Reserved.</div>
+				<div class="col-sm-2 col-xs-12">
+<a href="https://itunes.apple.com/us/app/ritzpix-one-hour-prints-enlargements/id487269133?mt=8" style="display:inline-block;overflow:hidden;background:url(//linkmaker.itunes.apple.com/assets/shared/badges/en-us/appstore-lrg.svg) no-repeat;width:135px;height:40px;background-size:contain;"></a></li>
 				</div>
-				<div class="col-sm-4 pr0">
+				<div class="col-sm-2 col-xs-12">
+                	<img id="trustwaveSealImage" src="https://sealserver.trustwave.com/seal_image.php?customerId=w6oj3BxxrlKu4gUB1cFEuabiX2IgvC&amp;size=105x54&amp;style=" border="0" style="cursor:pointer;" onclick="javascript:window.open('https://sealserver.trustwave.com/cert.php?customerId=w6oj3BxxrlKu4gUB1cFEuabiX2IgvC&amp;size=105x54&amp;style=normal', 'c_TW', 'location=no, toolbar=no, resizable=yes, scrollbars=yes, directories=no, status=no, width=615, height=720'); return false;" oncontextmenu="javascript:alert('Copying Prohibited by Law - Trusted Commerce is a Service Mark of TrustWave Holdings, Inc.'); return false;" translate="" translate-attr-alt="Checkout_Trustwave" translate-attr-title="Checkout_Trustwave" class="ng-scope" alt="This site protected by Trustwave's Trusted Commerce program" title="This site protected by Trustwave's Trusted Commerce program">
+					
+				</div>
+				<div class="col-sm-2 col-xs-12">
+				<span id="siteseal"><img style="cursor:pointer;cursor:hand" src="https://seal.godaddy.com/images/3/en/siteseal_gd_3_h_l_m.gif" onclick="verifySeal();" alt="SSL site seal - click to verify"></span></li>
+				</div>
+				<div class="col-sm-3 pr0 col-xs-12">
 					<div class="footer_ritzsocials">
 						<ul>							
 							<li><a href="https://fb.me/RitzPix"><span class="contact_info_icon iconcolor-facebook"><i class="icon-facebook"></i></span></a></li>
@@ -149,6 +156,9 @@
 						</ul>
                     </div>
 				</div>  
+					<div class="col-sm-12 col-xs-12">
+					<div class="copyright">&copy; 2017 RitzPix LLC.  All Rights Reserved.</div>
+
 				<div class="clear"></div>				
             </div>
         </div>
@@ -200,4 +210,4 @@
 }
     </style>
     
-<!-- ********** this ends Umbraco FooterBody ********** -->  
+<!-- ********** this ends Umbraco FooterBody ********** -->

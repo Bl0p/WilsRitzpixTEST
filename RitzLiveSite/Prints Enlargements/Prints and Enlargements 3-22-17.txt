@@ -1,0 +1,954 @@
+<!-- ********** this starts Umbraco main content  ********** -->
+<div id="rvt-page-content">
+<div class="the-page">
+    
+	<!--==============================main/slider=================================-->
+		
+	
+	   <div class="wrapper" style="background:#fff;">
+    	<div class="container">
+        	<div class="content_block row no-sidebar pt30">
+            	<div class="fl-container">
+                	<div class="posts-block">
+                        <div class="contentarea">  
+							
+							<div class="breadcrumbs pb10">
+								<a target="_top" href="/">Home</a><a target="_top" href="/photo-prints">Prints</a>Prints &amp; Enlargements
+							</div>
+                             
+                            <div class="row">
+								<div class="col-md-6 module_cont pb20">
+									<img src="/media/images/imgProduct_prints.jpg" class="img-responsive">
+                                </div> 
+								<div class="col-md-6 module_cont pb20">
+									<h1 class="title-page">About Our Prints &amp; Enlargements</h1>
+                                   <!--<h3 style="text-align:left; margin-bottom:0; margin-top:0; color:red; font-family:Arial, Helvetica, sans-serif; font-size:38px;" >50% OFF SITEWIDE<br></h3>
+                  <br><h3 style="text-align:left; margin-bottom:0; margin-top:0; color:66666; font-family:Arial, Helvetica, sans-serif; font-size:20px;" >Order by 9:00pm tonight<br></h3>
+                  <h3 style="text-align:left; margin-bottom:0; margin-top:0; color:66666; font-family:Arial, Helvetica, sans-serif; font-size:20px;" >Select next day shipping to receive by Christmas<br></h3>
+                  <h3 style="text-align:left; margin-bottom:0; margin-top:0; color:66666; font-family:Arial, Helvetica, sans-serif; font-size:20px;" >Use promo code SITEWIDE<br></h3>
+                  <h3 style="text-align:left; margin-bottom:0; margin-top:0; color:66666; font-family:Arial, Helvetica, sans-serif; font-size:15px;" >Offer ends December 21th, 2015<br></h3>-->
+                                    With almost 100 years in the photo industry, Ritz Camera &amp; Image has a name you can trust with your digital prints. We offer more print sizes ready in an hour than any other online photo retailer. If you can't make it to the store, we offer shipping service. 
+									<br><br>
+									Prints and enlargements up to 24x36 are ready for pickup in an hour, or we can ship. We also offer larger than life size enlargements up to 44x120 inches!  In addition to traditional paper surfaces, like glossy and matte, we offer some new, unique finishes that you will love. Looking for something different? Try a deep matte or metallic option.  We can mount or laminate just about any size.
+									<br><br>
+                                    <!--<h3 style="text-align:left; margin-bottom:0; margin-top:0; color:red; font-family:Arial, Helvetica, sans-serif; font-size:38px;" >Print Sale Going On Now!<br></h3>-->
+                                    <!--<br><h3 style="text-align:left; margin-bottom:0; margin-top:0; color:66666; font-family:Arial, Helvetica, sans-serif; font-size:28px;" >All Enlargements 50% Off!</h3>-->
+                                    <!--<h3 style="text-align:left; margin-bottom:0; margin-top:0; color:66666; font-family:Arial, Helvetica, sans-serif; font-size:20px;" >Use promo code BIGPRINT<br></h3>-->
+                                    <!--<h3 style="text-align:left; margin-bottom:0; margin-top:0; color:66666; font-family:Arial, Helvetica, sans-serif; font-size:15px;" >Offer ends 02/29/2016</h3><br>-->
+                                    
+                                    <!--<h3 style="text-align:left; margin-bottom:0; margin-top:0; color:66666; font-family:Arial, Helvetica, sans-serif; font-size:28px;" >4x6's 7¢ EACH!</h3>-->
+                                    <!--<h3 style="text-align:left; margin-bottom:0; margin-top:0; color:66666; font-family:Arial, Helvetica, sans-serif; font-size:20px;" >Use promo code MARDIGRAS<br></h3>-->
+                                    <!--<h3 style="text-align:left; margin-bottom:0; margin-top:0; color:66666; font-family:Arial, Helvetica, sans-serif; font-size:15px;" >Offer ends 02/26/2016<br></h3>-->
+                                    
+                                    <br>
+									<div class="text-center" data-toggle="modal" data-target="#myModal" data-anim-type="fadeInUp" data-anim-delay="250"><a href="javascript:void(0);" class="shortcode_button btn_large btn_type5">Order Prints or Enlargements</a></div>
+									
+									<div class="row pt10 pb0">
+										<div class="col-sm-12 module_cont module_accordion pb10 animate" data-anim-type="bounceInRight" data-anim-delay="250">
+											<div class="shortcode_toggles_shortcode toggles">
+												<h5 data-count="1" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">Print Sizes &amp; Pricing<span class="ico"></span></h5>
+												<div class="shortcode_toggles_item_body">
+													<div class="ip">
+														<table id="price_table">
+															<tr>
+															  <th>Size</th>
+															  <th>Pickup</th>
+															  <th>Mail</th>
+															  <th></th>
+															  <th></th>
+															</tr>
+															<tr>
+																<td>4x6 (1-24)</td>
+																<td>$0.27</td>
+																<td>$0.15</td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>4x6 (25-59)</td>
+																<td>$0.22</td>
+																<td>$0.13</td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>4x6 (60-99)</td>
+																<td>$0.19</td>
+																<td>$0.13</td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>4x6 (100+)</td>
+																<td>$0.19</td>
+																<td>$0.11</td>
+																<td></td>
+																<td></td>
+															</tr>
+															
+															<tr>
+																<td>4+2</td>
+																<td>$0.49</td>
+																<td>$0.49</td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>4&half;x6</td>
+																<td>$0.49</td>
+																<td>$0.49</td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>3&half;x5 (1-24)</td>
+																<td>$0.27</td>
+																<td>$0.13</td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>3&half;x5 (25-99)</td>
+																<td>$0.27</td>
+																<td>$0.11</td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>3&half;x5 (100+)</td>
+																<td>$0.27</td>
+																<td>$0.09</td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>5x5</td>
+																<td>$0.49</td>
+																<td>$0.49</td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>5x7</td>
+																<td>$0.99</td>
+																<td>$0.99</td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>6x6</td>
+																<td>$0.49</td>
+																<td>$0.49</td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>8x6</td>
+																<td>$0.99</td>
+																<td>$0.99</td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>8x8</td>
+																<td>$4.99</td>
+																<td>$4.99</td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>8x10</td>
+																<td>$4.99</td>
+																<td>$3.99</td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>8x12</td>
+																<td>$5.49</td>
+																<td>$4.49</td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>Wallets (8)</td>
+																<td>$4.99</td>
+																<td>$4.99</td>
+																<td></td>
+																<td></td>
+															</tr>
+														</table>
+													</div>
+												</div>
+											   <h5 data-count="2" class="shortcode_toggles_item_title expanded_no" style="background-color:#f3f3f4;padding:5px;">Enlargement Sizes &amp; Pricing<span class="ico"></span></h5>
+											   <div class="shortcode_toggles_item_body">
+													<div class="ip">
+														<table id="price_table">
+															<tr>
+															  <th>Size</th>
+															  <th>Pickup or Mail</th>
+															  <th></th>
+															  <th></th>
+															  <th></th>
+															</tr>
+															<tr>
+																<td>10x13</td>
+																<td>$9.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>11x14</td>
+																<td>$10.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>12x12</td>
+																<td>$18.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>12x18</td>
+																<td>$19.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>16x20</td>
+																<td>$19.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>18x24</td>
+																<td>$19.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>20x24</td>
+																<td>$24.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>20x30</td>
+																<td>$29.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>24x24</td>
+																<td>$29.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>24x36</td>
+																<td>$39.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>30x30</td>
+																<td>$39.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>30x36</td>
+																<td>$49.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>30x48</td>
+																<td>$74.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>30x60</td>
+																<td>$84.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>30x72</td>
+																<td>$109.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>30x84</td>
+																<td>$74.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>36x36</td>
+																<td>$49.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>36x48</td>
+																<td>$69.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>36x60</td>
+																<td>$89.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>36x72</td>
+																<td>$119.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>36x84</td>
+																<td>$139.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>36x96</td>
+																<td>$159.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>44x44</td>
+																<td>$99.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>44x54</td>
+																<td>$119.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>44x72</td>
+																<td>$159.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+
+															</tr>
+															<tr class="alt">
+																<td>44x84</td>
+																<td>$189.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr>
+																<td>44x108</td>
+																<td>$239.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+															<tr class="alt">
+																<td>44x120</td>
+																<td>$269.99</td>
+																<td></td>
+																<td></td>
+																<td></td>
+															</tr>
+														</table>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									
+									
+									
+									<!-- button pops up this -->
+											<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+											  <div class="modal-dialog">
+												<div class="modal-content">
+													<div class="modal-body">
+														<div class="row">
+															<div class="col-md-12 col-sm-12">
+                                <h3 class="title-page mb20 hidden-xs">Choose a print group, join or start an upload:</h3>
+                                <h3 class="title-page mb20 visible-xs-block">Join or start an upload:</h3>
+                              </div>
+														</div>
+														<div class="row">
+															<div class="col-sm-4 hidden-xs">
+																<div class="pop_image">
+																	<a href="/prints/standard-prints" target="_top"><img src="/media/images/imgProduct_prints-fan-160x120.jpg" class="img-responsive"></a>
+																</div>
+																<div class="pop_details">
+																	<div class="pop_details_title text-center">Standard Prints</div>
+																	<div class="pop_details_subtitle text-center">sizes up to 8x12</div>
+																</div>																	
+															</div>
+															
+															<!--div class="col-sm-4 hidden-xs">
+																<div class="pop_image">
+																	<a href="/prints/standard-prints-in-store-pickup" target="_top"><img src="/media/images/imgProduct_prints-fan-160x120.jpg" class="img-responsive"></a>
+																</div>
+																<div class="pop_details">
+																	<div class="pop_details_title text-center">Prints - Store Pickup</div>
+																	<div class="pop_details_subtitle text-center">sizes up to 8x12</div>
+																</div>																	
+															</div-->
+
+															<div class="col-sm-4 hidden-xs">
+																<div class="pop_image">
+																	<a href="/prints/large-format-up-to-24" target="_top"><img src="/media/images/imgProduct_enlargements-160x120.jpg" class="img-responsive"></a>
+																</div>
+																<div class="pop_details">
+																	<div class="pop_details_title text-center">Large Format up to 24"</div>
+																	<div class="pop_details_subtitle text-center">sizes 10x13 to 24x36</div>
+																</div>
+															</div>
+															
+															<div class="col-sm-4 hidden-xs">
+																<div class="pop_image">
+																	<a href="/prints/large-format-up-to-44" target="_top"><img src="/media/images/imgProduct_posters-160x120.jpg" class="img-responsive"></a>
+																</div>
+																<div class="pop_details">
+																	<div class="pop_details_title text-center">Large Format up to 44"</div>
+																	<div class="pop_details_subtitle text-center">sizes 30x30 to 44x120</div>
+																</div>
+															</div>
+															
+															<div class="col-sm-4 hidden-xs">
+																<div class="pop_image">
+																	<a href="/prints/deep-matte-prints" target="_top"><img src="/media/images/imgProduct_deep-matte-160x120.jpg" class="img-responsive"></a>
+																</div>
+																<div class="pop_details">
+																	<div class="pop_details_title text-center">Deep Matte Prints</div>
+																	<div class="pop_details_subtitle text-center">wallet to 20x30</div>
+																</div>
+															</div>
+															
+															<div class="col-sm-4 hidden-xs">
+																<div class="pop_image">
+																	<a href="/prints/metallic-prints" target="_top"><img src="/media/images/imgProduct_metallic-160x120.jpg" class="img-responsive"></a>
+																</div>
+																<div class="pop_details">
+																	<div class="pop_details_title text-center">Metallic Prints</div>
+																	<div class="pop_details_subtitle text-center">wallet to 20x30</div>
+																</div>
+															</div>
+															
+															<div class="col-sm-4 hidden-xs">
+																<div class="pop_image">
+																	<a href="/prints/iphone-smart-phone" target="_top"><img src="/media/images/imgProduct_services-iphone-app-160x120.jpg" class="img-responsive"></a>
+																</div>
+																<div class="pop_details">
+																	<div class="pop_details_title text-center">iPhone &amp; Smartphone Prints</div>
+																	<div class="pop_details_subtitle text-center">4&half;x6, 6x8, 18x24</div>
+																</div>
+															</div>
+															
+															<div class="col-sm-4 hidden-xs">
+																<div class="pop_image">
+																	<a href="/prints/instagram-prints" target="_top"><img src="/media/images/imgProduct_instagram-160x120.jpg" class="img-responsive"></a>
+																</div>
+																<div class="pop_details">
+																	<div class="pop_details_title text-center">Instagram Prints</div>
+																	<div class="pop_details_subtitle text-center">square prints</div>
+																</div>
+															</div>
+															
+															<div class="col-sm-4 col-xs-12 text-center pt30">
+															<a target="_top" href="/signup?membershipId=335445" class="shortcode_button btn_small btn_type5">Create an account</a>
+															</div>
+															
+															<div class="col-sm-4 col-xs-12 text-center pt30">
+															<a target="_top" href="/print" class="shortcode_button btn_small btn_type5">Start with Upload</a>
+															</div>
+														</div>
+
+													</div>
+												</div>
+											  </div>
+											</div>									
+									
+                                    <div class="clear"></div>
+                                </div>                                      	
+                            </div>                              
+                            
+							
+							<div class="fw_block bg_start pt20 pb0 grey_bg mb0">
+								<div class="breadcrumbs" data-anim-type="fadeInUp" data-anim-delay="50">
+								<h3 class="title-page">Related Products</h3>
+							</div>
+								<div class="row">
+									<div class="col-sm-12 module_cont pb80 module_feature_posts">
+										<div class="featured_items">
+											<div class="items4 featured_posts">
+												<ul class="item_list">                                                
+													<!--li class="animate" data-anim-type="fadeInUp" data-anim-delay="300">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																	<img src="/media/images/imgProduct_enlargements.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/photo-prints/prints-enlargements"><i class="icon-link"></i></a>
+																	</div>                                                               
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/photo-prints/prints-enlargements">Prints &amp; Enlargements</a></h5>
+																		<div class="featured_item_subtitle">glossy/matte | wallets to 108 inches</div>
+																	</div>
+																	<div class="featured_item_content">
+																	Printed on fine quality luster or glossy paper, our prints are vibrant and clear. We check every print to make sure your photo looks its best!  
+																	<a target="_top" href="/photo-prints/prints-enlargements" class="fright">More Details ></a>
+																	</div>
+																	<div class="featured_meta">
+																		<div class="date">
+																			From $0.99<br>
+																			1 hour service!
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="http://ritzpix.com/prints" class="shortcode_button btn_small btn_ritzred">Order ></a>
+																		</div>
+																	</div>                                                                
+																</div>                                                            
+															</div>
+														</div>
+													</li-->
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="300">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																   <img src="/media/images/imgProduct_collages.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/prints-enlargements/collage-posters"><i class="icon-link"></i></a>
+																	</div>                                                                 
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/prints-enlargements/collage-posters">Collages &amp; Posters</a></h5>
+																		<div class="featured_item_subtitle">luster finish | 8x10 to 24x72</div>
+																	</div>
+																	<!--div class="featured_item_content"div class="featured_item_content">Photo collages are a great and easy way to display many photos. Choose from graphical or plain designs in a variety of layouts. 
+																	<a target="_top" href="/photo-prints/collages-posters" class="fright">More Details ></a>
+																	</div-->
+																   <div class="featured_meta">
+																		<div class="date">
+																			From $0.99<br>
+																			1 hour service!
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/shop/posters-and-collages" class="shortcode_button btn_small btn_ritzred">Order ></a>
+																		</div>
+																	</div>                                                         
+																</div>                                                            
+															</div>
+														</div>
+													</li>
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="300">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																   <img src="/media/images/imgProduct_metallic.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/prints-enlargements/metallic-prints"><i class="icon-link"></i></a>
+																	</div>                                                                 
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/prints-enlargements/metallic-prints">Metallic Prints</a></h5>
+																		<div class="featured_item_subtitle">wallets to 20x30</div>
+																	</div>
+																	<!--div class="featured_item_content">The ultra glossy finish and reflective layers of our metallic paper make photos richer and more vibrant. Great for displays!
+																	<a target="_top" href="/photo-prints/metallic-prints" class="fright">More Details ></a>
+																	</div-->
+																   <div class="featured_meta">
+																		<div class="date">
+																			From $2.99
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/prints/metallic-prints" class="shortcode_button btn_small btn_ritzred">Order ></a>
+																		</div>
+																	</div>                                                         
+																</div>                                                            
+															</div>
+														</div>
+													</li>
+												              
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="300">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																   <img src="/media/images/imgProduct_deep-matte.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/prints-enlargements/deep-matte-prints"><i class="icon-link"></i></a>
+																	</div>                                                                  
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/prints-enlargements/deep-matte-prints">Deep Matte Prints</a></h5>
+																		<div class="featured_item_subtitle">wallets to 20x30</div>
+																	</div>
+																	<!--div class="featured_item_content">
+																	Deep matte prints have a flat surface for absolutely no glare. The deep, rich colors that come through on this paper will improve any photo. 
+																	<a target="_top" href="/photo-prints/deep-matte-prints" class="fright">More Details ></a>
+																	</div-->
+																	<div class="featured_meta">
+																		<div class="date">
+																			From $2.99
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/prints/deep-matte-prints" class="shortcode_button btn_small btn_ritzred">Order ></a>
+																		</div>
+																	</div>                                                           
+																</div>                                                            
+															</div>
+														</div>
+													</li>
+												
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="300">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																	<img src="/media/images/imgProduct_scrapbook-pages.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/photo-prints/scrapbook-pages"><i class="icon-link"></i></a>
+																	</div>                                                                  
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/photo-prints/scrapbook-pages">Scrapbook Pages</a></h5>
+																		<div class="featured_item_subtitle">5x5, 6x6, 8x8, 12x12, 24x24</div>
+																	</div>
+																	<!--div class="featured_item_content">Put away the tape and glue and have a seat at your computer to design beautiful scrapbook pages. Just drop in photos and text!
+																	
+																	<a target="_top" href="/photo-prints/scrapbook-pages" class="fright">More Details ></a> 
+																	</div-->
+																   <div class="featured_meta">
+																		<div class="date">
+																			From $0.99
+
+																			<br>
+																			1 hour service!
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/shop/scrapbook-pages" class="shortcode_button btn_small btn_ritzred">Order ></a>
+																		</div>
+																	</div>                                                       
+																</div>                                                            
+															</div>
+														</div>
+													</li>                                      
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="300">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																	<img src="/media/images/imgProduct_canvas.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/prints-enlargements/canvas-enlargements"><i class="icon-link"></i></a>
+																	</div>                                                                  
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/prints-enlargements/canvas-enlargements">Canvas Gallery Wraps</a></h5>
+																		<div class="featured_item_subtitle">5x7 on up!</div>
+																	</div>
+																	<!--div class="featured_item_content">
+																	Our canvas wraps come with a finished back and are ready to hang, or for smaller sizes, sit on a tabletop. Sizes 5 to 60 inches. 
+																	<a target="_top" href="/wall/canvas-wraps" class="fright">More Details ></a>
+																	</div-->
+																	<div class="featured_meta">
+																		<div class="date">
+																			From $23.99
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/shop/canvas-products" class="shortcode_button btn_small btn_ritzred">Order ></a>
+																		</div>
+																	</div>                                                       
+																</div>                                                            
+															</div>
+														</div>
+													</li>       
+													<!--   
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="300">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																	<img src="/media/images/imgProduct_prints-stack.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/prepaidplans"><i class="icon-link"></i></a>
+																	</div>                                                                  
+																</div> 
+                                
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/prepaidplans">Prepaid Print Plans</a></h5>
+																		<div class="featured_item_subtitle">lots of plans to choose from</div>
+																	</div>
+																	<!--div class="featured_item_content">
+																	Buy your prints in bulk and save up to 50% off of normal price! Your balance is saved in your account, so you can order as you need to.
+																	</div>
+																   <div class="featured_meta">
+																		<div class="date">
+																			From $10.99
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="http://ritzpix.com/prepaidplans" class="shortcode_button btn_small btn_ritzred">View Plans ></a>
+
+																		</div>
+
+																	</div>                                                       
+																</div>                                                            
+															</div>
+														</div>
+													</li>  
+                          -->
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="300">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																	<img src="/media/images/imgProduct_services-iPhone-app.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/photo-prints/iphone-android-prints"><i class="icon-link"></i></a>
+																	</div>                                                               
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/photo-prints/iphone-android-prints">Print from Mobile</a></h5>
+																		<div class="featured_item_subtitle">order any print size</div>
+																	</div>
+																	<!--div class="featured_item_content">Use the RitzPix app on the iPhone or iPad to order any of our print products or surfaces--even metallics and deep matte prints! 
+																	<a target="_top" href="/photo-prints/iphone-android-prints" class="fright">More Details ></a>
+																	</div-->
+																	<div class="featured_meta">
+																		<div class="date">
+																			From $0.99<br>
+																			1 hour service!
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/photo-prints/iphone-android-prints" class="shortcode_button btn_small btn_ritzred">Details ></a>
+																		</div>
+																	</div>                                                                
+																</div>                                                            
+
+															</div>
+														</div>
+													</li>
+													
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="300">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																   <img src="/media/images/imgProduct_instagram-products.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/photo-prints/facebook-instagram-prints"><i class="icon-link"></i></a>
+																	</div>                                                                  
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/photo-prints/facebook-instagram-prints">Facebook &amp; Instagram</a></h5>
+																		<div class="featured_item_subtitle">order prints or creative products</div>
+																	</div>
+																	<!--div class="featured_item_content">Order prints of the photos you have in your Facebook albums or Instagram account, or use them in any of our creative products.
+																	<a target="_top" href="/photo-prints/facebook-instagram-prints" class="fright">More Details ></a>
+																	</div-->
+																	<div class="featured_meta">
+																		<div class="date">
+																			From $0.10<br>
+																			1 hour service!
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/prints" class="shortcode_button btn_small btn_ritzred">Order ></a>
+																		</div>
+																	</div>                                                           
+																</div>                                                            
+															</div>
+														</div>
+													</li>                           
+													
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="300">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																	<img src="/media/images/imgProduct_services-scanning.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/photo-services/photo-scanning-services"><i class="icon-link"></i></a>
+																	</div>                                                                  
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/photo-services/photo-scanning-services">Scanning</a></h5>
+																		<div class="featured_item_subtitle">from prints, slides or film</div>
+																	</div>
+																	<!--div class="featured_item_content">
+																	We offer one hour, in-store scanning service for prints, slides and film. We also have bulk scanning available via mail service. 
+																	<a target="_top" href="/services/scanning" class="fright">More Details ></a>
+																	</div-->
+																   <div class="featured_meta">
+																		<div class="date">
+																			From $10.99<br>
+																			1 hour service!
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/photo-services/photo-scanning-services" class="shortcode_button btn_small btn_ritzred">Details ></a>
+																		</div>
+																	</div>                                                       
+																</div>                                                            
+															</div>
+														</div>
+													</li>       
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="300">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																	<img src="/media/images/imgProduct_services-slides.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/pohto-services/film-developing"><i class="icon-link"></i></a>
+																	</div>                                                               
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/photo-services/film-developing">Prints from Film or Slides</a></h5>
+																		<div class="featured_item_subtitle">order any print size</div>
+																	</div>
+																	<!--div class="featured_item_content">We can develop 35mm or slide film and make prints, or bring in your negatives or slides and we can make prints from that, too. 
+																	<a target="_top" href="/services/film" class="fright">More Details ></a>
+																	</div-->
+																	<div class="featured_meta">
+																		<div class="date">
+																			From $0.99<br>
+																			1 hour service!
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/photo-services/film-developing" class="shortcode_button btn_small btn_ritzred">Details ></a>
+
+																		</div>
+																	</div>                                                                
+																</div>                                                            
+															</div>
+														</div>
+													</li>
+													
+													<li class="animate" data-anim-type="fadeInUp" data-anim-delay="300">
+														<div class="item">
+															<div class="item_wrapper">                                  
+																<div class="img_block wrapped_img">
+																   <img src="/media/images/imgProduct_services-mounting.jpg" class="img-responsive" alt="" />
+																	<span class="block_fade"></span>
+																	<div class="post_hover_info">
+																		<a class="featured_ico_link view_link" target="_top" href="/photo-services/mounting-laminating"><i class="icon-link"></i></a>
+																	</div>                                                                  
+																</div>                                                   
+																<div class="featured_items_body">
+																	<div class="featured_items_title">
+																		<h5><a target="_top" href="/photo-services/mounting-laminating">Mounting &amp; Laminating</a></h5>
+																		<div class="featured_item_subtitle">available for any size</div>
+																	</div>
+																	<!--div class="featured_item_content">We can mount and laminate pretty much any size print! This is an easy and classy way to display posters and enlargements. 
+																	<a target="_top" href="/services/mounting-laminating" class="fright">More Details ></a>
+																	</div-->
+																	<div class="featured_meta">
+																		<div class="date">
+																			From $10.99<br>
+																			1 hour service!
+																		</div>
+																		<div class="comments">
+																			<a target="_top" href="/photo-services/mounting-laminating" class="shortcode_button btn_small btn_ritzred">Details ></a>
+																		</div>
+																	</div>                                                           
+																</div>                                                            
+															</div>
+														</div>
+													</li>               													
+
+													
+													   
+												</ul>
+											</div>
+										</div>                                                         
+									</div>
+								</div>             
+
+							</div>
+							
+							
+								
+                            
+                            <div class="row">
+
+                                <div class="col-sm-12 animate" data-anim-type="fadeInUp" data-anim-delay="300">
+                                	<div class="fw_block bg_start highlighted_colored mb0">
+                                        <div class="shortcode_promoblock">
+                                            <div class="promoblock_wrapper">
+                                                <div class="promo_text_block">
+                                                    <div class="promo_text_block_wrapper">
+                                                        <h2 class="promo_text_main_title">Create a free account - unlimited storage!</h2>
+                                                        <h6 class="promo_text_additional_title">We offer free, secure, unlimited storage for all your photos. You can even save your creative products to return to later or edit and reorder!</h6>
+                                                    </div>
+                                                </div>        
+                                                <div class="promo_button_block"><a class="shortcode_button btn_large btn_type5" target="_top" href="/signup?membershipId=335445">Sign Up</a></div>
+                                                <div class="clear"></div>                                                                                
+                                            </div>
+                                        </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>                             	
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+	
+	
+	
+</div>
+</div>
+<!-- ********** this ends Umbraco main content ********** -->

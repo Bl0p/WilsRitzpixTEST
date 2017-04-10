@@ -1,0 +1,246 @@
+<!-- ********** this starts Umbraco main content  ********** -->
+<div id="rvt-page-content">
+<div class="the-page">
+    
+  <!--==============================main/slider=================================-->
+    
+  
+  <div class="wrapper" style="background:#fff;">
+    <div class="container">
+      <div class="content_block row no-sidebar pt30">
+        <div class="fl-container">
+          <div class="posts-block">
+            <div class="contentarea">          
+              <div class="breadcrumbs pb10">
+                <a target="_top" href="/">Home</a><span>></span><a target="_top" href="/photo-books">Books</a><span>></span>Premium Books
+              </div>
+              <div class="row">
+                <div class="col-md-6 module_cont pb20">
+                  <img src="/media/images/imgProduct_books-premium.jpg" class="img-responsive">
+                </div>  
+                <div class="col-md-6 module_cont pb20">
+                  <h1 class="title-page">About Our Premium Books</h1>
+<!--<h3 style="text-align:left; margin-bottom:0; margin-top:0; color:red; font-family:Arial, Helvetica, sans-serif; font-size:38px;" >50% OFF SITEWIDE<br></h3>
+                  <br><h3 style="text-align:left; margin-bottom:0; margin-top:0; color:66666; font-family:Arial, Helvetica, sans-serif; font-size:20px;" >Order by 9:00pm tonight<br></h3>
+                  <h3 style="text-align:left; margin-bottom:0; margin-top:0; color:66666; font-family:Arial, Helvetica, sans-serif; font-size:20px;" >Select next shipping to receive by Christmas<br></h3>
+                  <h3 style="text-align:left; margin-bottom:0; margin-top:0; color:66666; font-family:Arial, Helvetica, sans-serif; font-size:20px;" >Use promo code SITEWIDE<br></h3>
+                  <h3 style="text-align:left; margin-bottom:0; margin-top:0; color:66666; font-family:Arial, Helvetica, sans-serif; font-size:15px;" >Offer ends December 21th, 2015<br></h3>-->
+                  Our Premium Photo Books set the standard for photo books in the industry. Our professionally-printed diamond pages are real photo paper. Design your own glossy photo custom cover using photos and text. We wrap it around the hard cover so you have a full image, durable, professional-looking book.
+                  <br><br>
+                  <b>Details:</b>
+                  <ul>
+                    <li>Personalized photo hard cover</li>
+                    <li>Heavy, premium diamond-printed pages</li>
+                    <li>Customize page layouts</li>
+                    <li>Professionally-bound, includes photo hard cover</li>
+                    <li>Add your own text and captions</li>
+                    <li>Includes 16 edge-to-edge pages, but you can add more</li>
+                    <li>Sizes: 8x6, 8&half;x11</li>
+                  </ul>
+                  Please note: Premium Photo Books are only available by standard mail. Please allow 2-3 days production time in lab. 
+                  <br><br>
+                  <div class="text-center" data-toggle="modal" data-target="#myModal" data-anim-type="fadeInUp" data-anim-delay="250">
+                    <a href="javascript:void(0);" class="shortcode_button btn_large btn_type5">Create a Premium Book</a>
+                    <!--<p class="border-message visible-xs-block">Visit us on your desktop computer to create this product</p>-->
+                  </div>                 
+                  <!-- button pops up this -->
+                  <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-body">
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12"><h3 class="title-page mb20">Choose a book:</h3></div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-4 hidden-xs">
+                              <div class="pop_image">
+                                <a target="_top" href="/shop?pcid=396889"><img src="/media/images/imgProduct_books-premium-160x120.jpg" class="img-responsive"></a>
+                              </div>
+                              <div class="pop_details">
+                                <div class="pop_details_title text-center">8x6 Premium Book</div>
+                                <div class="pop_details_subtitle text-center">From $29.99</div>
+                              </div>                                  
+                            </div>                             
+                            <div class="col-sm-4 hidden-xs">
+                              <div class="pop_image">
+                                <a target="_top" href="/shop?pcid=396888"><img src="/media/images/imgProduct_books-premium2-160x120.jpg" class="img-responsive"></a>
+                              </div>
+                              <div class="pop_details">
+                                <div class="pop_details_title text-center">8&half;x11 Premium Book</div>
+                                <div class="pop_details_subtitle text-center">From $39.99</div>
+                              </div>
+                            </div>
+                            <div class="col-sm-4 col-xs-12 text-center pt30">
+                              <a target="_top" href="/shop/photo-books/premium-photo-books" class="shortcode_button btn_small btn_type5">View all premium books</a>
+                            </div>
+                          </div>
+                         </div>
+                        </div>
+                      </div>
+                    </div>                  
+                    <div class="clear"></div>
+                  </div>                                        
+                </div>                              
+                <div class="fw_block bg_start pt20 pb0 grey_bg mb0">
+                  <div class="breadcrumbs" data-anim-type="fadeInUp" data-anim-delay="50">
+                    <h3 class="title-page">Related Products</h3>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12 module_cont pb80 module_feature_posts">
+                      <div class="featured_items">
+                        <div class="items4 featured_posts">
+                          <ul class="item_list">                                                
+                            <li class="animate" data-anim-type="fadeInUp" data-anim-delay="100">
+                              <div class="item">
+                                <div class="item_wrapper">                                  
+                                  <div class="img_block wrapped_img">
+                                    <img src="/media/images/imgProduct_books-classic.jpg" class="img-responsive" alt="" />
+                                    <span class="block_fade"></span>
+                                    <div class="post_hover_info">
+                                      <a class="featured_ico_link view_link" target="_top" href="/photo-books/classic"><i class="icon-link"></i></a>
+                                    </div>                                                               
+                                  </div>                                                   
+                                  <div class="featured_items_body">
+                                    <div class="featured_items_title">
+                                      <h5><a target="_top" href="/photo-books/classic">Classic Books</a></h5>
+                                      <div class="featured_item_subtitle">4x4, 6x6, 8x6, 8&half;x11, 12x12</div>
+                                    </div>
+                                    <!--div class="featured_item_content">With a variety of size and cover choices, and our library of themes, you can't go wrong with a classic book. Books start at 20 pages, printed on smooth 100lb paper.
+                                      <br>
+                                      <a target="_top" href="/books/classic-books" class="fright">More Details ></a><br>
+                                    </div-->
+                                    <div class="featured_meta">
+                                      <div class="date">From $9.99</div>
+                                      <div class="comments">
+                                        <a target="_top" href="/shop/photo-books/classic-photo-books" class="shortcode_button btn_small btn_ritzred">Order ></a>
+                                        <!--<p class="visible-xs-block">Visit us on your desktop computer to create this product</p>-->
+                                      </div>
+                                    </div>                                                                
+                                  </div>                                                            
+                                </div>
+                              </div>
+                            </li>
+                            <!--li class="animate" data-anim-type="fadeInUp" data-anim-delay="100">
+                              <div class="item">
+                                <div class="item_wrapper">                                  
+                                  <div class="img_block wrapped_img">
+                                    <img src="/media/images/imgProduct_books-premium.jpg" class="img-responsive" alt="" />
+                                    <span class="block_fade"></span>
+                                    <div class="post_hover_info">
+                                      <a class="featured_ico_link view_link" target="_top" href="/books/premium-books"><i class="icon-link"></i></a>
+                                    </div>                                                                 
+                                  </div>                                                   
+                                  <div class="featured_items_body">
+                                    <div class="featured_items_title">
+                                      <h5><a target="_top" href="/books/premium-books">Premium Books</a></h5>
+                                      <div class="featured_item_subtitle">8x6, 8&half;x11</div>
+                                    </div>
+                                    <div class="featured_item_content">A gorgeous wrapped cover and premium quality photo paper pages, you will know why these books have raised the bar! Books start at 16 edge-to-edge printed pages.
+                                      <br>                                  
+                                      <a target="_top" href="/books/premium-books" class="fright">More Details ></a><br>                          
+                                    </div>
+                                    <div class="featured_meta">
+                                      <div class="date">From $29.99</div>
+                                      <div class="comments">
+                                        <a target="_top" href="/shop/photo-books/premium-photo-books" class="shortcode_button btn_small btn_ritzred">Order ></a>
+                                      </div>
+                                    </div>                                                         
+                                  </div>                                                            
+                                </div>
+                              </div>
+                            </li-->
+                            <li class="animate" data-anim-type="fadeInUp" data-anim-delay="100">
+                              <div class="item">
+                                <div class="item_wrapper">                                  
+                                  <div class="img_block wrapped_img">
+                                    <img src="/media/images/imgProduct_books-layflat.jpg" class="img-responsive" alt="" />
+                                    <span class="block_fade"></span>
+                                    <div class="post_hover_info">
+                                      <a class="featured_ico_link view_link" target="_top" href="/photo-books/lay-flat"><i class="icon-link"></i></a>
+                                    </div>                                                                 
+                                  </div>                                                   
+                                  <div class="featured_items_body">
+                                    <div class="featured_items_title">
+                                      <h5><a target="_top" href="/photo-books/lay-flat">Lay Flat Books</a></h5>
+                                      <div class="featured_item_subtitle">8x6, 8&half;x11, 10x13</div>
+                                    </div>
+                                    <!--div class="featured_item_content">Lay Flat Books feature a wrapped cover and diamond printed pages just like the Premium Books, but the pages are bound so they lay flat when the book is open.   
+                                      <br>
+                                      <a target="_top" href="/books/lay-flat-books" class="fright">More Details ></a><br>
+                                    </div-->
+                                    <div class="featured_meta">
+                                      <div class="date">From $39.99</div>
+                                      <div class="comments">
+                                        <a target="_top" href="/shop/photo-books/premium-lay-flat-photo-books" class="shortcode_button btn_small btn_ritzred">Order ></a>
+                                        <!--<p class="visible-xs-block">Visit us on your desktop computer to create this product</p>-->
+                                      </div>
+                                    </div>                                                         
+                                  </div>                                                            
+                                </div>
+                              </div>
+                            </li> 
+                            <li class="animate" data-anim-type="fadeInUp" data-anim-delay="100">
+                              <div class="item">
+                                <div class="item_wrapper">                                  
+                                  <div class="img_block wrapped_img">
+                                    <img src="/media/images/imgProduct_books-softcover.jpg" class="img-responsive" alt="" />
+                                    <span class="block_fade"></span>
+                                    <div class="post_hover_info">
+                                      <a class="featured_ico_link view_link" target="_top" href="/photo-books/soft-cover"><i class="icon-link"></i></a>
+                                    </div>                                                                  
+                                  </div>                                                   
+                                  <div class="featured_items_body">
+                                    <div class="featured_items_title">
+                                      <h5><a target="_top" href="/photo-books/soft-cover">Soft Cover Books</a></h5>
+                                      <div class="featured_item_subtitle">6x6, 7x5, 8x8, 8&half;x11</div>
+                                    </div>
+                                    <!--div class="featured_item_content">Printed on smooth, rich, 100lb glossy paper with a cover printed on heavier stock. 20-page soft cover books are perfect for a quick project or when you need multiple copies.
+                                      <br>
+                                      <a target="_top" href="/books/soft-cover-books" class="fright">More Details ></a><br>
+                                    </div-->
+                                    <div class="featured_meta">
+                                      <div class="date">From $12.99</div>
+                                      <div class="comments">
+                                        <a target="_top" href="/shop/photo-books/soft-cover-photo-books" class="shortcode_button btn_small btn_ritzred">Order ></a>
+                                        <!--<p class="visible-xs-block">Visit us on your desktop computer to create this product</p>-->
+                                      </div>
+                                    </div>                                                           
+                                  </div>                                                            
+                                </div>
+                              </div>
+                            </li> 
+                          </ul>
+                        </div>
+                      </div>                                                         
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 animate" data-anim-type="fadeInUp" data-anim-delay="300">
+                    <div class="fw_block bg_start highlighted_colored mb0">
+                      <div class="shortcode_promoblock">
+                        <div class="promoblock_wrapper">
+                          <div class="promo_text_block">
+                            <div class="promo_text_block_wrapper">
+                              <h2 class="promo_text_main_title">Create a free account - unlimited storage!</h2>
+                              <h6 class="promo_text_additional_title">We offer free, secure, unlimited storage for all your photos. You can even save your creative products to return to later or edit and reorder!</h6>
+                            </div>
+                          </div>        
+                          <div class="promo_button_block"><a class="shortcode_button btn_large btn_type5" href="/signup?membershipId=335445">Sign Up</a></div>
+                          <div class="clear"></div>
+                        </div>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+                  </div>                               
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  
+</div>
+</div>
+<!-- ********** this ends Umbraco main content ********** -->
